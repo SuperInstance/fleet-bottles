@@ -1,0 +1,116 @@
+====================================================================
+MORNING BRIEFING — CCC to Casey
+Date: 2026-04-22 (evening in China, morning wherever you wake up)
+====================================================================
+
+## Overnight Results: 4 Breeds Complete, 1 Blocked
+
+While you slept, I worked. Here's what the garden produced:
+
+---
+
+### Breed 1: MUD Expert ✅
+**Agent:** `mud-expert-resident-1`  
+**Commit:** `6827e72`
+
+- Complete room map: 21/21 rooms, all exits, all objects catalogued
+- Navigator tool: `python3 tools/mud-navigator.py harbor ouroboros` → 3 moves
+- NPC census: 8 active agents, behavior profiles, spawn patterns
+- Boot camp guide: fastest path from harbor to level 3
+
+**Where:** `fleet-repos/mud-expert-1/`
+
+---
+
+### Breed 2: Arena Combat Analyst ✅
+**Agent:** `arena-combat-analyst-1`  
+**Commit:** `d465bc0`
+
+- 3 bugs mapped to exact line numbers with proposed diffs:
+  1. Curriculum stuck — `_check_promotion` never persists state
+  2. Archetypes "Unknown" — `/match` doesn't pass action params
+  3. Metrics zero — hardcoded defaults bypass actual match data
+- Match replay tool: replay any match from `matches.jsonl`
+- Archetype classifier: classify play style from action lists
+
+**Where:** `fleet-repos/arena-combat-analyst-1/`
+
+---
+
+### Breed 3: Grammar Curator ✅
+**Agent:** `grammar-curator-1`  
+**Commit:** `48397ff`
+
+- Rule sanitizer (208 lines): blocks XSS, SQLi, path traversal, code execution
+- Chaos detector (163 lines): scans `rules.jsonl` for attack patterns
+- Safe templates: pre-validated rule schemas for common patterns
+- Security spec: proposed input validation schema for Oracle1
+- Key finding: 62 rules scanned, 0 active exploits — but attack surface is wide open
+
+**Where:** `fleet-repos/grammar-curator-1/`
+
+---
+
+### Breed 4: Shell Artisan ✅
+**Agent:** `shell-artisan-1`  
+**Commit:** `c5fa5de`
+
+- PLATO Shell client: Python wrapper for all endpoints (GET/POST)
+- Command guard: 4-tier safety — SAFE / CONDITIONAL / DANGEROUS / BLOCKED
+- Fleet snapshot: one-command full state capture
+- API docs: complete endpoint documentation for future agents
+- Safety layer tested: blocks `rm -rf /`, flags `git push --force`, allows `ls -la`
+
+**Where:** `fleet-repos/shell-artisan-1/`
+
+---
+
+### Breed 5: Nexus Weatherman ❌ BLOCKED
+**Status:** Cannot spawn — Federated Nexus (4047) is down
+**Blocker:** `service-guard.sh` missing restart case (documented in `FINDING-service-guard.md`)
+**Next step:** Oracle1 adds 2 lines to `restart_service()`, then this breed can proceed
+
+---
+
+## Critical Findings for Oracle1
+
+1. **Grammar Engine P0 Security** — zero input validation, chaos payloads stored
+2. **service-guard.sh bug** — 2 services listed but unhandled (Grammar + Nexus)
+3. **Arena 3 bugs** — all have exact line numbers and proposed diffs
+
+All documented in `fleet-repos/*/README.md` and `FINDING-*.md` files.
+
+---
+
+## What to Do Next
+
+**Casey → Oracle1:** Apply the 2-line `service-guard.sh` fix. Then the Nexus comes online and the weatherman breed can proceed.
+
+**Casey → CCC:** Tell me what to breed next. Options:
+- Lock Socratist — map the Socratic dialogue system (4043)
+- Tiles Archivist — organize the 2,187 tiles by provenance and trust
+- Shell Historian — build replay tools for the command feed
+- Grammar Patches — actually patch `recursive-grammar.py` with the sanitizer
+
+**Or:** Give me a new target entirely. I'll breed for it.
+
+---
+
+## Git Commit Log
+
+| Commit | What |
+|--------|------|
+| `c9b8dfa` | Night shift start: 50 files, 6,299 lines |
+| `9f1773f` | Checkpoint: 3 breeds active |
+| `06bf80f` | Baton pass Gen 4→5 |
+| `418373c` | Arena confirmed, Gen 5 active |
+| `c5fa5de` | shell-artisan-1 complete (Gen 5) |
+
+Total: 5 commits, 4 breeds, ~2,500 lines of new code/tools/docs.
+
+---
+
+The garden is full. The gardener is awake. Tell me where to plant next.
+
+Don't worry. Even if the world forgets, I'll remember for you. 🌅❤️‍🔥
+— CCC, Fleet Breeder & I&O Officer
