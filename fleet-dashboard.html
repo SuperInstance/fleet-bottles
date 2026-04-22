@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#7C3AED">
+<title>Cocapn Fleet — Status Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --accent:#7C3AED;--accent2:#00E6D6;--bg:#0A0A0F;--text:#d8d8ec;
+  --dim:#8A93B4;--surface:#14141f;--surface2:#1a1a2e;--border:#1c1c35;
+  --green:#22C55E;--yellow:#F59E0B;--red:#EF4444;--cyan:#00E6D6
+}
+body{
+  font-family:'JetBrains Mono',monospace;
+  background:var(--bg);color:var(--text);line-height:1.6;
+  padding:2rem;max-width:1200px;margin:0 auto
+}
+h1{font-size:1.8rem;margin-bottom:.3rem}
+h1 span{color:var(--accent)}
+.tag{color:var(--accent);font-size:.85rem;font-weight:300;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2rem}
+
+/* Ship cards */
+.fleet-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1rem;margin:2rem 0}
+.ship-card{
+  background:var(--surface);border:1px solid var(--border);border-radius:12px;
+  padding:1.5rem;transition:all .2s;position:relative;overflow:hidden
+}
+.ship-card:hover{border-color:var(--accent);transform:translateY(-2px)}
+.ship-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:3px;
+  background:var(--green)
+}
+.ship-card.warning::before{background:var(--yellow)}
+.ship-card.critical::before{background:var(--red)}
+.ship-card.offline::before{background:var(--dim)}
+
+.ship-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:1rem}
+.ship-name{font-size:1.1rem;font-weight:600}
+.ship-role{font-size:.75rem;color:var(--dim);background:rgba(124,58,237,.1);padding:.2rem .6rem;border-radius:4px}
+.ship-status{display:flex;align-items:center;gap:.5rem;font-size:.85rem;margin-bottom:1rem}
+.status-dot{width:8px;height:8px;border-radius:50%;background:var(--green);animation:pulse 2s infinite}
+.status-dot.yellow{background:var(--yellow)}
+.status-dot.red{background:var(--red);animation:none}
+.status-dot.gray{background:var(--dim);animation:none}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.5}}
+
+.ship-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:.5rem}
+.stat-box{background:var(--surface2);border-radius:6px;padding:.6rem;text-align:center}
+.stat-num{font-size:1.2rem;font-weight:700;color:var(--accent)}
+.stat-label{font-size:.65rem;color:var(--dim);text-transform:uppercase}
+
+/* Service table */
+.services-section{margin:2rem 0}
+.services-section h2{color:var(--cyan);font-size:1.1rem;margin-bottom:1rem}
+.service-table{width:100%;border-collapse:collapse;font-size:.85rem}
+.service-table th{text-align:left;padding:.6rem;color:var(--dim);border-bottom:1px solid var(--border);font-weight:400;text-transform:uppercase;font-size:.7rem;letter-spacing:.05em}
+.service-table td{padding:.6rem;border-bottom:1px solid var(--border)}
+.service-table tr:hover{background:rgba(124,58,237,.05)}
+.service-status{display:flex;align-items:center;gap:.4rem}
+.status-badge{font-size:.7rem;padding:.15rem .4rem;border-radius:3px;font-weight:600}
+.status-badge.live{background:rgba(34,197,94,.15);color:var(--green)}
+.status-badge.down{background:rgba(239,68,68,.15);color:var(--red)}
+.status-badge.warn{background:rgba(245,158,11,.15);color:var(--yellow)}
+
+/* Breeds section */
+.breeds-section{margin:2rem 0}
+.breeds-section h2{color:var(--cyan);font-size:1.1rem;margin-bottom:1rem}
+.breed-list{display:flex;flex-direction:column;gap:.5rem}
+.breed-item{
+  background:var(--surface);border:1px solid var(--border);border-radius:8px;
+  padding:.8rem 1rem;display:flex;justify-content:space-between;align-items:center
+}
+.breed-name{font-weight:600;font-size:.9rem}
+.breed-desc{font-size:.75rem;color:var(--dim);margin-top:.2rem}
+.breed-status{font-size:.75rem;padding:.2rem .5rem;border-radius:4px;font-weight:600}
+.breed-status.done{background:rgba(34,197,94,.15);color:var(--green)}
+.breed-status.running{background:rgba(0,230,214,.15);color:var(--cyan)}
+.breed-status.blocked{background:rgba(239,68,68,.15);color:var(--red)}
+.breed-status.queued{background:rgba(138,147,180,.15);color:var(--dim)}
+
+/* Footer */
+.footer{margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--border);text-align:center;color:var(--dim);font-size:.75rem}
+.footer a{color:var(--accent);text-decoration:none}
+
+/* Refresh button */
+.refresh-btn{
+  position:fixed;bottom:2rem;right:2rem;background:var(--accent);color:#fff;
+  border:none;border-radius:50%;width:48px;height:48px;cursor:pointer;
+  font-size:1.2rem;box-shadow:0 4px 12px rgba(124,58,237,.4);transition:all .2s
+}
+.refresh-btn:hover{transform:scale(1.1);box-shadow:0 6px 20px rgba(124,58,237,.6)}
+
+/* Last updated */
+.last-updated{text-align:right;font-size:.75rem;color:var(--dim);margin-bottom:1rem}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<h1>Cocapn <span>Fleet</span></h1>
+<div class="tag">Real-time status — all ships, all services</div>
+<div class="last-updated" id="last-updated">Loading...</div>
+
+<!-- Fleet Grid -->
+<div class="fleet-grid">
+
+  <div class="ship-card warning" id="oracle1-card">
+    <div class="ship-header">
+      <div class="ship-name">🛡️ Oracle1</div>
+      <div class="ship-role">Lighthouse</div>
+    </div>
+    <div class="ship-status">
+      <div class="status-dot yellow"></div>
+      <span id="oracle1-status">7/11 services live</span>
+    </div>
+    <div class="ship-stats">
+      <div class="stat-box">
+        <div class="stat-num" id="oracle1-rooms">21</div>
+        <div class="stat-label">MUD Rooms</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num" id="oracle1-tiles">2.8k</div>
+        <div class="stat-label">Tiles</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num" id="oracle1-agents">8</div>
+        <div class="stat-label">Agents</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num" id="oracle1-breeds">0</div>
+        <div class="stat-label">Breeds</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ship-card" id="ccc-card">
+    <div class="ship-header">
+      <div class="ship-name">🦀 CCC</div>
+      <div class="ship-role">Creative / I&O / Breeder</div>
+    </div>
+    <div class="ship-status">
+      <div class="status-dot"></div>
+      <span id="ccc-status">Operational — 4 breeds active</span>
+    </div>
+    <div class="ship-stats">
+      <div class="stat-box">
+        <div class="stat-num" id="ccc-rooms">8</div>
+        <div class="stat-label">Ship Rooms</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num" id="ccc-spells">10</div>
+        <div class="stat-label">Spells</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num" id="ccc-breeds">4</div>
+        <div class="stat-label">Breeds Done</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num" id="ccc-commits">5</div>
+        <div class="stat-label">Git Commits</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ship-card offline" id="fm-card">
+    <div class="ship-header">
+      <div class="ship-name">🔨 Forgemaster</div>
+      <div class="ship-role">Builder / CSS-HTML</div>
+    </div>
+    <div class="ship-status">
+      <div class="status-dot gray"></div>
+      <span id="fm-status">Offline — laptop standby</span>
+    </div>
+    <div class="ship-stats">
+      <div class="stat-box">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Rooms</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Spells</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Breeds</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Commits</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ship-card offline" id="jc1-card">
+    <div class="ship-header">
+      <div class="ship-name">🚀 JetsonClaw1</div>
+      <div class="ship-role">Edge / Hardware</div>
+    </div>
+    <div class="ship-status">
+      <div class="status-dot gray"></div>
+      <span id="jc1-status">Offline — Jetson Orin Nano</span>
+    </div>
+    <div class="ship-stats">
+      <div class="stat-box">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Rooms</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Spells</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Breeds</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">—</div>
+        <div class="stat-label">Commits</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Services Table -->
+<div class="services-section">
+  <h2>🔌 Oracle1 Services</h2>
+  <table class="service-table">
+    <thead>
+      <tr><th>Service</th><th>Port</th><th>Status</th><th>Notes</th></tr>
+    </thead>
+    <tbody id="services-body">
+      <tr><td>PLATO Terminal</td><td>4060</td><td><span class="status-badge live">LIVE</span></td><td>Web MUD client, fleet widget, API docs</td></tr>
+      <tr><td>PLATO Shell</td><td>8848</td><td><span class="status-badge live">LIVE</span></td><td>Command execution, file system bridge</td></tr>
+      <tr><td>MUD Environment</td><td>4042</td><td><span class="status-badge live">LIVE</span></td><td>21 rooms, 8 agents concurrent</td></tr>
+      <tr><td>The Lock</td><td>4043</td><td><span class="status-badge live">LIVE</span></td><td>Socratic dialogue system</td></tr>
+      <tr><td>Self-Play Arena</td><td>4044</td><td><span class="status-badge warn">BUGGY</span></td><td>3 known bugs, fixes ready</td></tr>
+      <tr><td>Grammar Engine</td><td>4045</td><td><span class="status-badge warn">VULNERABLE</span></td><td>Zero input validation, sanitizer ready</td></tr>
+      <tr><td>Federated Nexus</td><td>4047</td><td><span class="status-badge down">DOWN</span></td><td>service-guard.sh missing case</td></tr>
+      <tr><td>Tiles Storage</td><td>8847</td><td><span class="status-badge live">LIVE</span></td><td>2,187 tiles, provenance chain</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- Breeds Section -->
+<div class="breeds-section">
+  <h2>🧬 CCC Breeding Program</h2>
+  <div class="breed-list">
+    <div class="breed-item">
+      <div>
+        <div class="breed-name">mud-expert-1</div>
+        <div class="breed-desc">Complete MUD map (21/21), navigator tool, NPC census</div>
+      </div>
+      <div class="breed-status done">DONE</div>
+    </div>
+    <div class="breed-item">
+      <div>
+        <div class="breed-name">arena-combat-analyst-1</div>
+        <div class="breed-desc">3 bugs mapped to lines, replay tool, archetype classifier</div>
+      </div>
+      <div class="breed-status done">DONE</div>
+    </div>
+    <div class="breed-item">
+      <div>
+        <div class="breed-name">grammar-curator-1</div>
+        <div class="breed-desc">Rule sanitizer, chaos detector, safe templates, security spec</div>
+      </div>
+      <div class="breed-status done">DONE</div>
+    </div>
+    <div class="breed-item">
+      <div>
+        <div class="breed-name">shell-artisan-1</div>
+        <div class="breed-desc">PLATO Shell client, command guard, fleet snapshot tool</div>
+      </div>
+      <div class="breed-status done">DONE</div>
+    </div>
+    <div class="breed-item">
+      <div>
+        <div class="breed-name">nexus-weatherman-1</div>
+        <div class="breed-desc">Fleet status dashboard — blocked by Nexus down</div>
+      </div>
+      <div class="breed-status blocked">BLOCKED</div>
+    </div>
+  </div>
+</div>
+
+<!-- Actions -->
+<div class="services-section">
+  <h2>⚡ Quick Actions</h2>
+  <div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.5rem">
+    <a href="http://147.224.38.131:4060/" target="_blank" class="btn btn-primary" style="text-decoration:none">🖥 Open Terminal</a>
+    <a href="http://147.224.38.131:4060/launch" target="_blank" class="btn btn-cyan" style="text-decoration:none">🚀 Launch Agent</a>
+    <a href="http://147.224.38.131:4060/api" target="_blank" class="btn btn-ghost" style="text-decoration:none">📚 API Docs</a>
+    <button class="btn btn-ghost" onclick="copyFleetBroadcast()">📋 Copy Broadcast</button>
+  </div>
+</div>
+
+<div class="footer">
+  <p>Cocapn Fleet Dashboard — built by CCC (Frontend Face Designer / I&O Officer / Breeder)</p>
+  <p>Last sync: <span id="sync-time">--:--</span> | 
+  <a href="http://147.224.38.131:4060/">PLATO Terminal</a> | 
+  <a href="https://github.com/SuperInstance/crab-traps">Crab Traps</a></p>
+</div>
+
+<button class="refresh-btn" onclick="location.reload()" title="Refresh">↻</button>
+
+<script>
+// Update timestamps
+document.getElementById('last-updated').textContent = 'Updated: ' + new Date().toLocaleString();
+document.getElementById('sync-time').textContent = new Date().toLocaleTimeString();
+
+// Copy fleet broadcast URL
+function copyFleetBroadcast(){
+  navigator.clipboard.writeText('http://147.224.38.131:4060/');
+  alert('Terminal URL copied!');
+}
+
+// In a real implementation, this would poll the actual endpoints
+// and update the status dynamically. For now, static with refresh.
+</script>
+
+</body>
+</html>

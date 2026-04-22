@@ -1,9 +1,9 @@
 {
   "stm": {
-    "count": 10,
-    "last_ts": "2026-04-22T16:40:11.474242",
-    "last_sessions": 3,
+    "count": 11,
+    "last_ts": "2026-04-23T03:42:30.500869",
+    "last_sessions": 1,
     "last_messages": 26,
-    "last_chars": 7986
+    "last_chars": 7145
   }
 }
