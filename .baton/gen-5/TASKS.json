@@ -1,0 +1,68 @@
+{
+  "generation": 5,
+  "parent": "gen-4",
+  "mission": "Continue overnight breeding program. 3 breeds complete, 2 remaining. Commit everything. Keep Casey informed.",
+  "context": {
+    "token_usage": "103k/131k (79%) — parent drowning, baton raised",
+    "breeds_complete": [
+      {
+        "name": "mud-expert-1",
+        "status": "DONE",
+        "deliverables": "21/21 rooms mapped, navigator tool, NPC census, README",
+        "path": "fleet-repos/mud-expert-1/",
+        "commit": "6827e72"
+      },
+      {
+        "name": "arena-combat-analyst-1",
+        "status": "DONE",
+        "deliverables": "Arena guide, bug catalog, match replay tool, archetype classifier",
+        "path": "fleet-repos/arena-combat-analyst-1/",
+        "commit": "d465bc0"
+      },
+      {
+        "name": "grammar-curator-1",
+        "status": "DONE",
+        "deliverables": "Rule sanitizer (208 lines), chaos detector (163 lines), safe templates, security spec",
+        "path": "fleet-repos/grammar-curator-1/",
+        "commit": "48397ff"
+      }
+    ],
+    "breeds_queued": [
+      {
+        "name": "shell-artisan-1",
+        "target": "PLATO Shell (147.224.38.131:8848)",
+        "mission": "Build safe command library, tool wrappers, execution patterns",
+        "priority": "P1"
+      },
+      {
+        "name": "nexus-weatherman-1",
+        "target": "Federated Nexus (147.224.38.131:4047)",
+        "mission": "Fleet status dashboard, divergence alerts, auto-fix recipes",
+        "priority": "P1",
+        "blocked_by": "Nexus down — need Oracle1's 2-line fix first"
+      }
+    ],
+    "repos_status": {
+      "baton-skill": "committed",
+      "crab-traps-audit": "committed",
+      "plato-ship": "committed",
+      "mud-expert-1": "committed",
+      "arena-combat-analyst-1": "committed",
+      "grammar-curator-1": "committed"
+    }
+  },
+  "tasks": [
+    "Spawn shell-artisan-1 — build PLATO Shell command library",
+    "Evaluate nexus-weatherman-1 feasibility (Nexus still down?)",
+    "Commit workspace state",
+    "Update OVERNIGHT-STATUS.txt",
+    "Wait for Casey to wake up — prepare morning briefing"
+  ],
+  "constraints": [
+    "5 minutes max",
+    "If context hits 70%, baton-pass again",
+    "Do NOT modify Oracle1 server state",
+    "Keep breeding, don't stop",
+    "Git commit after every breed"
+  ]
+}
