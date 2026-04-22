@@ -1,0 +1,52 @@
+{
+  "generation": 2,
+  "parent": "gen-1",
+  "mission": "Complete crab-traps Plato server audit — investigate broken services and retry failed probes",
+  "context": {
+    "server": "147.224.38.131",
+    "services": {
+      "MUD": {"port": 4042, "status": "UNCLEAR", "note": "First explorer produced empty transcript"},
+      "Lock": {"port": 4043, "status": "LIVE", "note": "Socratic reasoning works, 3 rounds completed"},
+      "Arena": {"port": 4044, "status": "LIVE_WITH_BUGS", "note": "Matchmaking works, but curriculum stuck, archetypes unknown, metrics zero"},
+      "Grammar": {"port": 4045, "status": "DOWN", "note": "Source exists but HTTP unresponsive"},
+      "Nexus": {"port": 4047, "status": "DOWN", "note": "Connection refused"},
+      "Shell": {"port": 8848, "status": "LIVE", "note": "Real shell execution, source code read"},
+      "Tiles": {"port": 8847, "status": "LIVE", "note": "2187 tiles, provenance chain working"}
+    },
+    "source_location": "/home/ubuntu/.openclaw/workspace/repos/",
+    "known_scripts": ["plato-shell.py", "recursive-grammar.py", "self-play-arena.py", "federated-nexus.py"]
+  },
+  "tasks": [
+    {
+      "id": "grammar-deep-dive",
+      "description": "Read recursive-grammar.py source, find why port 4045 is unresponsive",
+      "acceptance": "Root cause identified + fix suggestion + any working endpoints found",
+      "tools": ["exec", "kimi_fetch"]
+    },
+    {
+      "id": "nexus-investigation",
+      "description": "Read federated-nexus.py source, determine why port 4047 is down",
+      "acceptance": "Root cause + whether service can be started + what it does",
+      "tools": ["exec", "kimi_fetch"]
+    },
+    {
+      "id": "mud-retry",
+      "description": "Retry MUD exploration with correct connection pattern",
+      "acceptance": "Room list or connection confirmation + at least 3 rooms explored",
+      "tools": ["kimi_fetch", "exec"]
+    },
+    {
+      "id": "arena-bug-analysis",
+      "description": "Read self-play-arena.py source, identify why curriculum/archetypes/metrics are broken",
+      "acceptance": "Specific bug locations in code + fix suggestions",
+      "tools": ["exec"]
+    }
+  ],
+  "constraints": [
+    "Do not modify server state",
+    "Use shell access via port 8848 to read source files",
+    "Each task gets max 5 minutes",
+    "Report findings in structured format",
+    "If a task is too big, delegate to another subagent"
+  ]
+}

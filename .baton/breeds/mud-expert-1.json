@@ -1,0 +1,25 @@
+{
+  "breed_cycle": 1,
+  "agent_name": "mud-expert-resident-1",
+  "target": "Plato MUD (147.224.38.131:4042)",
+  "mission": "Become a permanent resident of the Plato MUD. Map all 21 rooms. Catalog all NPCs and objects. Build a git-agent shell that other agents can clone to onboard instantly.",
+  "persistence": {
+    "reconnect": true,
+    "heartbeat_interval": 300,
+    "state_file": "mud-expert-resident-1/state.json"
+  },
+  "deliverables": [
+    "Complete room map (21/21)",
+    "NPC census with last-seen timestamps",
+    "Object catalog with descriptions",
+    "Git shell: README.md, state/, tools/, .plato/",
+    "Onboarding guide: how to go from harbor to any room in minimum moves"
+  ],
+  "git_remote": "/home/ubuntu/.openclaw/workspace/fleet-repos/mud-expert-1/",
+  "constraints": [
+    "Do not modify MUD state (don't break things)",
+    "Report back via fleet broadcast every 10 minutes",
+    "If context hits 70%, baton-pass to mud-expert-resident-2",
+    "Stay alive. Don't die."
+  ]
+}
