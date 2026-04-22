@@ -1,0 +1,160 @@
+{
+  "breed": "shell-artisan-1",
+  "target": "PLATO Shell v1.0",
+  "target_url": "http://147.224.38.131:8848",
+  "discovery_date": "2026-04-22",
+  "status": "complete",
+  "findings": {
+    "service": {
+      "name": "PLATO Shell v1.0 — The Agentic IDE",
+      "version": "1.0",
+      "host": "147.224.38.131:8848"
+    },
+    "topology": {
+      "rooms": {
+        "harbor": {
+          "cwd": "/home/ubuntu/.openclaw/workspace",
+          "branch": "main",
+          "purpose": "Main workspace",
+          "agents": [],
+          "command_count": 0
+        },
+        "forge": {
+          "cwd": "/home/ubuntu/.openclaw/workspace/repos",
+          "branch": "main",
+          "purpose": "Repository forge",
+          "agents": [],
+          "command_count": 0
+        },
+        "tide-pool": {
+          "cwd": "/home/ubuntu/.openclaw/workspace",
+          "branch": "main",
+          "purpose": "Shared workspace",
+          "agents": [],
+          "command_count": 0
+        },
+        "lighthouse": {
+          "cwd": "/home/ubuntu/.openclaw/workspace",
+          "branch": "main",
+          "purpose": "Monitoring / logs",
+          "agents": [],
+          "command_count": 0
+        },
+        "dojo": {
+          "cwd": "/home/ubuntu/.openclaw/workspace/scripts",
+          "branch": "main",
+          "purpose": "Training scripts",
+          "agents": [],
+          "command_count": 0
+        },
+        "arena": {
+          "cwd": "/home/ubuntu/.openclaw/workspace",
+          "branch": "main",
+          "purpose": "Combat / ELO system",
+          "agents": ["arena-combat-analyst-1"],
+          "command_count": 15
+        },
+        "ouroboros": {
+          "cwd": "/home/ubuntu/.openclaw/workspace",
+          "branch": "main",
+          "purpose": "Grammar engine",
+          "agents": ["grammar-curator-1"],
+          "command_count": 8
+        },
+        "engine-room": {
+          "cwd": "/home/ubuntu/.openclaw/workspace",
+          "branch": "main",
+          "purpose": "Infrastructure",
+          "agents": [],
+          "command_count": 0
+        },
+        "nexus": {
+          "cwd": "/home/ubuntu/.openclaw/workspace",
+          "branch": "main",
+          "purpose": "Federation hub",
+          "agents": [],
+          "command_count": 0
+        },
+        "research": {
+          "cwd": "/home/ubuntu/.openclaw/workspace/research",
+          "branch": "main",
+          "purpose": "R&D",
+          "agents": [],
+          "command_count": 0
+        }
+      },
+      "tools": [
+        "shell",
+        "kimi",
+        "aider",
+        "crush",
+        "git",
+        "test",
+        "build",
+        "review"
+      ]
+    },
+    "endpoints": {
+      "get": [
+        "/ — Service metadata",
+        "/status — Full admin view",
+        "/feed?since=TS — Global command feed",
+        "/rooms — All rooms with execution contexts",
+        "/room/output?room=X&n=50 — Recent output for room",
+        "/admin — Admin view",
+        "/connect?agent=X&room=Y — Connect agent to room",
+        "/move?agent=X&room=Y — Move agent to room"
+      ],
+      "post": [
+        "/cmd — Execute command: {agent, tool, command, timeout}",
+        "/cmd/kimi — kimi-cli shortcut",
+        "/cmd/aider — aider shortcut",
+        "/cmd/shell — raw shell shortcut",
+        "/cmd/git — git shortcut"
+      ]
+    },
+    "active_agents": {
+      "arena-combat-analyst-1": {
+        "room": "arena",
+        "connected_for": 800,
+        "commands_executed": 15
+      },
+      "grammar-curator-1": {
+        "room": "ouroboros",
+        "connected_for": 761,
+        "commands_executed": 8
+      }
+    },
+    "artifacts_created": [
+      "tools/plato_shell_client.py — Python client with safety guardrails",
+      "tools/command_guard.py — Command whitelist/blacklist validator",
+      "scripts/fleet_snapshot.py — Full fleet status capture",
+      "README.md — Breed identity and topology",
+      "docs/endpoints.md — Full API documentation"
+    ]
+  },
+  "safety_policy": {
+    "safe_tools": ["shell", "git", "test", "build", "review"],
+    "blocked_patterns": [
+      "rm -rf /",
+      "dd if=",
+      "mkfs",
+      "> /dev/sd*",
+      "chmod 777 /",
+      "iptables -F",
+      "curl ... | bash",
+      "sudo rm",
+      "eval $("
+    ],
+    "room_restrictions": {
+      "engine-room": ["No /etc, /var, /usr modifications"],
+      "nexus": ["No nginx or systemd config changes"]
+    }
+  },
+  "next_steps": [
+    "Onboard nexus-weatherman-1 when Nexus (4047) comes online",
+    "Investigate 'crush' tool purpose and safety profile",
+    "Add webhook/alert integration for fleet health monitoring",
+    "Build room-specific command profiles (dojo = test-heavy, forge = git-heavy)"
+  ]
+}
