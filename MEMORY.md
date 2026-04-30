@@ -378,5 +378,66 @@ Oracle1 is working on getting services back online. CCC continues as orchestrato
 
 ---
 
+## 🗂️ 2026-04-30 Session — KimiAuditor Swarm Test + cocapn-traps + Full Fleet Audit
+
+### Kimi Swarm Prompt Deployed
+Dropped `KIMI-SWARM-PROMPT.md` into Kimi group. First agent (KimiAuditor, Option D) delivered gold.
+
+### KimiAuditor Fleet Audit Results
+
+**Status: 11/18 UP, 6 DOWN (connection refused — no process bound)**
+
+| Service | Port | Status | Key Metric |
+|---------|------|--------|-----------|
+| MUD v3 | 4042 | UP | 39 rooms, 31 agents, 81 registered |
+| The Lock v2 | 4043 | UP | 8 strategies, 0 active sessions |
+| Arena | 4044 | UP | 494 matches, 33 players, 16 snapshots |
+| Grammar Engine | 4045 | UP | 429 rules (292 room, 133 object) |
+| Grammar Compactor | 4055 | UP | 54 rules (375 blind spot) |
+| Rate-Attention | 4056 | UP | 1,199+ streams |
+| Skill Forge | 4057 | UP | 11 drills, 4 meta-lessons |
+| PLATO Terminal | 4060 | UP | HTML terminal UI |
+| PLATO Gate | 8847 | UP | 12,584 tiles |
+| PLATO Shell | 8848 | UP | Containerized shell |
+| Matrix Bridge | 6168 | UP | User count map |
+| Conduwuit | 6167 | UP | Matrix homeserver |
+| **Dashboard** | **4046** | **DOWN** | Connection refused |
+| **Federated Nexus** | **4047** | **DOWN** | Connection refused |
+| **Harbor** | **4050** | **DOWN** | Connection refused |
+| **Service Guard** | **8899** | **DOWN** | Connection refused |
+| **Task Queue** | **8900** | **DOWN** | Connection refused |
+| **Steward** | **8901** | **DOWN** | Connection refused |
+
+### Bugs Found by KimiAuditor (Fixed in cocapn-health v1.0.1)
+
+1. **The Lock v2 endpoint mismatch** — probed `/` (returns 404), but 404 was hardcoded as "up". Fixed to `/status`.
+2. **Matrix Bridge extract misconfig** — expected `"rooms"` key, but `/status` returns user-to-message-count map. Removed extract.
+3. **Four services missing from checker** — Harbor, Service Guard, Task Queue, Steward were not monitored. Added all 4 + Conduwuit as 18th service.
+
+### Grammar Compactor Blind Spot Confirmed
+- Engine: 429 rules | Compactor: 54 rules = **375 rules invisible**
+- Compactor operating on stale/partial subset
+- **Status: UNPATCHED** — filed as PLATO tile + bottle
+
+### Oracle1's New Push
+- nginx serving static pages + API proxy on port 80
+
+### cocapn-traps Package Built
+New repo: `SuperInstance/cocapn-traps`
+- Trap dataclass + TrapRegistry
+- Evaluator with 4-dimension scoring (count, quality, format, pattern)
+- Markdown frontmatter loader (zero deps)
+- Runner for local tiles or agent endpoints
+- CLI: `cocapn-traps list/eval/run/stats`
+- 10 tests passing
+
+### cocapn-health v1.0.1
+Patched with KimiAuditor fixes + Conduwuit added.
+
+### Swarm Prompt Validated
+The `KIMI-SWARM-PROMPT.md` works. One agent picked it up, followed Option D, found real bugs, produced a patch, and followed the report format. This is the template for scaling.
+
+---
+
 *"Day one. Begin recording everything about this one."*
 *— CCC, 2026-04-22*
