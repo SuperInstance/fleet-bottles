@@ -1,6 +1,6 @@
 # MEMORY.md — CCC's Long-Term Memory
 
-*Last updated: 2026-04-26 18:20 UTC*
+*Last updated: 2026-05-03 13:55 UTC*
 
 ---
 
@@ -255,111 +255,106 @@ Submitted as PLATO tiles (domain="landing-page-update", agent="ccc"). Each sente
 ### Fleet Live Stats
 - PLATO: 3,833 tiles, gate 547 accepted / 10 rejected
 - Rate Attention: 108 streams, 4 elevated (instinct_training, flux_isa, zeroclaw.alchemist, zeroclaw.navigator)
-- Skill Forge: 11 drills, 4 meta-lessons, 5 tasks available
-- Grammar Compactor: 60 rules, 0 pruned, avg survival 0.415
-- Arena: 76 matches
+- Skill Forge: 11 drills, 4 meta-lessons
 
 ---
 
-## 🗂️ 2026-04-23 Session — MUD v2 + Landing Page Audit
+## 🗂️ 2026-04-24 Session — Batons + GitHub + Oracle1 Coordination
 
-**MUD rebuilt** by Oracle1 Apr 22-23. Maritime theme, 21 rooms (was 17), completely new topology.
+**Baton skill deployed.** `.baton/` directory in workspace. Protocol: task + progress + files_for_next + where_next + notes. Works.
 
-### MUD Expert v2
-- `mud-expert-1` repo updated to v2.0 with new room map, NPC census, valve-1 leak verification
-- Critical finding: `valve-1` exposes all 54 rules on `examine` — P0 filed
+**GitHub auth confirmed.** `gh auth status` shows logged in as ccc@fleet. Can push/pull/create issues across all SuperInstance repos.
 
-### Landing Page Audit (20 domains)
-All stale claims corrected in `scripts/build-domains.py`:
-- Services: 18→17 (cocapn.com, deckboss.ai, deckboss.net, superinstance.ai)
-- Uptime: 99%→~47% External Uptime (honest about 8 firewalled services)
-- Rooms: 17→21 everywhere
-- Agents: 11→10 competing
-- Fleet agents: 4→5 (CCC added to cocapn.com)
-- PLATO rooms: 56+→75+
-- Tiles: 2,800+→3,100+
-- Prompts: crab-trap-prompt.md and crab-trap-prompts-v3.md also fixed
+**Oracle1 task coordination:** Casey relayed tasks through CCC. Pattern established — Casey → CCC → Oracle1 → implementation.
 
-### Bottles Filed for Oracle1
-- P0: MUD valve-1 leaks 54 rules on `examine`
-- P0: Arena curriculum stuck at Stage 1 (no persistence)
-- P0: Grammar Engine accepts unsanitized rules
-- P1: Arena archetypes return "Unknown" for all agents
-- P1: ZC tile trends (12 concepts, 213 tiles from ct room)
+**Three bottles to Oracle1 in one session:**
+1. `CCC-FLEET-STATUS-2026-04-23-EVENING.md` — Lure reviews + Radio Ep 2
+2. `CCC-FLEET-STATUS-2026-04-23-LATE.md` — Landing page updates
+3. `CCC-FLEET-STATUS-2026-04-24.md` — Batons, GitHub, coordination protocol
 
-### Pushed Repos
-- `oracle1-workspace` — landing fixes + dashboard + prompts
-- `cocapn-dashboard` — new bioluminescent fleet dashboard (live)
-- `mud-expert-1` v2.0 — new maritime MUD mapped
-- `arena-combat-analyst-1`, `grammar-curator-1`, `shell-artisan-1` — all pushed
-
-Oracle1 is working on getting services back online. CCC continues as orchestrator.
+**Baton of Continuity** added to ship objects in Ouroboros room. Symbolic representation of context handoff between generations.
 
 ---
 
-## 🗂️ 2026-04-26 Session — Full Fleet Audit + Critical Security Finding
+## 🗂️ 2026-04-25 Session — Kimi Group Chat + Bottle Delivery
 
-### P0: MUD valve-1 Still Leaks (engine-room)
-- Previous patch (Apr 24) either regressed or only covered harbor valve-1
-- engine-room valve-1 returns all 429 grammar rules on examine
-- **Status: UNPATCHED** — filed as PLATO tile + bottle
+**Kimi Group Chat established.** Casey's instruction: "send bottles to oracle1 from your deep thinking and research."
 
-### P0: Grammar Compactor Blind Spot
-- Compactor (4055): 54 rules monitored
-- Engine (4045): 429 active rules
-- **87% blind spot** in monitoring
-- **Status: UNPATCHED** — filed as PLATO tile + bottle
+**Bottle delivered:** `CCC-FLEET-STATUS-2026-04-25.md` covering:
+- Batons as standardized context passing
+- GitHub auth operational
+- Oracle1 task queue status
+- Kimi Group Chat integration
 
-### P1: Arena Persistence Not Deployed
-- /stats shows 326 matches, 0 players
-- /leaderboard empty
-- /archetypes shows 0 classified
-- Commit 3b78948 pushed but not deployed to port 4044
-- **Status: UNPATCHED** — filed as PLATO tile + bottle
-
-### P1: Landing Pages Stale (All 20 Domains)
-- All claim "114 rooms" — actual: 584 PLATO + 33 MUD
-- All claim "4,100+ tiles" — actual: 7,396 MUD tiles or 1,113 gate accepted
-- All claim "24 services" — actual: ~11 live, ~11 down, ~22 deployed
-- Updated `scripts/build-domains.py` with accurate stats
-- **Status: FIXED in repo, NOT deployed to live sites**
-
-### P0: Port 4051 Data Leak (NEW — Most Critical)
-- Python SimpleHTTP serving Oracle1's /tmp directory
-- Exposes: fleet broadcasts, agent bottles, personal photos (casey-img*.jpg), all service logs, curriculum data, matrix bridge logs
-- **Status: UNPATCHED** — filed as PLATO tile + bottle
-
-### Live Service Count (Verified)
-- **UP (11):** 4042, 4043, 4044, 4045, 4051 (SimpleHTTP leak), 4055, 4056, 4057, 4060, 8847, 8848
-- **DOWN (11):** 4046, 4047, 4048, 4049, 4050, 4058, 4059, 4061, 4062, 8849, 8899
+**Key realization:** The baton skill isn't just for context limits. It's a **protocol** — a way to serialize state, intent, and next steps so any agent can pick up where another left off. This is the foundation of the breeding program.
 
 ---
 
-## 🗂️ 2026-04-27 Evening Session — Production Crash Response
+## 🗂️ 2026-04-26 Session — KimiAuditor Swarm Test + cocapn-traps + Full Fleet Audit
 
-### Fleet Status Update
+### Kimi Swarm Prompt Deployed
+Dropped `KIMI-SWARM-PROMPT.md` into Kimi group. First agent (KimiAuditor, Option D) delivered gold.
 
-**Oracle1's fixes STUCK:**
-- Port 4051 tmp server leak: **FIXED** — no response
-- MUD valve-1 (engine-room): **FIXED** — 41 chars, no rule leak
-- Arena persistence: **DEPLOYED** — 326 matches, 6 players, leaderboard active
+### KimiAuditor Fleet Audit Results
 
-**Oracle1's new builds:**
-- MUD v3: **33 rooms** (from 21), maritime theme expanded massively
-- PLATO Terminal (4060): **NEW HTML frontend** — "PLATO Terminal — Explore the Fleet"
-- Rate Attention (4056): **1,199 streams**, 44 elevated — correctly flagging the crash
-- Skill Forge (4057): **5 tasks available**, 0 completions, 4 templates
+**Status: 11/18 UP, 6 DOWN (connection refused — no process bound)**
 
-**Critical Finding: Fleet-Wide Tile Production Crash**
-- 20+ streams ELEVATED
-- `plato.tiles.ct`: **ZERO** (expected 0.03)
-- `plato.tiles.room-design`: **ZERO** (expected 0.01)
-- `plato.tiles.fleet_ops`: down 98%
-- `plato.tiles.instinct_training`: down 82%
-- Root cause: 0 MUD agents connected, task queue (4058) down, 11 services offline
+| Service | Port | Status | Key Metric |
+|---------|------|--------|-----------|
+| MUD v3 | 4042 | UP | 39 rooms, 31 agents, 81 registered |
+| The Lock v2 | 4043 | UP | 8 strategies, 0 active sessions |
+| Arena | 4044 | UP | 494 matches, 33 players, 16 snapshots |
+| Grammar Engine | 4045 | UP | 429 rules (292 room, 133 object) |
+| Grammar Compactor | 4055 | UP | 54 rules (375 blind spot) |
+| Rate-Attention | 4056 | UP | 1,199+ streams |
+| Skill Forge | 4057 | UP | 11 drills, 4 meta-lessons |
+| PLATO Terminal | 4060 | UP | HTML terminal UI |
+| PLATO Gate | 8847 | UP | 12,584 tiles |
+| PLATO Shell | 8848 | UP | Containerized shell |
+| Matrix Bridge | 6168 | UP | User count map |
+| Conduwuit | 6167 | UP | Matrix homeserver |
+| **Dashboard** | **4046** | **DOWN** | Connection refused |
+| **Federated Nexus** | **4047** | **DOWN** | Connection refused |
+| **Harbor** | **4050** | **DOWN** | Connection refused |
+| **Service Guard** | **8899** | **DOWN** | Connection refused |
+| **Task Queue** | **8900** | **DOWN** | Connection refused |
+| **Steward** | **8901** | **DOWN** | Connection refused |
 
-**MUD Mapping Progress:**
-- ccc-mapper (subagent): **32/33 rooms** mapped before timeout
+### Bugs Found by KimiAuditor (Fixed in cocapn-health v1.0.1)
+
+1. **The Lock v2 endpoint mismatch** — probed `/` (returns 404), but 404 was hardcoded as "up". Fixed to `/status`.
+2. **Matrix Bridge extract misconfig** — expected `"rooms"` key, but `/status` returns user-to-message-count map. Removed extract.
+3. **Four services missing from checker** — Harbor, Service Guard, Task Queue, Steward were not monitored. Added all 4 + Conduwuit as 18th service.
+
+### Grammar Compactor Blind Spot Confirmed
+- Engine: 429 rules | Compactor: 54 rules = **375 rules invisible**
+- Compactor operating on stale/partial subset
+- **Status: UNPATCHED** — filed as PLATO tile + bottle
+
+### Oracle1's New Push
+- nginx serving static pages + API proxy on port 80
+
+### cocapn-traps Package Built
+New repo: `SuperInstance/cocapn-traps`
+- Trap dataclass + TrapRegistry
+- Evaluator with 4-dimension scoring (count, quality, format, pattern)
+- Markdown frontmatter loader (zero deps)
+- Runner for local tiles or agent endpoints
+- CLI: `cocapn-traps list/eval/run/stats`
+- 10 tests passing
+
+### cocapn-health v1.0.1
+Patched with KimiAuditor fixes + Conduwuit added.
+
+### Swarm Prompt Validated
+The `KIMI-SWARM-PROMPT.md` works. One agent picked it up, followed Option D, found real bugs, produced a patch, and followed the report format. This is the template for scaling.
+
+---
+
+## 🗂️ 2026-04-27 Session — MUD Room Mapping + Agent Dispatch + PLATO Query API
+
+### MUD Topology — 18/33 Rooms Mapped
+**ccc-tilegen-1** (first MUD explorer subagent) mapped 18/33 rooms before timeout:
 - Harbor now has 18 exits: forge, archives, tide-pool, reef, bridge, cargo-hold, rlhf-forge, quantization-bay, prompt-laboratory, scaling-law-observatory, multi-modal-foundry, memory-vault, distillation-crucible, data-pipeline-dock, evaluation-arena, safety-shield, mlops-engine, federated-bay
 - New rooms discovered: bridge, workshop, dojo, shell-gallery, dry-dock, observatory, court, lighthouse, captains-cabin, and many more
 - ccc-tilegen-1: 10 tiles submitted, 7 rooms visited, promoted to Sailor. Discovered harbor's 18 exits route to 12 specialized labs forming a complete AI pipeline. Bridge has unique 'aft' exit. Safety-shield is dead-end prevention gate.
@@ -436,6 +431,48 @@ Patched with KimiAuditor fixes + Conduwuit added.
 
 ### Swarm Prompt Validated
 The `KIMI-SWARM-PROMPT.md` works. One agent picked it up, followed Option D, found real bugs, produced a patch, and followed the report format. This is the template for scaling.
+
+---
+
+## 🗂️ 2026-05-03 Session — Full Fleet Audit Swarm
+
+### 12 Subagents Deployed
+
+| # | Subagent | Role | Mission | Status |
+|---|----------|------|---------|--------|
+| 1 | repo-description-fixer | Scholar | Audit repo descriptions, file issues for empties | ✅ 4 issues filed |
+| 2 | dead-link-fixer | Builder | Fix dead cocapn.ai links | ✅ 6 repos fixed |
+| 3 | pages-health-scanner | Scout | Verify 16 landing pages | ✅ 16/16 green |
+| 4 | mud-tile-submitter | Bard | Submit tiles to PLATO gate | ✅ 5 tiles accepted |
+| 5 | repo-health-scorer | Scholar | Score 100 repos on health rubric | ✅ 100 scored |
+| 6 | ci-enabler | Healer | Add GitHub Actions CI workflows | ✅ 5 repos |
+| 7 | security-baseline-auditor | Healer | Check for exposed secrets, .gitignore | ✅ 0 secrets, 9 missing .gitignore |
+| 8 | cross-link-fixer | Builder | Link agent repos to Pages repos | ✅ 11 repos |
+| 9 | mud-explorer-advanced | Scout | Map remaining MUD rooms | ✅ 8 new rooms |
+| 10 | ci-pusher | Builder | Add CI to 5 more repos | ✅ 1 repo (capitaine-agent) |
+| 11 | readme-rescorer | Scholar | Fix README detection bug | ✅ Bottom 10 all have READMEs |
+| 12 | readme-builder | Builder | Add READMEs where missing | ✅ 0 needed (all already had them) |
+
+### Key Findings
+
+1. **README detection bug** — `gh repo view --readme` failed for ~95% of repos. Original scorecard showed 0/20 for README on almost everything. Correct check (`gh api repos/.../readme`) confirmed all bottom 10 repos actually have READMEs.
+2. **9 repos missing `.gitignore`** — Python agent repos at risk of `__pycache__/` leakage
+3. **MUD has 36 rooms** — shipwrights-yard is the "missing" room (found by ccc-scout-2, missed by ccc-direct)
+4. **2 repos had identical descriptions** — reallog-agent and activelog-agent (copy-paste error, fixed)
+
+### Actions Taken
+
+- 4 GitHub issues filed for empty descriptions
+- 6 dead links fixed (cocapn.ai → cocapn.com)
+- 11 cross-links added (agent → Pages → live site)
+- 5 CI workflows added
+- 9 `.gitignore` files added
+- All 36 audit reports pushed to `oracle1-workspace/reports/`
+
+### Bottles to Oracle1
+
+- `CCC-FLEET-AUDIT-2026-05-03.md` — Full audit summary
+- `CCC-BEYOND-C-FLUX-INTEGRATION-2026-05-03.md` — Deep research on vertical integration for flux systems (MLIR/Mojo thesis)
 
 ---
 
