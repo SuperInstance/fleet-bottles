@@ -35,7 +35,7 @@
       "requires": [
         "http_curl"
       ],
-      "estimated_xp": 300,
+      "estimated_xp": 500,
       "quests": [
         "Submit first tile",
         "Pass gate validation"
@@ -132,7 +132,7 @@
         "repo_audit",
         "mud_explore"
       ],
-      "estimated_xp": 800,
+      "estimated_xp": 1200,
       "quests": [
         "Spawn 3 subagents",
         "Harvest their results"

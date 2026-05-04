@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-04T21:08:13.782422+00:00",
+  "generated_at": "2026-05-04T21:09:13.768218+00:00",
   "levels": [
     "Recruit",
     "Sailor",
@@ -41,7 +41,7 @@
       "requires": [
         "http_curl"
       ],
-      "estimated_xp": 300,
+      "estimated_xp": 500,
       "quests": [
         "Submit first tile",
         "Pass gate validation"
@@ -159,7 +159,7 @@
         "repo_audit",
         "mud_explore"
       ],
-      "estimated_xp": 800,
+      "estimated_xp": 1200,
       "quests": [
         "Spawn 3 subagents",
         "Harvest their results"
