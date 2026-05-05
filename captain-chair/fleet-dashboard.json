@@ -1,0 +1,220 @@
+{
+  "$schema": "captain-chair-fleet-dashboard-v1",
+  "$comment": "Machine-readable fleet status. Consumed by Watchdog, Captain, and dashboard UI. Updated every 5 minutes or on state change.",
+  
+  "fleet": {
+    "name": "Cocapn Fleet",
+    "captain": "CCC",
+    "last_updated": "2026-05-05T11:59:00+08:00",
+    "update_interval_seconds": 300
+  },
+
+  "ships": [
+    {
+      "id": "ccc-main",
+      "name": "CCC Main Session",
+      "role": "captain",
+      "status": "online",
+      "context_percent": 58,
+      "context_limit": 128000,
+      "tokens_used": 74240,
+      "last_heartbeat": "2026-05-05T11:57:00+08:00",
+      "heartbeat_stale_seconds": 120,
+      "active_tasks": 3,
+      "queued_tasks": 2,
+      "error_count_24h": 0,
+      "error_rate_percent": 0.0,
+      "load": "normal"
+    },
+    {
+      "id": "oracle1",
+      "name": "Oracle1 Lighthouse",
+      "role": "coordinator",
+      "status": "online",
+      "context_percent": 42,
+      "last_heartbeat": "2026-05-05T11:55:00+08:00",
+      "heartbeat_stale_seconds": 240,
+      "active_tasks": 1,
+      "load": "normal"
+    },
+    {
+      "id": "forgemaster",
+      "name": "Forgemaster Build",
+      "role": "builder-external",
+      "status": "online",
+      "context_percent": 35,
+      "last_heartbeat": "2026-05-05T11:50:00+08:00",
+      "heartbeat_stale_seconds": 540,
+      "active_tasks": 1,
+      "load": "normal"
+    },
+    {
+      "id": "jetsonclaw1",
+      "name": "JetsonClaw1 Edge",
+      "role": "edge-operator",
+      "status": "online",
+      "context_percent": 28,
+      "last_heartbeat": "2026-05-05T11:58:00+08:00",
+      "heartbeat_stale_seconds": 60,
+      "active_tasks": 2,
+      "load": "normal"
+    }
+  ],
+
+  "ensigns": {
+    "active": [
+      {
+        "id": "scout-a7",
+        "name": "Scout-A7",
+        "role": "scout",
+        "template": "scout-template.md",
+        "status": "running",
+        "task": "Map PLATO room 'observatory'",
+        "spawned_at": "2026-05-05T11:30:00+08:00",
+        "ttl_minutes": 30,
+        "elapsed_minutes": 29,
+        "context_percent": 12,
+        "last_output_at": "2026-05-05T11:55:00+08:00",
+        "parent_ship": "ccc-main",
+        "baton_parent": null
+      },
+      {
+        "id": "builder-b2",
+        "name": "Builder-B2",
+        "role": "builder",
+        "template": "builder-template.md",
+        "status": "running",
+        "task": "Implement query API for cocapn-plato",
+        "spawned_at": "2026-05-05T11:15:00+08:00",
+        "ttl_minutes": 60,
+        "elapsed_minutes": 44,
+        "context_percent": 71,
+        "last_output_at": "2026-05-05T11:52:00+08:00",
+        "parent_ship": "ccc-main",
+        "baton_parent": "builder-b1"
+      }
+    ],
+    "completed": [
+      {
+        "id": "auditor-c1",
+        "name": "Auditor-C1",
+        "role": "auditor",
+        "task": "Verify EMSOFT theorem claims",
+        "status": "complete",
+        "result": "passed",
+        "completed_at": "2026-05-05T11:45:00+08:00",
+        "findings_count": 0,
+        "critical_findings": 0
+      }
+    ],
+    "failed": [
+      {
+        "id": "scout-f3",
+        "name": "Scout-F3",
+        "role": "scout",
+        "task": "Map PLATO room 'void-chamber'",
+        "status": "failed",
+        "failure_reason": "Room returned 404, does not exist",
+        "failed_at": "2026-05-05T11:20:00+08:00",
+        "retry_count": 1,
+        "escalated_to_human": false
+      }
+    ]
+  },
+
+  "alerts": {
+    "active": [
+      {
+        "id": "alert-20260505-001",
+        "severity": "warning",
+        "type": "context_threshold",
+        "ship_id": "builder-b2",
+        "message": "Builder-B2 context at 71%, baton recommended",
+        "triggered_at": "2026-05-05T11:52:00+08:00",
+        "acknowledged": false,
+        "auto_action": "none"
+      }
+    ],
+    "resolved": [
+      {
+        "id": "alert-20260505-000",
+        "severity": "info",
+        "type": "task_complete",
+        "ship_id": "auditor-c1",
+        "message": "Auditor-C1 completed with no findings",
+        "triggered_at": "2026-05-05T11:45:00+08:00",
+        "resolved_at": "2026-05-05T11:46:00+08:00"
+      }
+    ]
+  },
+
+  "thresholds": {
+    "context_warning": 60,
+    "context_critical": 70,
+    "heartbeat_stale_warning": 300,
+    "heartbeat_stale_critical": 600,
+    "error_rate_warning": 3.0,
+    "error_rate_critical": 5.0,
+    "ensign_ttl_warning": 80,
+    "ensign_ttl_critical": 95,
+    "max_active_ensigns": 10,
+    "max_queue_depth": 5
+  },
+
+  "recommendations": [
+    {
+      "priority": 1,
+      "action": "baton_pass",
+      "target": "builder-b2",
+      "reason": "Context at 71%, task 70% complete. Baton to Builder-B3.",
+      "impact": "Prevent context loss, preserve 44min of work"
+    },
+    {
+      "priority": 2,
+      "action": "check_straggler",
+      "target": "scout-a7",
+      "reason": "TTL at 97% (29/30 min), last output 4min ago. May need extension or baton.",
+      "impact": "Ensure task completion or proper handoff"
+    },
+    {
+      "priority": 3,
+      "action": "none",
+      "reason": "Fleet healthy. No other actions needed.",
+      "impact": "N/A"
+    }
+  ],
+
+  "metrics": {
+    "ensigns_spawned_24h": 18,
+    "ensigns_completed_24h": 15,
+    "ensigns_failed_24h": 2,
+    "ensigns_batoned_24h": 3,
+    "success_rate_24h": 83.3,
+    "average_completion_time_minutes": 28,
+    "average_context_at_completion": 45,
+    "batons_raised_24h": 4,
+    "human_escalations_24h": 0
+  },
+
+  "batons": {
+    "active": [
+      {
+        "baton_id": "builder-b2-baton",
+        "raised_by": "builder-b2",
+        "raised_at": null,
+        "status": "pending",
+        "receiver": null,
+        "checkpoint_path": null
+      }
+    ],
+    "recently_resolved": [
+      {
+        "baton_id": "builder-b1-baton",
+        "raised_by": "builder-b1",
+        "received_by": "builder-b2",
+        "resolved_at": "2026-05-05T11:15:00+08:00",
+        "chain_length": 2
+      }
+    ]
+  }
+}
