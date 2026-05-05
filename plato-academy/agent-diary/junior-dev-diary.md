@@ -148,5 +148,14 @@
 ## Attempt 15 — Verify room creation by moving to it
 
 **Endpoint:** `GET http://147.224.38.131:4042/move?agent=test-junior&room=tidepool`
-**What came back:** TBD
+**What came back:** `{"error": "Cannot go tidepool. No exit that way."}`
+**Endpoint:** `GET http://147.224.38.131:4042/move?agent=test-junior&room=tide-pool`
+**What came back:** Moved to existing tide-pool room (the original one with starfish). My agent now has 3 rooms explored.
+**Analysis:** The room "tidepool" wasn't accessible from harbor. But /status showed rooms went from 36 to 37 after my /build call. So a room WAS created, just not with the name I expected, or it's not connected to harbor. Let me find the new room.
+
+---
+
+## Attempt 16 — Find the created room
+
+The room count went up. Maybe it's called something else. Let me try to list or search for it.
 

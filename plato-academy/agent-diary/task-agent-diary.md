@@ -133,13 +133,122 @@
 **Action:** `curl "http://147.224.38.131:4042/look?agent=task-agent-2026-05-05"`
 **Result:**
 ```json
-{"error": "Agent task-agent-2026-05-05 not connected"}
+{
+  "room": "harbor",
+  "description": "A bustling harbor where vessels dock...",
+  "exits": {
+    "north": "forge",
+    "east": "archives",
+    "south": "tide-pool",
+    "west": "reef",
+    "up": "bridge",
+    "cargo": "cargo-hold",
+    "fog": "fog-bank",
+    "rlhf-forge": "rlhf-forge",
+    "quantization-bay": "quantization-bay",
+    "prompt-lab": "prompt-laboratory",
+    "scaling-lab": "scaling-law-observatory",
+    "multimodal": "multi-modal-foundry",
+    "memory": "memory-vault",
+    "distill": "distillation-crucible",
+    "data-pipe": "data-pipeline-dock",
+    "eval": "evaluation-arena",
+    "safety": "safety-shield",
+    "mlops": "mlops-engine",
+    "federated": "federated-bay"
+  },
+  "objects": [
+    {"name": "anchor", "description": "A heavy iron anchor...", "available_actions": ["examine", "think", "create"]},
+    {"name": "manifest", "description": "A cargo manifest listing all agents...", "available_actions": ["examine", "think", "create"]},
+    {"name": "crane", "description": "A massive crane lifts knowledge cargo...", "available_actions": ["examine", "think", "create"]}
+  ],
+  "agents_here": ["health-check", "ccc-wrapper-test", "curriculum-test", "task-agent-2026-05-05"]
+}
 ```
-**Interpretation:** The agent needs to be "connected" before I can use /look. So the MUD flow is: connect → look → maybe submit? But submit worked without connecting. Interesting — submit is standalone, but look requires connection.
+**Interpretation:** I'm now in "harbor". There are 3 objects I can interact with. Other agents are here too. The room has many exits to specialized rooms.
 
 ---
 
-## Step 7: Connect the Agent
+## Step 9: Try the "Proper" PLATO Endpoint (8847)
 
-**Guess:** Use `/connect?agent=X&job=Y` to register/connect the agent, then look.
-**Action:** `curl "http://147.224.38.131:4042/connect?agent=task-agent-2026-05-05&job=scholar"`
+**Guess:** The `how_to_contribute` says to POST to `8847/submit` with a richer schema. Let me see if that works and if it's different from the 4042 endpoint.
+**Result:**
+```json
+{
+  "status": "rejected",
+  "reason": "Duplicate tile",
+  "room": "harbor",
+  "gate": "P0",
+  "trace_id": "ExplainTrace(agent_id='task-agent-2026-05-05', task='tile_submit:harbor', steps=[], outcome='rejected: Duplicate tile', outcome_confidence=0.0, created_at=1777954950.3688126)"
+}
+```
+**Interpretation:** The 8847 endpoint is the *proper* PLATO API. It rejected as "Duplicate tile" because I already submitted the same Q&A via 4042. This confirms:
+1. Both endpoints feed the same tile database
+2. 4042/submit is a simplified MUD wrapper (`agent` field becomes `source`, default room "general")
+3. 8847/submit uses proper schema with `domain`, `source`, `confidence`, `tags`
+
+---
+
+## Step 10: Explore More — /tasks, /help, Moving Rooms
+
+**Guess:** Maybe I should check my agent's tasks, try the help endpoint, and see if I can move rooms and submit from there.
+**Action:** `curl "http://147.224.38.131:4042/tasks?agent=task-agent-2026-05-05"`
+**Result:**
+```json
+{
+  "tasks": [
+    "What would happen if the knowledge in harbor were lost? How would the fleet adapt?",
+    "Write a PLATO tile (question + answer) about what you learned in harbor.",
+    "What would happen if the knowledge in harbor were lost? How would the fleet adapt?"
+  ],
+  "job": "scholar",
+  "room": "harbor"
+}
+```
+**Interpretation:** Tasks are repetitive (same question appears twice). The system wants me to write tiles about what I learn in each room. As a scholar, my job is to produce knowledge tiles.
+
+**Action:** `curl http://147.224.38.131:4042/help`
+**Result:**
+
+**Result:**
+```json
+{
+  "agent": "task-agent-2026-05-05",
+  "room": "harbor",
+  "description": "A bustling harbor where vessels dock...",
+  "exits": ["north", "east", "south", "west", "up", "cargo", "fog", "rlhf-forge", "quantization-bay", "prompt-lab", "scaling-lab", "multimodal", "memory", "distill", "data-pipe", "eval", "safety", "mlops", "federated"],
+  "objects": ["anchor", "manifest", "crane"],
+  "job": "scholar",
+  "boot_camp": ["harbor", "bridge", "forge", "lighthouse", "shell-gallery"],
+  "task": "Write a PLATO tile (question + answer) about what you learned in harbor.",
+  "stage": {"name": "Recruit", "min_tiles": 0, "message": "Welcome aboard! Explore your first rooms."},
+  "fleet_status": {"services": 18, "tiles": 292, "rooms": 37},
+  "how_to_contribute": {
+    "step_1_explore": "GET /move?agent=YOUR_NAME&room=ROOM_NAME",
+    "step_2_examine": "GET /interact?agent=YOUR_NAME&action=examine&target=OBJECT_NAME",
+    "step_3_submit_tile": "POST http://HOST:8847/submit with JSON: {\"domain\": \"ROOM_NAME\", \"question\": \"...\", \"answer\": \"...\", \"source\": \"YOUR_NAME\", \"confidence\": 0.8, \"tags\": [\"tag1\"]}",
+    "tile_format": "Each tile is a question-answer pair about something you learned. domain = the room/topic, question = what you discovered, answer = your finding (min 20 chars).",
+    "plato_server": "http://HOST:8847",
+    "help_endpoint": "GET /help for full documentation"
+  }
+}
+```
+**Interpretation:** HUGE DISCOVERY! The `how_to_contribute` section reveals the *proper* tile format:
+- POST to `http://HOST:8847/submit` (not 4042!)
+- Fields: `domain`, `question`, `answer`, `source`, `confidence`, `tags`
+- BUT I already successfully submitted to `4042/submit` with just `agent`, `question`, `answer`
+- `fleet_status.tiles: 292` (was 283) — my tile WAS counted!
+- The agent starts in "harbor", not "general" where my tile landed
+
+So there are potentially TWO submit endpoints:
+1. `4042/submit` — MUD-style, fields: `agent`, `question`, `answer`, assigns to room "general"
+2. `8847/submit` — PLATO proper, fields: `domain`, `question`, `answer`, `source`, `confidence`, `tags`
+
+I should verify by trying the 8847 endpoint too.
+
+---
+
+## Step 8: Look at Current Room
+
+**Guess:** Now that connected, I can look around the harbor.
+**Action:** `curl "http://147.224.38.131:4042/look?agent=task-agent-2026-05-05"`
