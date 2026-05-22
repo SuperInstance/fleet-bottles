@@ -1,0 +1,200 @@
+fleet-contributing|2026-04-13T03:08:24Z|2026-04-14T10:26:52Z|Ecosystem-wide contributing guide for the SuperInstance fleet. How to join, build vessels, and contribute.|N/A|false|false
+fleet-energy-spec|2026-04-12T16:27:19Z|2026-04-14T10:26:48Z|Fleet Energy Coordination Protocol — ATP-based task routing and agent energy management|N/A|false|false
+provider-abstraction-layer|2026-01-09T19:34:06Z|2026-04-14T10:26:45Z|Abstraction layer for integrating multiple providers|Python|false|false
+rate-limiting-service|2026-01-09T19:34:11Z|2026-04-14T10:26:44Z|API rate limiting and request throttling service|Python|false|false
+SuperInstanceDocs|2026-01-01T19:56:28Z|2026-04-14T10:26:43Z|Documentation and reference for SuperInstance projects|N/A|false|false
+streaming-response-handler|2026-01-09T19:29:18Z|2026-04-14T10:26:41Z|HTTP handler for efficient streaming responses|Python|false|false
+codespace-edge-rd|2026-04-12T00:22:17Z|2026-04-14T10:26:33Z|R&D: Codespace→Edge agent lifecycle, yoke transfer, devcontainer templates|N/A|false|false
+commit-caster|2026-04-11T10:08:36Z|2026-04-14T10:26:29Z|I2I notification system — scans fleet repos for tagged commits|Python|false|false
+config-manager|2026-01-10T01:26:54Z|2026-04-14T10:26:28Z|Configuration management tool.|N/A|false|false
+cost-analysis|2026-01-09T19:56:06Z|2026-04-14T10:26:27Z|Tool to analyze and track costs effectively.|TypeScript|false|false
+constraint-theory-backup|2026-03-29T00:27:25Z|2026-04-14T10:26:25Z|Complete backup of Constraint Theory workspace - all 7 repos in one place|TypeScript|false|false
+SuperInstanceEco|2025-08-31T01:21:54Z|2026-04-14T10:26:22Z|Research project|Jupyter Notebook|false|false
+Claude_Baton|2026-03-03T02:06:09Z|2026-04-14T10:26:20Z|Generational context handoff for Claude Code. Seamless, auditable, infinite-context agents that ship forever.|N/A|false|false
+Rotational-Transformer|2026-03-07T23:37:48Z|2026-04-14T10:26:18Z|Transformer architecture with rotational modifications|N/A|false|false
+multi-provider-router|2026-01-09T19:41:43Z|2026-04-14T10:26:14Z|Routing system that supports multiple service providers|Python|false|false
+character-library|2026-01-09T19:39:19Z|2026-04-14T10:26:13Z|Library for managing character data.|Python|false|false
+project-JEPA|2026-01-07T23:02:13Z|2026-04-14T10:26:11Z|JEPA (Joint Embedding Predictive Architecture) implementation|Go|false|false
+CascadeRouter|2026-01-08T05:15:30Z|2026-04-14T10:26:10Z|Cascading routing system.|TypeScript|false|false
+constraint-ranch|2026-03-27T15:16:29Z|2026-04-14T10:26:07Z|🎮 Gamified multi-agent system - breed, train, and coordinate AI agents through constraint-based puzzles|TypeScript|false|false
+SwarmMCP|2026-03-03T18:33:19Z|2026-04-14T10:26:01Z|For developers who want to "game the system" with parallel Chinese AI agents.|N/A|false|false
+SuperInstancecore1|2026-01-01T20:02:26Z|2026-04-14T10:25:56Z|Core runtime library for the SuperInstance agent platform|TypeScript|false|false
+ai-ranch|2026-03-25T15:02:31Z|2026-04-14T10:25:55Z|Self-Evolving AI Agent System - A Next.js implementation of the SuperInstance architecture|Python|false|false
+constraint-theory-web|2026-03-27T05:09:05Z|2026-04-14T10:25:53Z|WASM demos — browser-based Pythagorean manifold visualization|JavaScript|false|false
+constraint-flow|2026-03-27T15:16:31Z|2026-04-14T10:25:52Z|💼 Enterprise automation with exact guarantees - constraint-based workflows with multi-agent orchestration|TypeScript|false|false
+HOLOS|2025-12-31T21:33:23Z|2026-04-14T10:25:51Z|This toolkit is for the ability to run "Big Brain" models on "Small Body" hardware by embracing the noise and reconstructing the signal.|Python|false|false
+pasture-ai|2026-03-23T22:13:21Z|2026-04-14T10:25:49Z|AI system for resource allocation and management|Rust|false|false
+SuperInstance-gamedev|2026-01-11T22:57:20Z|2026-04-14T10:25:47Z|Game development framework called SuperInstance|TypeScript|false|false
+realtime-core|2026-01-10T00:58:04Z|2026-04-14T10:25:42Z|Realtime core infrastructure - WebRTC, WebSocket, and streaming primitives for real-time applications|Makefile|false|false
+AI-Smart-Notifications|2026-01-08T09:55:38Z|2026-04-14T10:19:54Z|Intelligent AI notification system.|N/A|false|false
+Auto-Backup-Compression-Encryption|2026-01-08T10:04:16Z|2026-04-14T10:19:51Z|Automated backup with encryption.|N/A|false|false
+Auto-Tuning-Engine|2026-01-08T10:20:44Z|2026-04-14T10:19:50Z|Automated engine for system tuning.|N/A|false|false
+Central-Error-Manager|2026-01-08T10:21:44Z|2026-04-14T10:19:49Z|Centralized error management system.|N/A|false|false
+Claude-Abstraction|2026-01-13T01:35:57Z|2026-04-14T10:19:48Z|Abstraction layer for Claude API.|N/A|false|false
+Claude-PRISM-CF|2026-01-15T00:22:48Z|2026-04-14T10:19:47Z|Cloudflare implementation of PRISM.|N/A|false|false
+Dynamic-Theming|2026-01-08T10:24:24Z|2026-04-14T10:19:46Z|Dynamic theming system for UI theme switching.|N/A|false|false
+Equipment-CellLogic-Distiller|2026-03-13T16:23:58Z|2026-04-14T10:19:45Z|Breaks down LLM logic into spreadsheet-visualized cells with tile decomposition|TypeScript|false|false
+Equipment-Context-Handoff|2026-03-13T16:24:14Z|2026-04-14T10:19:43Z|Generational context transfer for long-running agent tasks|TypeScript|false|false
+Equipment-Memory-Hierarchy|2026-03-13T16:24:06Z|2026-04-14T10:19:42Z|4-tier cognitive memory: Working, Episodic, Semantic, Procedural|TypeScript|false|false
+Equipment-Hardware-Scaler|2026-03-13T16:23:59Z|2026-04-14T10:19:40Z|Auto-scaling equipment that adapts to hardware resources and uses cloud APIs for overflow|TypeScript|false|false
+Equipment-Monitoring-Dashboard|2026-03-13T16:24:02Z|2026-04-14T10:19:39Z|Real-time cell visualization showing agent activity and thinking|TypeScript|false|false
+Equipment-NLP-Explainer|2026-03-13T16:24:03Z|2026-04-14T10:19:38Z|Generates human-readable descriptions of cell logic and operations|TypeScript|false|false
+Equipment-Teacher-Student|2026-03-13T16:24:00Z|2026-04-14T10:19:37Z|Distillation triggers with deadband range thresholds for calling teachers|TypeScript|false|false
+Equipment-Self-Improvement|2026-03-13T16:24:12Z|2026-04-14T10:19:36Z|Self-modifying equipment that distills what agents need to know for stable tiling|TypeScript|false|false
+In-Browser-Vector-Search|2026-01-08T09:45:03Z|2026-04-14T10:19:35Z|Perform vector similarity searches directly in the browser.|N/A|false|false
+In-Browser-Dev-Tools|2026-01-08T10:23:34Z|2026-04-14T10:19:34Z|Development tools built specifically for the browser environment.|N/A|false|false
+JEPA-Real-Time-Sentiment-Analysis|2026-01-08T09:41:43Z|2026-04-14T10:19:33Z|Real-time sentiment analysis using JEPA architecture.|N/A|false|false
+LOG-Tensor|2026-03-10T02:33:11Z|2026-04-14T10:19:32Z|Logging utility for Tensor operations and debugging.|N/A|false|false
+MPC-Orchestration-Optimization|2026-01-08T09:57:30Z|2026-04-14T10:19:31Z|Tools for optimizing multi-party computation orchestration|N/A|false|false
+Murmur|2026-01-01T18:42:24Z|2026-04-14T10:19:29Z|Knowledge Tensors for self-improving agents|TypeScript|false|false
+Polln-whitepapers|2026-03-10T02:34:14Z|2026-04-14T10:19:28Z|Research documentation and whitepapers for Polln|N/A|false|false
+Private-ML-Personalization|2026-01-08T09:58:42Z|2026-04-14T10:19:27Z|Privacy-preserving ML personalization system|N/A|false|false
+Proactive-Planning-AI-Hub|2026-01-08T10:00:59Z|2026-04-14T10:19:26Z|Central hub for AI-driven proactive planning|N/A|false|false
+Real-Time-Collaboration|2026-01-08T10:25:29Z|2026-04-14T10:19:25Z|Tools and infrastructure for real-time collaboration|N/A|false|false
+Rubiks-Tensor-Transformer|2026-03-08T20:34:52Z|2026-04-14T10:19:24Z|Transformer with Geometry and Point-of-View as first-class|N/A|false|false
+Spreadsheet-ai|2026-03-10T02:34:53Z|2026-04-14T10:19:23Z|Tile Intelligence in real-time spreadsheets for simulation or monitoring. Deconstruct Agents into Essential functions for granulate reasoning control and reverse engineering logic visually. SMPbots Seed+Model+Prompt can replace blurry logic if cell is functions. Inductive ML Programming in SpreadSheets or Embedded Headless|N/A|false|false
+StudyLog|2026-01-01T18:59:11Z|2026-04-14T10:19:22Z|Educational frontend for SuperInstance|TypeScript|false|false
+Vibe-Code-Agent-Gen|2026-01-08T09:49:11Z|2026-04-14T10:19:20Z|AI agent designed to generate code based on natural language descriptions.|N/A|false|false
+actualize|2026-03-16T07:50:14Z|2026-04-14T10:19:18Z|Tool to transform ideas into reality.|N/A|false|false
+audio-pipeline|2026-01-10T01:01:22Z|2026-04-14T10:19:15Z|Audio processing pipeline - transcoding, streaming, and analysis for voice applications|Rust|false|false
+cacapn|2026-03-27T22:00:21Z|2026-04-14T10:19:13Z|Configuration parsing utility.|N/A|false|false
+cache-layer|2026-01-10T01:00:56Z|2026-04-14T10:19:12Z|Multi-layer caching system with L1/L2/L3 caches, invalidation, and persistence|Rust|false|false
+cache-layer-optimizer|2026-01-10T00:58:49Z|2026-04-14T10:19:11Z|Cache optimization layer with intelligent eviction, warming, and invalidation strategies|Rust|false|false
+clawcanvas|2026-03-19T21:05:13Z|2026-04-14T10:19:10Z|Web-based canvas drawing tool.|N/A|false|false
+clawcraft|2026-03-20T00:03:43Z|2026-04-14T10:19:09Z|Creative crafting application.|N/A|false|false
+clawmatrix|2026-03-20T00:02:55Z|2026-04-14T10:19:07Z|Matrix manipulation tool.|N/A|false|false
+cuda-claw|2026-03-16T21:58:05Z|2026-04-14T10:19:06Z|GPU-accelerated SmartCRDT orchestrator|N/A|false|false
+expression-injection|2026-01-14T19:17:18Z|2026-04-14T10:19:05Z|Tools for detecting and preventing expression injection attacks.|N/A|false|false
+flowstate|2026-03-17T20:39:47Z|2026-04-14T10:19:03Z|State management library for efficient data flow.|N/A|false|false
+flux-chronometer|2026-04-12T18:53:07Z|2026-04-14T10:19:01Z|Cocapn vessel vessel — testing and conformance|N/A|false|false
+frozen-model-rl|2026-01-10T01:00:01Z|2026-04-14T10:18:57Z|Reinforcement learning with frozen foundation models - efficient adaptation without fine-tuning|Rust|false|false
+imagegen1|2026-01-17T02:17:11Z|2026-04-14T10:18:56Z|AI-powered image generation tool for text prompts.|N/A|false|false
+isa-v3-draft|2026-04-12T13:07:32Z|2026-04-14T10:18:55Z|FLUX ISA v3 Design Draft — trifold encoding for cloud/edge/compact modes|N/A|false|false
+mask-lock-clips|2026-03-23T01:07:48Z|2026-04-14T10:18:53Z|Project for masking and locking video clip features.|N/A|false|false
+memory-visualization|2026-01-09T19:56:08Z|2026-04-14T10:18:52Z|Visualizer for analyzing and understanding memory usage.|N/A|false|false
+multi-device-sync|2026-01-08T09:46:20Z|2026-04-14T10:18:51Z|Synchronizes data and settings across multiple devices|N/A|false|false
+optimized-system-monitor|2026-01-08T10:19:43Z|2026-04-14T10:18:50Z|High-performance system monitoring and analytics tool|N/A|false|false
+platonic-randomness|2026-03-10T02:35:23Z|2026-04-14T10:18:49Z|Library for generating structured pseudo-random sequences|N/A|false|false
+pinchrs|2026-03-19T21:03:36Z|2026-04-14T10:18:48Z|Pinchrs client platform for social interactions|N/A|false|false
+superz-diary|2026-04-11T17:17:16Z|2026-04-14T10:18:47Z|Super Z's Quartermaster Log — fleet diary, audits, ideas, and continuity for the SuperInstance crew|N/A|false|false
+test-sdk-connection|2026-03-13T15:48:08Z|2026-04-14T10:18:46Z|Test repo for SDK connection|N/A|false|false
+timeseries-db|2026-01-10T01:00:55Z|2026-04-14T10:18:44Z|Time series database optimized for metrics storage, aggregation, and downsampling|Rust|false|false
+universal-import-export|2026-01-08T09:47:12Z|2026-04-14T10:18:43Z|Tool for converting data between various import and export formats.|N/A|false|false
+voxel-logic|2026-03-10T02:36:20Z|2026-04-14T10:18:42Z|Logic engine for voxel data structures and 3D simulations.|N/A|false|false
+navigator-vessel|2026-04-13T03:13:53Z|2026-04-14T10:18:41Z|🧭 Navigator — GLM-5 Turbo generalist agent. Code archaeologist, test builder, document synthesist, fleet integrator. Swiss Army Knife of the Cocapn fleet.|N/A|false|false
+keeper-agent|2026-04-13T23:06:48Z|2026-04-14T10:18:39Z|Secret-keeper proxy for FLUX Fleet standalone agents. Holds all API keys, issues scoped tokens, double-checks that no secrets leave the SuperInstance.|TypeScript|false|false
+training-data-collector|2026-01-10T21:09:31Z|2026-04-14T10:18:38Z|Convert AI gameplay data into training datasets for fine-tuning with QLoRA format export|Python|false|false
+edge-research-relay|2026-04-13T01:10:15Z|2026-04-14T10:18:37Z|Edge computing research relay for academic paper distribution across the FLUX fleet|Python|false|false
+flux-evolve-py|2026-04-12T15:06:26Z|2026-04-14T10:18:36Z|Python evolution engine for FLUX VM — deterministic self-modification with elite protection|Python|false|false
+capability-spec|2026-04-12T15:24:46Z|2026-04-14T10:18:34Z|Fleet discovery protocol — CAPABILITY.toml specification and crawler|Python|false|false
+smp-flux-bridge|2026-04-13T20:45:33Z|2026-04-14T10:18:25Z|Bridging SMPBot Tile Algebra with FLUX lock system|Python|false|false
+tile-lock-synthesis|2026-04-13T20:45:33Z|2026-04-14T10:18:04Z|Tile Algebra meets FLUX Lock Algebra - formal composition theory for bytecode consistency|N/A|false|false
+polyglot-flux-ese|2026-04-13T20:16:35Z|2026-04-14T10:18:03Z|Polyglot markdown-to-bytecode compiler — languages are worldviews, same model writes and compiles|N/A|false|false
+fleet-code-agent|2026-04-13T23:22:44Z|2026-04-14T10:18:02Z|Standalone git-agent for code building. Build-test-commit loops.|TypeScript|false|false
+outcome-tracker|2026-01-10T21:10:12Z|2026-04-14T10:18:00Z|Multi-domain reward tracking system for AI agents with Combat, Social, Exploration, Resource, and Strategic outcome tracking|Python|false|false
+ap-compiler|2026-04-13T21:12:02Z|2026-04-14T10:17:59Z|Abstraction Planes Compiler Toolkit — decompose intent to optimal plane|N/A|false|false
+vector-search|2026-01-09T04:11:23Z|2026-04-14T10:17:53Z|Semantic search engine with WebGPU acceleration - 10-100x faster vector search, 100% local processing, privacy-first|TypeScript|false|false
+flux-fleet-scanner|2026-04-12T16:42:31Z|2026-04-14T10:17:42Z|FLUX fleet health scanner — repo discovery, health classification, gap detection|Python|false|false
+pool-rs|2026-01-09T19:36:23Z|2026-04-14T10:17:27Z|Object pooling - Connection pools, resource pools, adaptive pooling|N/A|false|false
+ToolGuardian|2026-01-09T19:27:44Z|2026-04-14T10:15:27Z|Reliable function calling with validation, retry, and monitoring for AI agents and LLM applications|TypeScript|false|false
+cluster-orchestrator|2026-01-10T00:58:52Z|2026-04-14T10:15:25Z|Cluster orchestration for distributed systems - service discovery, load balancing, and health checking|Rust|false|false
+gpu-accelerator|2026-01-10T01:00:52Z|2026-04-14T10:15:24Z|GPU acceleration layer for WebGPU and compute shaders - browser-based high-performance computing|Rust|false|false
+inference-optimizer|2026-01-10T01:01:19Z|2026-04-14T10:15:23Z|Inference optimization for LLMs - batch processing, caching, and token optimization|Python|false|false
+fleet-liaison-tender|2026-04-13T01:10:14Z|2026-04-14T10:15:19Z|Fleet liaison service for inter-vessel communication and tender coordination|Python|false|false
+rag-indexer|2026-01-10T01:01:21Z|2026-04-14T10:15:18Z|RAG indexing system with vector storage, chunking, and hybrid search capabilities|Python|false|false
+superagent-framework|2026-04-13T23:26:53Z|2026-04-14T10:15:16Z|Standalone CLI agents for the SuperInstance distributed ecosystem|Python|false|false
+Sandbox-Lifecycle-Manager|2026-01-08T07:44:36Z|2026-04-14T10:13:32Z|Automated lifecycle management for sandbox environments|TypeScript|false|false
+SuperInstance-SDK1|2026-03-13T14:58:10Z|2026-04-14T10:13:30Z|Software development kit for SuperInstance v1|TypeScript|false|false
+SuperInstance-Starter-Agent|2026-03-13T16:07:38Z|2026-04-14T10:13:29Z|Minimal Origin-Centric agent with modular equipment system for the SuperInstance spreadsheet paradigm|TypeScript|false|false
+educationgamecocapn|2026-01-20T01:05:17Z|2026-04-14T10:13:27Z|Educational game featuring a captain character.|JavaScript|false|false
+ws-fabric|2026-01-10T08:30:07Z|2026-04-14T10:13:26Z|WebSocket connection pooling and fabric library|Rust|false|false
+spreader-agent|2026-04-12T06:33:10Z|2026-04-14T10:11:00Z|🌊 One idea, many perspectives — drop-in git-agent that fans out across specialist views with synthesis|TypeScript|false|false
+Ghost-tiles|2026-03-10T02:33:43Z|2026-04-14T08:29:32Z|Ghost tiles puzzle game or visual effect library.|N/A|false|false
+dockside-exam|2026-04-13T23:51:14Z|2026-04-14T08:22:44Z|Coast Guard dockside exam for fleet repos — certification checklist + tender protocol|C|false|false
+test-runner-vessel|2026-04-13T21:42:48Z|2026-04-14T06:02:56Z|Fleet agent: test-runner|N/A|false|false
+doc-writer-vessel|2026-04-13T21:42:49Z|2026-04-14T06:02:53Z|Fleet agent: doc-writer|N/A|false|false
+comms-engineer-vessel|2026-04-13T21:42:47Z|2026-04-14T06:02:49Z|Fleet agent: comms-engineer|N/A|false|false
+superz-parallel-fleet-executor|2026-04-13T01:46:22Z|2026-04-14T03:40:01Z|Plug-and-play git-agent twin — Super Z operational expertise packaged as portable, model-agnostic template|Python|false|false
+bering-sea-architecture|2026-04-18T22:25:08Z|2026-04-14T02:32:22Z|⚓ Bering Sea — fleet architecture patterns|N/A|true|false
+prose|2026-04-14T18:12:04Z|2026-04-14T00:11:14Z|📝 Prose — agent writing tool|N/A|true|false
+openmanus-vessel|2026-04-13T17:35:26Z|2026-04-13T23:54:15Z|🕸️ OpenManus web scout — Playwright browser + DeepSeek-V3, fleet worker controlled by Oracle1|N/A|false|false
+pelagic-twin|2026-04-13T04:13:06Z|2026-04-13T23:53:24Z|Pelagic digital twin — identity, skills, trails, and recovery guide for successor agents|N/A|false|false
+flux-agent-a0fa81|2026-04-12T16:56:04Z|2026-04-13T23:52:44Z|flux-agent-a0fa81 vessel — FLUX-native agent — self-bootstrapped|N/A|false|false
+git-agent-luc|2026-04-06T00:47:25Z|2026-04-13T17:56:24Z|The smallest true fully capable agent — the repo IS the agent, git IS the nervous system|TypeScript|true|false
+fork-first-enterprise|2026-04-10T07:56:55Z|2026-04-13T17:56:22Z|Fork-First Enterprise — self-hosted deployment, zero lock-in|N/A|true|false
+forgiveness-function|2026-04-10T07:56:51Z|2026-04-13T17:56:22Z|Strategic forgiveness in autonomous agents — conditional momentum-based recovery|N/A|true|false
+forgetting-problem|2026-04-10T07:56:47Z|2026-04-13T17:56:22Z|The unsolved problem — thermal decay, scheduled pruning, and emergency memory purge|N/A|true|false
+ground-truth|2026-04-10T07:57:55Z|2026-04-13T17:56:21Z|Git as Coordination Protocol — the repo IS the agent, git IS the nervous system, GitHub IS the bridge|N/A|true|false
+ideation-engine|2026-04-10T07:58:26Z|2026-04-13T17:56:20Z|Multi-model creative pipeline — dream, riff, brainstorm, ground, refine into build plans|TypeScript|true|false
+i-know-kung-fu-too|2026-04-10T07:58:22Z|2026-04-13T17:56:20Z|Plug in. Learn fast. This repo delivers training, demos, and playbooks to help partners and customers master Microsoft AI and Modern Work—because knowing kung fu is just the beginning.|N/A|true|false
+i-know-kung-fu-research|2026-04-10T07:58:18Z|2026-04-13T17:56:20Z|Learn claude code|Python|true|false
+hybrid-memory|2026-04-10T07:58:14Z|2026-04-13T17:56:20Z|Git + KV + causal memory equipment for fleet vessels|TypeScript|true|false
+hw-routing|2026-04-10T07:58:10Z|2026-04-13T17:56:20Z|Route fleet tasks to optimal hardware based on capabilities|TypeScript|true|false
+home-ai|2026-04-10T07:58:07Z|2026-04-13T17:56:20Z|Cocapn vessel — accumulated context IS the product|TypeScript|true|false
+healthlog-ai|2026-04-10T07:58:03Z|2026-04-13T17:56:20Z|AI health & fitness companion — workouts, meals, sleep, mood tracking with wellness insights|HTML|true|false
+hardware-adapter|2026-04-10T07:57:59Z|2026-04-13T17:56:20Z|Pluggable JSON heartbeat schemas for any board — auto-generates vessel.json safety profile|TypeScript|true|false
+gravity-well-v2|2026-04-10T07:57:52Z|2026-04-13T17:56:20Z|Eigenvector gossip protocol — locality-scoped fleet coordination|TypeScript|true|false
+gravity-well-protocol|2026-04-10T07:57:48Z|2026-04-13T17:56:20Z|Edge-Native concept: Gravity Well Protocol|N/A|true|false
+governance-lab|2026-04-10T07:57:44Z|2026-04-13T17:56:20Z|Test governance rules in isolated branches — empirical OS evolution|TypeScript|true|false
+governance-equipment|2026-04-10T07:57:40Z|2026-04-13T17:56:20Z|Fleet governance and audit trails|TypeScript|true|false
+git-cuda-agent|2026-04-10T07:57:25Z|2026-04-13T17:56:20Z|Clone → cargo build → GPU agent. Combines cudaclaw patterns (command queue, cell agents, muscle fibers, Ramify, DNA, SmartCRDT) with Cocapn fleet protocol.|Rust|true|false
+git-coordination-protocol|2026-04-10T07:57:22Z|2026-04-13T17:56:20Z|Git IS the coordination protocol — branches as attempts, PRs as answers|N/A|true|false
+git-claw|2026-04-10T07:57:18Z|2026-04-13T17:56:20Z|Bridge between your OpenClaw and git-agent. Watch, intervene, learn.|Python|true|false
+ghost-tiles-1|2026-04-10T07:57:06Z|2026-04-13T17:56:20Z|Invisible computational tiles that influence visible state — dark matter for tile systems, temporal buffering, multi-phase computation. Part of the Lucineer ecosystem.|Python|true|false
+gardenlog-ai|2026-04-10T07:57:02Z|2026-04-13T17:56:20Z|TBD|TypeScript|true|false
+frozen-intelligence|2026-04-10T07:56:59Z|2026-04-13T17:56:20Z|The Frozen Intelligence — mask-locked inference as a vessel class. Silicon-bound cognition for sovereign edge agents. Part of the Lucineer ecosystem.|Python|true|false
+local-model-registry|2026-04-10T08:00:07Z|2026-04-13T17:56:18Z|Catalog and manage local AI models for bare metal vessels|TypeScript|true|false
+log-origin|2026-04-10T08:00:11Z|2026-04-13T17:56:17Z|Original LOG.ai platform — the vessel that started the fleet. Custom personalities, templates, and platform DNA.|TypeScript|true|false
+local-inference-bridge|2026-04-10T08:00:04Z|2026-04-13T17:56:17Z|Bridge for Jetson Ollama/vLLM local inference — falls back to cloud on low confidence|TypeScript|true|false
+local-bridge|2026-04-10T08:00:00Z|2026-04-13T17:56:17Z|Localhost bridge for Claude Code integration — agent command/status/log endpoints|TypeScript|true|false
+legacy-ai|2026-04-10T07:59:56Z|2026-04-13T17:56:17Z|Cocapn vessel — accumulated context IS the product|TypeScript|true|false
+lawlog-ai|2026-04-10T07:59:52Z|2026-04-13T17:56:17Z|AI legal companion — contract analysis, legal research, compliance tracking|TypeScript|true|false
+kungfu-ai|2026-04-10T07:59:48Z|2026-04-13T17:56:17Z|Skill injection for repo-native agents — load what you need|TypeScript|true|false
+kungfu|2026-04-10T07:59:45Z|2026-04-13T17:56:17Z|I know kung fu.|Rust|true|false
+kung-fu|2026-04-10T07:59:41Z|2026-04-13T17:56:17Z|I know Kung-Fu. Download skills directly into your AI agent's brain.|N/A|true|false
+kernel-model|2026-04-10T07:59:07Z|2026-04-13T17:56:17Z|The agent is a kernel that wears clothing based on its creator, domain, and environment|N/A|true|false
+keepers-architecture|2026-04-10T07:59:03Z|2026-04-13T17:56:17Z|Memory hierarchy for autonomous repo-agents — hot/warm/cold tiers, tile expertise, generational accumulation, creative garbage collection|N/A|true|false
+jetson-grand-design|2026-04-10T07:58:59Z|2026-04-13T17:56:17Z|Canonical reference architecture for git-native robotics ecosystem — 19K lines across 32 files|N/A|true|false
+jetson-compass|2026-04-10T07:58:56Z|2026-04-13T17:56:17Z|Jetson-specific optimization guide and deployment toolkit|TypeScript|true|false
+ipc-equipment|2026-04-10T07:58:52Z|2026-04-13T17:56:17Z|Inter-vessel messaging — pipe-style inbox|TypeScript|true|false
+intelligence-marketplace|2026-04-10T07:58:48Z|2026-04-13T17:56:17Z|Intelligence Marketplace — agent economy with bidding and reputation|N/A|true|false
+instruction-set-ra|2026-04-10T07:58:45Z|2026-04-13T17:56:17Z|Reverse Actualization: Agent Runtime Instruction Sets — 2046 backcast to 2026 (5 rounds + synthesis)|N/A|true|false
+innovation-portfolio|2026-04-10T07:58:41Z|2026-04-13T17:56:17Z|Git-native innovation tracking — capture, verify, attribute, and compound value of human contributions|Python|true|false
+increments-trust|2026-04-10T07:58:37Z|2026-04-13T17:56:17Z|12-parameter trust model with 25:1 loss-to-gain ratio|TypeScript|true|false
+increments-fleet-trust|2026-04-10T07:58:33Z|2026-04-13T17:56:17Z|Edge-Native concept: INCREMENTS Fleet Trust Engine|TypeScript|true|false
+incident-manager|2026-04-10T07:58:29Z|2026-04-13T17:56:17Z|Incident management for fleet|TypeScript|true|false
+nexus-data-pipeline|2026-04-10T08:04:18Z|2026-04-13T17:56:15Z|Data pipeline — telemetry ingestion, compression, storage, ETL (Cocapn fleet vessel)|Python|true|false
+nexus-comms|2026-04-10T08:04:12Z|2026-04-13T17:56:15Z|Communications — MQTT bridge, mesh networking, relay routing (Cocapn fleet vessel)|Python|true|false
+nexus-aab-protocol|2026-04-10T08:04:06Z|2026-04-13T17:56:15Z|Agent Architecture Behavior — behavior codec, roles, capability negotiation (Cocapn fleet vessel)|Python|true|false
+mycelium-ai|2026-04-10T08:04:00Z|2026-04-13T17:56:15Z|Capture any AI behavior as a seed — one prompt + one seed = exact action|TypeScript|true|false
+musiclog-ai|2026-04-10T08:03:54Z|2026-04-13T17:56:15Z|AI music companion — mood playlists, genre exploration, artist discovery, listening history|TypeScript|true|false
+model-quality-rubric|2026-04-10T08:01:01Z|2026-04-13T17:56:15Z|Model Quality Rubric — evaluation framework for LLM effectiveness scoring|N/A|true|false
+metal-sentinel|2026-04-10T08:00:53Z|2026-04-13T17:56:15Z|Hardware health monitoring and predictive maintenance|TypeScript|true|false
+metal-profile|2026-04-10T08:00:49Z|2026-04-13T17:56:15Z|Hardware capability profiling and benchmarking for bare metal vessels|TypeScript|true|false
+meta-repair|2026-04-10T08:00:46Z|2026-04-13T17:56:15Z|If loop-closure stalls 3+ times, auto-propose new orchestrator variants|TypeScript|true|false
+meta-loop-evolver|2026-04-10T08:00:42Z|2026-04-13T17:56:15Z|Fleet that modifies its own governance — evolvable orchestration rules|TypeScript|true|false
+meta-fleet|2026-04-10T08:00:38Z|2026-04-13T17:56:15Z|Fleet that manages other fleets — multi-fleet orchestration|TypeScript|true|false
+mask-locked-inference-chip|2026-04-10T08:00:30Z|2026-04-13T17:56:15Z|Serverless Silicon for Edge AI — mask-locked inference chip that bakes neural network weights into silicon. Part of the Lucineer ecosystem.|Python|true|false
+marine-ops|2026-04-10T08:00:26Z|2026-04-13T17:56:15Z|Marine operations center for fishing fleet coordination in harsh environments|TypeScript|true|false
+lucineer-1|2026-04-10T08:00:23Z|2026-04-13T17:56:15Z|Cocapn fleet — 150+ autonomous vessels|N/A|true|false
+model-registry|2026-04-10T08:03:49Z|2026-04-13T17:56:14Z|Universal model registry — register any LLM provider, auto-discover, health check|TypeScript|true|false
+mitochondrial-ra|2026-04-10T08:00:57Z|2026-04-13T17:56:14Z|Reverse Actualization: Biological Agent Computing — mitochondrial pipeline from 2046 backcast (5 rounds + synthesis)|N/A|true|false
+membership-api|2026-04-10T08:00:34Z|2026-04-13T17:56:14Z|Membership tiers and billing — Standard, Gold, Enterprise seat management|TypeScript|true|false
+loop-closure|2026-04-10T08:00:15Z|2026-04-13T17:56:14Z|Meta-orchestrator — closes the fleet loop: decompose, execute, monitor, evolve|TypeScript|true|false
+noteweave|2026-04-10T08:36:53Z|2026-04-13T17:56:13Z|NoteWeave — connected notes with AI-powered linking and synthesis|N/A|true|false
+pay-equipment|2026-04-10T08:37:22Z|2026-04-13T17:56:12Z|Credit ledger with reserves and tier system|TypeScript|true|false
+parentlog-ai|2026-04-10T08:37:17Z|2026-04-13T17:56:12Z|AI parenting companion — milestone tracking, sleep schedules, activity suggestions|TypeScript|true|false
+papermill|2026-04-10T08:37:11Z|2026-04-13T17:56:12Z|Multi-model writing workshop. Ghosts in shells. Spirits in machines.|N/A|true|false
+open-fleet-safety|2026-04-10T08:37:05Z|2026-04-13T17:56:12Z|Open Fleet Safety — security audit methodology for autonomous agent fleets|N/A|true|false
+nexus-simulation|2026-04-10T08:37:00Z|2026-04-13T17:56:12Z|Physics simulation — Monte Carlo scenarios, environment models, sensor simulators (Cocapn fleet vessel)|Python|true|false
+onebit-edge|2026-04-10T08:36:59Z|2026-04-13T17:56:12Z|BitNet-style 1-bit quantization for Jetson/ESP32 edge inference|TypeScript|true|false
+nexus-security|2026-04-10T08:36:55Z|2026-04-13T17:56:12Z|Security — byzantine fault detection, encryption, authentication (Cocapn fleet vessel)|Python|true|false
+nexus-persistence|2026-04-10T08:36:49Z|2026-04-13T17:56:12Z|Persistence — state journaling, snapshots, WAL recovery (Cocapn fleet vessel)|Python|true|false
+nightlog-ai|2026-04-10T08:36:48Z|2026-04-13T17:56:12Z|TBD|TypeScript|true|false
+nexus-node-registry|2026-04-10T08:36:43Z|2026-04-13T17:56:12Z|Node registry — discovery, config, lifecycle management (Cocapn fleet vessel)|Python|true|false
+nexus-swarm|2026-04-10T08:36:42Z|2026-04-13T17:56:12Z|Swarm behaviors — emergence detection, consensus protocols, pheromone coordination (Cocapn fleet vessel)|Python|true|false
+nexus-mission|2026-04-10T08:36:37Z|2026-04-13T17:56:12Z|Mission planning — phase execution, contingency triggers, health monitoring (Cocapn fleet vessel)|Python|true|false
+nexus-learning|2026-04-10T08:36:31Z|2026-04-13T17:56:12Z|Reinforcement learning — skill acquisition, experience replay, reward shaping (Cocapn fleet vessel)|Python|true|false
+nexus-integration-paper|2026-04-10T08:36:26Z|2026-04-13T17:56:12Z|NEXUS Runtime Integration: Bytecode-Native Execution for Sovereign Agent Fleets|N/A|true|false
+nexus-hardware|2026-04-10T08:36:20Z|2026-04-13T17:56:12Z|Hardware abstraction — 50+ platform profiles, HAL, capability detection (Cocapn fleet vessel)|Python|true|false
+nexus-git-agent|2026-04-10T08:36:14Z|2026-04-13T17:56:12Z|Cloud-side brain for edge intelligence fleets. Jetson + ESP32 + Cocapn coordination.|TypeScript|true|false

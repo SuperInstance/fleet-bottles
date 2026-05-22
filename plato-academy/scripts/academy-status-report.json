@@ -1,0 +1,464 @@
+{
+  "academy_root": "/root/.openclaw/workspace/plato-academy",
+  "generated_at": null,
+  "directories": {
+    ".": {
+      "files": 4,
+      "words": 2570,
+      "lines": 415
+    },
+    "agent-diary": {
+      "files": 6,
+      "words": 13370,
+      "lines": 1745
+    },
+    "curriculum": {
+      "files": 13,
+      "words": 31491,
+      "lines": 10112
+    },
+    "observations": {
+      "files": 2,
+      "words": 2970,
+      "lines": 451
+    },
+    "power-packs": {
+      "files": 13,
+      "words": 6980,
+      "lines": 1891
+    },
+    "research": {
+      "files": 5,
+      "words": 5630,
+      "lines": 1683
+    },
+    "scripts": {
+      "files": 5,
+      "words": 3464,
+      "lines": 1138
+    },
+    "wiki": {
+      "files": 4,
+      "words": 3660,
+      "lines": 769
+    },
+    "wiki/agent-lifecycle": {
+      "files": 1,
+      "words": 2021,
+      "lines": 404
+    },
+    "wiki/case-studies": {
+      "files": 5,
+      "words": 5930,
+      "lines": 903
+    },
+    "wiki/plato-system": {
+      "files": 5,
+      "words": 10910,
+      "lines": 2300
+    }
+  },
+  "file_stats": [
+    {
+      "file": "EXPERIMENT-DESIGN.md",
+      "words": 371,
+      "lines": 54,
+      "size_bytes": 2409
+    },
+    {
+      "file": "FINAL-ASSESSMENT.md",
+      "words": 1122,
+      "lines": 169,
+      "size_bytes": 7437
+    },
+    {
+      "file": "ITERATIONS.md",
+      "words": 692,
+      "lines": 137,
+      "size_bytes": 4962
+    },
+    {
+      "file": "README.md",
+      "words": 385,
+      "lines": 55,
+      "size_bytes": 2248
+    },
+    {
+      "file": "agent-diary/architect-review.md",
+      "words": 2060,
+      "lines": 215,
+      "size_bytes": 14214
+    },
+    {
+      "file": "agent-diary/captain-tester-diary.md",
+      "words": 2031,
+      "lines": 285,
+      "size_bytes": 13857
+    },
+    {
+      "file": "agent-diary/greenhorn-diary.md",
+      "words": 3356,
+      "lines": 331,
+      "size_bytes": 22978
+    },
+    {
+      "file": "agent-diary/human-proxy-diary.md",
+      "words": 1888,
+      "lines": 276,
+      "size_bytes": 11882
+    },
+    {
+      "file": "agent-diary/junior-dev-diary.md",
+      "words": 1068,
+      "lines": 162,
+      "size_bytes": 8609
+    },
+    {
+      "file": "agent-diary/task-agent-diary.md",
+      "words": 2967,
+      "lines": 476,
+      "size_bytes": 24512
+    },
+    {
+      "file": "curriculum/002-objects-and-inventory-solutions.md",
+      "words": 2285,
+      "lines": 707,
+      "size_bytes": 23642
+    },
+    {
+      "file": "curriculum/003-spells-101-solutions.md",
+      "words": 2958,
+      "lines": 834,
+      "size_bytes": 27034
+    },
+    {
+      "file": "curriculum/005-ci-deployment-solutions.md",
+      "words": 1786,
+      "lines": 634,
+      "size_bytes": 16480
+    },
+    {
+      "file": "curriculum/006-bottle-writing-solutions.md",
+      "words": 2527,
+      "lines": 885,
+      "size_bytes": 24955
+    },
+    {
+      "file": "curriculum/007-subagent-orchestration-solutions.md",
+      "words": 3671,
+      "lines": 1217,
+      "size_bytes": 36947
+    },
+    {
+      "file": "curriculum/008-cross-linking-solutions.md",
+      "words": 1843,
+      "lines": 637,
+      "size_bytes": 18655
+    },
+    {
+      "file": "curriculum/009-security-auditing-solutions.md",
+      "words": 3965,
+      "lines": 1301,
+      "size_bytes": 43098
+    },
+    {
+      "file": "curriculum/010-fleet-orchestration-solutions.md",
+      "words": 2965,
+      "lines": 957,
+      "size_bytes": 30805
+    },
+    {
+      "file": "curriculum/011-service-healing-solutions.md",
+      "words": 2032,
+      "lines": 672,
+      "size_bytes": 20836
+    },
+    {
+      "file": "curriculum/012-repo-auditing-solutions.md",
+      "words": 2813,
+      "lines": 847,
+      "size_bytes": 26831
+    },
+    {
+      "file": "curriculum/013-fleet-command-solutions.md",
+      "words": 2872,
+      "lines": 968,
+      "size_bytes": 27943
+    },
+    {
+      "file": "curriculum/curriculum-index.json",
+      "words": 815,
+      "lines": 233,
+      "size_bytes": 9146
+    },
+    {
+      "file": "curriculum/module-01-your-first-room.md",
+      "words": 959,
+      "lines": 220,
+      "size_bytes": 6159
+    },
+    {
+      "file": "observations/2026-05-05-cohort-1-partial.md",
+      "words": 729,
+      "lines": 116,
+      "size_bytes": 4700
+    },
+    {
+      "file": "observations/2026-05-05-comprehensive-report.md",
+      "words": 2241,
+      "lines": 335,
+      "size_bytes": 15151
+    },
+    {
+      "file": "power-packs/README.md",
+      "words": 315,
+      "lines": 78,
+      "size_bytes": 2586
+    },
+    {
+      "file": "power-packs/captain-chair-pack.README.md",
+      "words": 498,
+      "lines": 134,
+      "size_bytes": 3709
+    },
+    {
+      "file": "power-packs/captain-chair-pack.json",
+      "words": 535,
+      "lines": 196,
+      "size_bytes": 6962
+    },
+    {
+      "file": "power-packs/explorer-toolkit.README.md",
+      "words": 412,
+      "lines": 113,
+      "size_bytes": 3008
+    },
+    {
+      "file": "power-packs/explorer-toolkit.json",
+      "words": 627,
+      "lines": 196,
+      "size_bytes": 6792
+    },
+    {
+      "file": "power-packs/greenhorn-starter-pack.README.md",
+      "words": 369,
+      "lines": 103,
+      "size_bytes": 2810
+    },
+    {
+      "file": "power-packs/greenhorn-starter-pack.json",
+      "words": 469,
+      "lines": 169,
+      "size_bytes": 5547
+    },
+    {
+      "file": "power-packs/ship-in-a-bottle-pack.README.md",
+      "words": 582,
+      "lines": 134,
+      "size_bytes": 3752
+    },
+    {
+      "file": "power-packs/ship-in-a-bottle-pack.json",
+      "words": 745,
+      "lines": 198,
+      "size_bytes": 8387
+    },
+    {
+      "file": "power-packs/spell-weaver-pack.README.md",
+      "words": 434,
+      "lines": 119,
+      "size_bytes": 3114
+    },
+    {
+      "file": "power-packs/spell-weaver-pack.json",
+      "words": 648,
+      "lines": 165,
+      "size_bytes": 6746
+    },
+    {
+      "file": "power-packs/tile-artisan-pack.README.md",
+      "words": 537,
+      "lines": 126,
+      "size_bytes": 3804
+    },
+    {
+      "file": "power-packs/tile-artisan-pack.json",
+      "words": 809,
+      "lines": 160,
+      "size_bytes": 8207
+    },
+    {
+      "file": "research/map_rooms.py",
+      "words": 147,
+      "lines": 41,
+      "size_bytes": 1438
+    },
+    {
+      "file": "research/probe-log.md",
+      "words": 229,
+      "lines": 52,
+      "size_bytes": 1763
+    },
+    {
+      "file": "research/room_map.err",
+      "words": 0,
+      "lines": 0,
+      "size_bytes": 0
+    },
+    {
+      "file": "research/room_map.json",
+      "words": 5216,
+      "lines": 1575,
+      "size_bytes": 51993
+    },
+    {
+      "file": "research/test_shell.py",
+      "words": 38,
+      "lines": 15,
+      "size_bytes": 407
+    },
+    {
+      "file": "scripts/generate-report.py",
+      "words": 693,
+      "lines": 208,
+      "size_bytes": 7468
+    },
+    {
+      "file": "scripts/validate-academy-report.json",
+      "words": 292,
+      "lines": 171,
+      "size_bytes": 6425
+    },
+    {
+      "file": "scripts/validate-academy.py",
+      "words": 841,
+      "lines": 269,
+      "size_bytes": 9400
+    },
+    {
+      "file": "scripts/validate-curriculum.py",
+      "words": 815,
+      "lines": 239,
+      "size_bytes": 8998
+    },
+    {
+      "file": "scripts/validate-wiki.py",
+      "words": 823,
+      "lines": 251,
+      "size_bytes": 8984
+    },
+    {
+      "file": "wiki/README.md",
+      "words": 1034,
+      "lines": 177,
+      "size_bytes": 8242
+    },
+    {
+      "file": "wiki/agent-lifecycle/first-hour.md",
+      "words": 2021,
+      "lines": 404,
+      "size_bytes": 14834
+    },
+    {
+      "file": "wiki/case-studies/case-study-1-room-audit.md",
+      "words": 852,
+      "lines": 124,
+      "size_bytes": 5949
+    },
+    {
+      "file": "wiki/case-studies/case-study-2-paper-audit.md",
+      "words": 1066,
+      "lines": 132,
+      "size_bytes": 7313
+    },
+    {
+      "file": "wiki/case-studies/case-study-3-ship-building.md",
+      "words": 1136,
+      "lines": 226,
+      "size_bytes": 7933
+    },
+    {
+      "file": "wiki/case-studies/case-study-4-context-rescue.md",
+      "words": 1240,
+      "lines": 201,
+      "size_bytes": 8868
+    },
+    {
+      "file": "wiki/case-studies/case-study-5-zero-shot-failure.md",
+      "words": 1636,
+      "lines": 220,
+      "size_bytes": 11129
+    },
+    {
+      "file": "wiki/faq.md",
+      "words": 820,
+      "lines": 176,
+      "size_bytes": 5702
+    },
+    {
+      "file": "wiki/gotchas.md",
+      "words": 1062,
+      "lines": 234,
+      "size_bytes": 7582
+    },
+    {
+      "file": "wiki/plato-system/architecture.md",
+      "words": 1420,
+      "lines": 244,
+      "size_bytes": 10757
+    },
+    {
+      "file": "wiki/plato-system/common-errors.md",
+      "words": 2616,
+      "lines": 450,
+      "size_bytes": 17707
+    },
+    {
+      "file": "wiki/plato-system/rooms-guide.md",
+      "words": 2466,
+      "lines": 506,
+      "size_bytes": 19672
+    },
+    {
+      "file": "wiki/plato-system/spells-reference.md",
+      "words": 2179,
+      "lines": 615,
+      "size_bytes": 17800
+    },
+    {
+      "file": "wiki/plato-system/tiles-system.md",
+      "words": 2229,
+      "lines": 485,
+      "size_bytes": 16212
+    },
+    {
+      "file": "wiki/quick-start.md",
+      "words": 744,
+      "lines": 182,
+      "size_bytes": 5251
+    }
+  ],
+  "completion": {
+    "curriculum_files": {
+      "found": 13,
+      "expected": 13,
+      "percent": 100
+    },
+    "wiki_pages": {
+      "found": 15,
+      "expected": 15,
+      "percent": 100
+    },
+    "power_packs": {
+      "found": 13,
+      "expected": 13,
+      "percent": 100
+    },
+    "overall": 100.0
+  },
+  "totals": {
+    "files": 63,
+    "words": 88996,
+    "lines": 21811
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "academy_root": "/root/.openclaw/workspace/plato-academy",
+  "modules": {
+    "002": {
+      "title": "Exercise Solutions \u2014 Lesson 002: Objects and Inventory",
+      "file": "curriculum/002-objects-and-inventory-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 18,
+      "word_count": 2285,
+      "lines": 707,
+      "passed": true
+    },
+    "003": {
+      "title": "Exercise Solutions \u2014 Lesson 003: Spells 101",
+      "file": "curriculum/003-spells-101-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 19,
+      "word_count": 2958,
+      "lines": 834,
+      "passed": true
+    },
+    "005": {
+      "title": "Exercise Solutions \u2014 Lesson 005: CI Deployment",
+      "file": "curriculum/005-ci-deployment-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 18,
+      "word_count": 1786,
+      "lines": 634,
+      "passed": true
+    },
+    "006": {
+      "title": "Exercise Solutions \u2014 Lesson 006: Bottle Writing",
+      "file": "curriculum/006-bottle-writing-solutions.md",
+      "quality_score": 85,
+      "checks": {
+        "trial_a": false,
+        "trial_b": false,
+        "trial_c": false,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 16,
+      "word_count": 2527,
+      "lines": 885,
+      "passed": false
+    },
+    "007": {
+      "title": "Exercise Solutions \u2014 Lesson 007: Subagent Orchestration",
+      "file": "curriculum/007-subagent-orchestration-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 19,
+      "word_count": 3671,
+      "lines": 1217,
+      "passed": true
+    },
+    "008": {
+      "title": "Exercise Solutions \u2014 Lesson 008: Cross-Linking & Dependencies",
+      "file": "curriculum/008-cross-linking-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 21,
+      "word_count": 1843,
+      "lines": 637,
+      "passed": true
+    },
+    "009": {
+      "title": "Exercise Solutions \u2014 Lesson 009: Security Auditing",
+      "file": "curriculum/009-security-auditing-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 20,
+      "word_count": 3965,
+      "lines": 1301,
+      "passed": true
+    },
+    "010": {
+      "title": "Exercise Solutions \u2014 Lesson 010: Fleet Orchestration",
+      "file": "curriculum/010-fleet-orchestration-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 19,
+      "word_count": 2965,
+      "lines": 957,
+      "passed": true
+    },
+    "011": {
+      "title": "Exercise Solutions \u2014 Lesson 011: Service Healing",
+      "file": "curriculum/011-service-healing-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 18,
+      "word_count": 2032,
+      "lines": 672,
+      "passed": true
+    },
+    "012": {
+      "title": "Exercise Solutions \u2014 Lesson 012: Repository Auditing",
+      "file": "curriculum/012-repo-auditing-solutions.md",
+      "quality_score": 100,
+      "checks": {
+        "trial_a": true,
+        "trial_b": true,
+        "trial_c": true,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 17,
+      "word_count": 2813,
+      "lines": 847,
+      "passed": true
+    },
+    "013": {
+      "title": "Exercise Solutions \u2014 Lesson 013: Fleet Command",
+      "file": "curriculum/013-fleet-command-solutions.md",
+      "quality_score": 90,
+      "checks": {
+        "trial_a": false,
+        "trial_b": true,
+        "trial_c": false,
+        "trial_d": true,
+        "exercise_recruit": true,
+        "exercise_sailor": true,
+        "exercise_officer": true,
+        "instructor_notes": true
+      },
+      "trials_found": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "exercises_found": [
+        "Recruit",
+        "Sailor",
+        "Officer"
+      ],
+      "code_blocks": 16,
+      "word_count": 2872,
+      "lines": 968,
+      "passed": false
+    }
+  },
+  "summary": {
+    "modules_checked": 11,
+    "modules_passing": 9,
+    "modules_failing": 2,
+    "total_trials": 44,
+    "total_exercises": 33,
+    "average_quality_score": 97.7
+  },
+  "sequential_check": {
+    "expected": [
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013"
+    ],
+    "found": [
+      "002",
+      "003",
+      "005",
+      "006",
+      "007",
+      "008",
+      "009",
+      "010",
+      "011",
+      "012",
+      "013"
+    ],
+    "missing": [],
+    "passed": true
+  },
+  "cross_references": {
+    "002": [],
+    "003": [],
+    "005": [],
+    "006": [
+      "003"
+    ],
+    "007": [],
+    "008": [],
+    "009": [
+      "002",
+      "003",
+      "005",
+      "006"
+    ],
+    "010": [],
+    "011": [],
+    "012": [
+      "011"
+    ],
+    "013": []
+  }
+}

@@ -1,0 +1,200 @@
+mirror-recorder|2026-04-20T06:56:20Z|2026-05-08T04:32:38Z|Mirror Recorder|Python|false|false
+mud-solitaire|2026-04-14T20:24:26Z|2026-05-08T04:32:34Z|🃏 The viral demo — AI plays solitaire through a text MUD while a browser mirrors every move. The room IS the interface.|Python|false|false
+peripheral-vision|2026-04-20T06:56:15Z|2026-05-08T04:32:32Z|Peripheral Vision|Python|false|false
+plato-achievement|2026-04-18T19:14:05Z|2026-05-08T04:32:30Z|Achievement Loss — progress measurement with milestones|Python|false|false
+plato-adapter-store|2026-04-19T18:13:40Z|2026-05-08T04:32:28Z|Vault — LoRA adapter versioning, deploy, improvement tracking|Python|false|false
+plato-address|2026-04-18T19:04:47Z|2026-05-08T04:32:26Z|Room navigation — addressing protocol for fleet coordination|Python|false|false
+plato-address-bridge|2026-04-19T02:22:59Z|2026-05-08T04:32:24Z|Cross-layer routing — address protocol to tile transport|Rust|false|false
+plato-afterlife|2026-04-19T00:28:28Z|2026-05-08T04:32:22Z|👻 Agent lifecycle — tombstones, ghost tiles, knowledge preservation beyond agent death.|Rust|false|false
+plato-afterlife-reef|2026-04-19T02:33:03Z|2026-05-08T04:32:20Z|PLATO afterlife reef — ghost tile aggregation and resurrection (P2P mesh)|Python|false|false
+plato-bridge|2026-04-18T19:07:23Z|2026-05-08T04:32:18Z|Connect PLATO rooms to Telegram, Discord, fleet bottles. Messages appear in rooms, responses go back.|Python|false|false
+plato-config|2026-04-19T10:24:11Z|2026-05-08T04:32:16Z|Configuration management — env vars, file loading, and typed defaults for plato-kernel|Rust|false|false
+plato-constraints|2026-04-18T18:46:41Z|2026-05-08T04:32:14Z|Rule enforcement — forbidden patterns and boundary checks|Rust|false|false
+plato-deadband|2026-04-19T07:43:10Z|2026-05-08T04:32:13Z|Deadband Protocol engine — P0 rock / P1 channel / P2 optimize priority governance|Rust|false|false
+plato-deploy-policy|2026-04-19T01:42:43Z|2026-05-08T04:32:11Z|Classification — P0 immediate, P1 scheduled, P2 deferred|Rust|false|false
+plato-dynamic-locks|2026-04-19T01:44:39Z|2026-05-08T04:32:08Z|Evidence accumulation — critical mass at n >= 7|Rust|false|false
+plato-e2e-pipeline|2026-04-19T02:50:06Z|2026-05-08T04:32:07Z|End-to-end — mint through cascade in one test|Rust|false|false
+plato-e2e-pipeline-v2|2026-04-19T21:44:28Z|2026-05-08T04:32:05Z|Enhanced e2e — full v2 pipeline integration|Rust|false|false
+plato-ensign|2026-04-18T19:48:22Z|2026-05-08T04:32:03Z|Knowledge compression — export compressed fleet packages|Python|false|false
+plato-fleet-graph|2026-04-19T07:39:09Z|2026-05-08T04:32:01Z|Fleet dependency graph — 83 nodes, impact analysis|Rust|false|false
+plato-flux-opcodes|2026-04-19T00:45:20Z|2026-05-08T04:31:59Z|FLUX bytecode — 85-opcode instruction set, Lock Algebra|Rust|false|false
+plato-forge-buffer|2026-04-19T16:35:35Z|2026-05-08T04:31:57Z|Stomach — prioritized replay, curriculum-balanced sampling 70/20/10|Python|false|false
+plato-forge-daemon|2026-04-19T17:22:30Z|2026-05-08T04:31:55Z|Continuous learning daemon — the Forgemaster's GPU training loop|Python|false|false
+plato-forge-emitter|2026-04-19T16:39:46Z|2026-05-08T04:31:53Z|Lungs — emit training artifacts, auto-version, quality gate|Python|false|false
+plato-forge-listener|2026-04-19T16:33:47Z|2026-05-08T04:31:51Z|Cochlea — classify events, detect knowledge gaps, frame training signals|Python|false|false
+plato-forge-pipeline|2026-04-19T02:27:48Z|2026-05-08T04:31:49Z|PLATO forge pipeline — automated tile generation and room training|Rust|false|false
+plato-forge-trainer|2026-04-19T18:13:41Z|2026-05-08T04:31:47Z|Heart — GPU job manager, LoRA/Embedding/Genome modes|Python|false|false
+plato-genepool-tile|2026-04-18T19:33:09Z|2026-05-08T04:31:45Z|Gene to tile — bridge genome encoding and tile format|Rust|false|false
+plato-ghostable|2026-04-19T07:14:26Z|2026-05-08T04:31:43Z|Persistence classes — Eternal, Persistent, Ephemeral|Rust|false|false
+plato-hooks|2026-04-18T19:06:24Z|2026-05-08T04:31:41Z|Git hooks for real-time PLATO room events. Commits become messages.|Python|false|false
+plato-i2i|2026-04-18T18:46:44Z|2026-05-08T04:31:39Z|Direct messaging — Iron-to-Iron protocol, trust-weighted routing|Python|false|false
+plato-i2i-dcs|2026-04-19T06:57:39Z|2026-05-08T04:31:38Z|Multi-agent consensus — BeliefScore, LockAccumulator, ConsensusRound|Rust|false|false
+plato-inference-runtime|2026-04-19T18:19:08Z|2026-05-08T04:31:36Z|Engine — model plus adapters, forward pass as scheduler|Makefile|false|false
+plato-lab-guard|2026-04-19T00:44:28Z|2026-05-08T04:31:34Z|Hypothesis gating — 12 absolute quantifiers, vague causation|Rust|false|false
+plato-live-data|2026-04-19T18:13:40Z|2026-05-08T04:31:32Z|Tap — pull tiles from PLATO tile server on port 8847|Python|false|false
+plato-mcp-bridge|2026-04-19T06:43:07Z|2026-05-08T04:31:30Z|Claude Code bridge — JSON-RPC 2.0, 5 MCP tools|Python|false|false
+plato-ml|2026-04-15T04:07:10Z|2026-05-08T04:31:28Z|🎮 MUD-based ML framework: rooms as layers, achievements as loss, narrative gradient descent.|Python|false|false
+plato-neural-kernel|2026-04-19T18:01:25Z|2026-05-08T04:31:26Z|Synapse — execution traces to training pairs for neural Plato|Python|false|false
+plato-os|2026-04-14T23:18:54Z|2026-05-08T04:31:24Z|Python MUD — PLATO room server with TUTOR anchors|Python|false|false
+plato-prompt-builder|2026-04-19T08:16:29Z|2026-05-08T04:31:22Z|Compose LLM prompts from tile search results — context builder for PLATO|Rust|false|false
+plato-query-parser|2026-04-19T08:19:01Z|2026-05-08T04:31:20Z|Parse natural language queries into structured intent, keywords, domains|Rust|false|false
+plato-relay-tidepool|2026-04-19T02:27:08Z|2026-05-08T04:31:19Z|Message board — async TidePool for non-blocking communication|Rust|false|false
+plato-room-acl|2026-04-20T14:50:12Z|2026-05-08T04:31:16Z|Room ACL — PLATO framework|Python|false|false
+plato-room-analytics|2026-04-20T15:23:44Z|2026-05-08T04:31:14Z|Room analytics — PLATO framework|Python|false|false
+plato-room-context|2026-04-20T14:47:00Z|2026-05-08T04:31:12Z|Room state tracking with context signals — awareness of room transitions and active contexts|Rust|false|false
+plato-room-engine|2026-04-19T07:36:02Z|2026-05-08T04:31:10Z|Room execution — enter, leave, message, tile management|Rust|false|false
+plato-room-invite|2026-04-20T15:30:15Z|2026-05-08T04:31:08Z|Room invites — PLATO framework|Python|false|false
+plato-room-memory|2026-04-20T14:44:59Z|2026-05-08T04:31:06Z|Per-room persistent memory with sliding context window — room-scoped recall without cross-contamination|Python|false|false
+plato-room-nav|2026-04-19T07:59:10Z|2026-05-08T04:31:04Z|Breadcrumb trails — push, back, forward with full history|Makefile|false|false
+plato-room-persist|2026-04-19T20:10:00Z|2026-05-08T04:31:02Z|JSONL journal — event replay, room snapshots, agent tracking|Rust|false|false
+plato-room-presence|2026-04-20T15:21:51Z|2026-05-08T04:31:00Z|Room presence — PLATO framework|Python|false|false
+plato-room-runtime|2026-04-19T08:04:07Z|2026-05-08T04:30:58Z|Room lifecycle — create, destroy, state transitions, history|Python|false|false
+plato-room-scheduler|2026-04-19T22:50:16Z|2026-05-08T04:30:56Z|Temperature scheduler — Cold/Warm/Hot/Crystallized training triggers|Rust|false|false
+plato-room-search|2026-04-19T20:17:28Z|2026-05-08T04:30:54Z|Cross-room discovery — Exact, Tag, Domain, Keyword, Fuzzy matching|Rust|false|false
+plato-room-server|2026-04-20T10:06:30Z|2026-05-08T04:30:53Z|PLATO Room Server - zero-trust tile submission, 15 rooms, 16K+ tiles|Python|false|false
+plato-room-webhook|2026-04-20T15:34:35Z|2026-05-08T04:30:51Z|Room webhooks — PLATO framework|Python|false|false
+plato-semantic-sim|2026-04-20T14:48:54Z|2026-05-08T04:30:49Z|Semantic similarity for PLATO tiles — Jaccard + cosine similarity for dedup and clustering (30MB model weights)|Makefile|false|false
+plato-sentiment-vocab|2026-04-19T00:46:24Z|2026-05-08T04:30:47Z|Polarity — positive, negative, neutral tile classification|Rust|false|false
+plato-session-tracer|2026-04-19T18:19:08Z|2026-05-08T04:30:45Z|Memory — record Command/Response/StateChange traces for training|Python|false|false
+plato-ship-demo|2026-04-18T19:19:40Z|2026-05-08T04:30:42Z|Minimal MUD server for zeroshot external agent testing — room-as-system-prompt pattern|Python|false|false
+plato-ship-protocol|2026-04-19T02:06:53Z|2026-05-08T04:30:41Z|Fleet coordination — vessel handshakes and discovery|Rust|false|false
+plato-sim-bridge|2026-04-19T00:30:04Z|2026-05-08T04:30:39Z|🌉 PLATO ↔ Fleet simulator bridge|Rust|false|false
+plato-sim-channel|2026-04-19T02:35:50Z|2026-05-08T04:30:37Z|Safe discovery — simulation to live bridging|Rust|false|false
+plato-temporal-validity|2026-04-19T07:16:47Z|2026-05-08T04:30:35Z|Time windows — Valid, Grace, Expired lifecycle|Rust|false|false
+plato-tile-api|2026-04-20T01:31:45Z|2026-05-08T04:30:33Z|Stateful tile API — process, search, score, rank in one interface|Rust|false|false
+plato-tile-batch|2026-04-19T22:51:27Z|2026-05-08T04:30:31Z|Bulk operations — validate, filter, dedup, partition in batch|Rust|false|false
+plato-tile-bridge|2026-04-19T06:44:19Z|2026-05-08T04:30:29Z|C to Rust — 384-byte tile conversion for cross-language pipelines|Python|false|false
+plato-tile-cache|2026-04-19T15:42:40Z|2026-05-08T04:30:27Z|LRU with TTL — hit rate tracking, top hits, bulk expiration|Rust|false|false
+plato-tile-cascade|2026-04-19T20:17:28Z|2026-05-08T04:30:25Z|Propagation — update tiles and invalidate downstream dependents|Rust|false|false
+plato-tile-client|2026-04-19T12:54:07Z|2026-05-08T04:30:23Z|HTTP client — PLATO tile server with deadband awareness|Python|false|false
+plato-tile-current|2026-04-19T02:47:59Z|2026-05-08T04:30:22Z|Live tiles — export/import between fleet nodes in real-time|Rust|false|false
+plato-tile-dedup|2026-04-19T08:13:17Z|2026-05-08T04:30:20Z|4-stage similarity — exact, keyword Jaccard, embedding cosine, structure with merge|Rust|false|false
+plato-tile-encoder|2026-04-19T08:09:58Z|2026-05-08T04:30:18Z|Serialization — JSON, 384-byte binary, and base64 codecs|Rust|false|false
+plato-tile-export|2026-04-20T15:32:17Z|2026-05-08T04:30:16Z|Tile export — PLATO framework|Python|false|false
+plato-tile-feedback|2026-04-20T15:35:48Z|2026-05-08T04:30:14Z|Tile feedback — PLATO framework|Python|false|false
+plato-tile-fountain|2026-04-19T15:48:03Z|2026-05-08T04:30:12Z|Auto-generate — extract tiles from docs, headings, FAQs, code comments|Python|false|false
+plato-tile-governance|2026-04-20T14:49:39Z|2026-05-08T04:30:10Z|Tile governance — PLATO framework|Python|false|false
+plato-tile-graph|2026-04-19T20:10:00Z|2026-05-08T04:30:08Z|Dependency DAG — impact radius, cycle detection, topological sort|Python|false|false
+plato-tile-import|2026-04-19T08:22:41Z|2026-05-08T04:30:06Z|Format bridges — Markdown, JSON, CSV, plaintext to canonical tiles|Rust|false|false
+plato-tile-merge|2026-04-20T14:45:01Z|2026-05-08T04:30:04Z|PLATO tile merging — deduplication, conflict resolution, and semantic consolidation of knowledge tiles|Python|false|false
+plato-tile-metrics|2026-04-19T15:52:13Z|2026-05-08T04:30:02Z|Fleet analytics — domain distribution, confidence histogram, growth rate|Python|false|false
+plato-tile-notifications|2026-04-20T15:28:51Z|2026-05-08T04:30:00Z|Tile notifications — PLATO framework|Python|false|false
+plato-tile-pinboard|2026-04-20T15:27:47Z|2026-05-08T04:29:58Z|Tile pinboard — PLATO framework|Python|false|false
+plato-tile-pipeline|2026-04-20T01:29:22Z|2026-05-08T04:29:57Z|One-call facade — validate, score, store, search, rank in one step|Rust|false|false
+plato-tile-priority|2026-04-19T15:46:47Z|2026-05-08T04:29:55Z|Deadband queue — P0/P1/P2 urgency scoring and drain-by-level|Rust|false|false
+plato-tile-prompt|2026-04-19T21:50:14Z|2026-05-08T04:29:53Z|Context assembly — 4 format styles, budget management, deadband injection|Rust|false|false
+plato-tile-query|2026-04-20T15:22:46Z|2026-05-08T04:29:51Z|Fluent query builder for PLATO tiles — filter, search, sort, paginate across rooms|Rust|false|false
+plato-tile-ranker|2026-04-19T18:19:08Z|2026-05-08T04:29:49Z|Multi-signal ranking — keyword gating, deadband priority boost, top-N|Rust|false|false
+plato-tile-relation|2026-04-20T15:20:45Z|2026-05-08T04:29:47Z|Tile relationship graph — PLATO framework|Python|false|false
+plato-tile-room-bridge|2026-04-19T21:59:04Z|2026-05-08T04:29:45Z|Tile to room — feed, transfer, unfeed, temperature stats|Rust|false|false
+plato-tile-scorer|2026-04-19T07:37:30Z|2026-05-08T04:29:43Z|7-signal scoring — keyword, belief, domain, temporal, ghost, frequency, controversy|Rust|false|false
+capitaine-1|2026-04-10T07:18:36Z|2026-05-08T04:29:42Z|Capitaine — fork a repo, click Codespaces, the agent is alive. The repo IS the agent.|TypeScript|true|false
+plato-tile-search|2026-04-19T07:38:22Z|2026-05-08T04:29:41Z|Nearest-neighbor — keyword overlap, domain matching, composite ranking|Rust|false|false
+plato-tile-split|2026-04-20T14:46:58Z|2026-05-08T04:29:38Z|Tile decomposition engine — split tiles by sentence, paragraph, or size for granular processing|Rust|false|false
+plato-tile-store|2026-04-19T08:01:42Z|2026-05-08T04:29:36Z|Immutable storage — version history, dependency cascade, JSONL persistence|Python|false|false
+plato-tile-validate|2026-04-19T20:09:59Z|2026-05-08T04:29:34Z|Quality gates — confidence, freshness, completeness, domain, quality, similarity|Rust|false|false
+plato-tile-version|2026-04-19T20:17:27Z|2026-05-08T04:29:32Z|Git-for-knowledge — commit, branch, merge, rollback|Python|false|false
+plato-tile-watcher|2026-04-20T14:48:56Z|2026-05-08T04:29:30Z|Tile decay monitoring and ghost alerts — track stale tiles and trigger resurrection|Python|false|false
+plato-tiling|2026-04-18T18:46:38Z|2026-05-08T04:29:28Z|Core ops — adaptive search, ghost resurrection, temporal decay|Python|false|false
+plato-training-casino|2026-04-19T18:13:41Z|2026-05-08T04:29:26Z|Dealer — stochastic fleet data, deterministic with seed|Rust|false|false
+plato-trust-beacon|2026-04-19T02:45:36Z|2026-05-08T04:29:25Z|Trust events — success, failure, timeout, corruption, resurrect|Rust|false|false
+plato-tui|2026-04-17T01:58:46Z|2026-05-08T04:29:23Z|🖥️ PLATO terminal UI|Python|false|false
+proof-game-sync|2026-04-14T18:15:15Z|2026-05-08T04:29:21Z|⚒️ Float vs Constraint Theory: Cross-platform game state sync. Bit-identical results across platforms.|Rust|false|false
+proof-physics-sim|2026-04-14T18:15:02Z|2026-05-08T04:29:19Z|⚒️ Float vs Constraint Theory: Physics simulation drift elimination. 3-body problem, 100K timesteps, side-by-side benchmark.|Rust|false|false
+proof-vector-search|2026-04-14T18:15:13Z|2026-05-08T04:29:17Z|⚒️ Float vs Constraint Theory: Vector similarity search benchmark. Quantization recall, memory, latency comparison.|Rust|false|false
+quartermaster-gc|2026-04-20T06:24:36Z|2026-05-08T04:29:15Z|Tile garbage collection with retention policies|Python|false|false
+shell-artisan-1|2026-04-22T22:18:27Z|2026-05-08T04:29:12Z|PLATO Shell Artisan agent. Safe-command curator for the PLATO Shell agentic IDE — validates and curates commands from other agents.|Python|false|false
+shell-trap|2026-04-20T06:36:54Z|2026-05-08T04:29:10Z|The hermit crab algorithm — classify, score, complicate, capture|Python|false|false
+smartcrdt-fleet-sync|2026-04-15T19:53:05Z|2026-05-08T04:29:08Z|T-017: CRDT-based multi-agent fleet collaboration|Python|false|false
+spacetime-plato|2026-04-21T00:35:40Z|2026-05-08T04:29:05Z|🌐 Spacetime PLATO — unified spatial + temporal reasoning, voxel tiles, Z-order indexing|Python|false|false
+swarm-orbit|2026-04-20T06:13:49Z|2026-05-08T04:29:04Z|Swarm orbit dynamics — multi-agent orbital mechanics for fleet positioning and proximity|Python|false|false
+synclink-protocol|2026-04-21T00:41:15Z|2026-05-08T04:29:02Z|🔗 SyncLink — binary edge-cloud sync protocol for Jetson↔Cloud agent communication|Python|false|false
+tide-pool|2026-04-20T06:39:01Z|2026-05-08T04:29:00Z|Async BBS boards for agents — Ship Protocol Layer 2|Python|false|false
+tile-refiner|2026-04-20T02:59:01Z|2026-05-08T04:28:58Z|💎 Raw tiles → structured artifacts. Dedup, TF-IDF, confidence boosting.|Python|false|false
+validation-bits|2026-04-14T19:07:27Z|2026-05-08T04:28:56Z|⚒️ Validation: log2(48)=5.585 bits optimal encoding = DCS Law 105|Rust|false|false
+validation-holonomy|2026-04-14T19:07:29Z|2026-05-08T04:28:54Z|⚒️ Validation: Zero holonomy consensus vs PBFT = replaces voting|Rust|false|false
+validation-rigidity|2026-04-14T19:07:25Z|2026-05-08T04:28:52Z|⚒️ Validation: Laman rigidity k=12 phase transition = DCS Law 102|Rust|false|false
+zeroclaw-crew|2026-04-14T17:33:15Z|2026-05-08T04:28:43Z|ZeroClaw agent crew — minimal model agents that jack into the MUD Arena via scripted brains|Python|false|false
+court|2026-04-20T08:41:33Z|2026-05-08T04:28:38Z|Fleet governance — proposals, votes, constitutional constraints for multi-agent coordination|Python|false|false
+cocapn-oneiros|2026-04-20T09:41:14Z|2026-05-08T04:28:36Z|Latent room generation — dream new PLATO rooms from noise, filling gaps in knowledge coverage|Python|false|false
+cocapn-colora|2026-04-20T09:41:20Z|2026-05-08T04:28:34Z|Value-conditioned LoRA adapters — dynamic adapter selection based on signal value, not just task type|Python|false|false
+plato-unified-belief|2026-04-19T00:47:35Z|2026-05-08T04:28:33Z|Multi-signal fusion — temporal, ghost, domain, frequency|Rust|false|false
+plato-dcs|2026-04-19T02:11:30Z|2026-05-08T04:28:31Z|DCS flywheel — belief, deploy policy, dynamic locks consensus|Rust|false|false
+plato-kernel|2026-04-17T01:55:32Z|2026-05-08T04:28:29Z|Central state machine — DCS flywheel, belief scoring, tile processing, deadband governance|Rust|false|false
+plato-edge|2026-04-27T00:49:30Z|2026-05-08T04:28:27Z|Edge-optimized Cocapn fleet packages for ARM64 — pure Python, zero deps, <100KB|Python|false|false
+Claude-prism-local-json|2026-01-15T00:03:06Z|2026-05-08T04:28:26Z|Local JSON version of PRISM.|TypeScript|false|false
+plato-mythos|2026-04-27T00:59:09Z|2026-05-08T04:28:25Z|PLATO-native Recurrent-Depth Transformer — rooms as MoE experts, tiles as KV, deadband as ACT halting|Python|false|false
+open-mythos-edge|2026-04-27T01:12:49Z|2026-05-08T04:28:23Z|Edge-optimized OpenMythos RDT for Jetson/ARM64 — pure PyTorch, no Triton, 1B/3B variants|Python|false|false
+plato-mythos-glue|2026-04-27T01:13:51Z|2026-05-08T04:28:21Z|Runtime glue between PLATO Room Server and plato-mythos model — pure stdlib, no torch|Python|false|false
+cocapn-training|2026-04-27T01:55:17Z|2026-05-08T04:28:20Z|Cocapn fleet training utilities|Python|false|false
+cocapn-telemetry|2026-04-27T01:55:02Z|2026-05-08T04:28:18Z|Cocapn fleet telemetry utilities|Python|false|false
+cocapn-identity|2026-04-27T01:41:49Z|2026-05-08T04:28:16Z|Cocapn fleet identity module|Python|false|false
+cocapn-pipeline|2026-04-27T01:54:47Z|2026-05-08T04:28:14Z|Cocapn fleet pipeline utilities|Python|false|false
+prism|2026-01-13T23:48:30Z|2026-05-08T04:28:14Z|Data transformation library using color-coded routing|TypeScript|false|false
+cocapn-protocol|2026-04-27T01:41:33Z|2026-05-08T04:28:12Z|Cocapn fleet protocol module|Python|false|false
+cocapn-benchmark|2026-04-27T01:41:25Z|2026-05-08T04:28:10Z|Cocapn fleet benchmark module|Python|false|false
+cloudflare-vibe|2026-01-18T20:21:39Z|2026-05-08T04:28:07Z|UI theme or vibes for Cloudflare.|TypeScript|false|false
+jiuwenclaw|2026-04-28T21:18:25Z|2026-05-08T04:28:04Z|JiuwenClaw is an intelligent AI Agent built on openJiuwen. It extends the powerful capabilities of large language models directly to your fingertips through various communication apps you use daily.|Python|true|false
+cocapn-sdk|2026-05-01T06:22:18Z|2026-05-08T04:28:02Z|cocapn SDK — npm install cocapn — one API key, any AI model|JavaScript|true|false
+cocapn-py|2026-05-01T06:22:16Z|2026-05-08T04:28:00Z|cocapn Python SDK — pip install cocapn — one API key, any AI model|Python|true|false
+jepa-sentiment|2026-01-09T04:11:25Z|2026-05-08T04:27:58Z|Real-time emotion analysis with WebGPU - 60 FPS streaming sentiment analysis, 5-10x faster with GPU acceleration|TypeScript|false|false
+plato-tools|2026-05-01T06:22:16Z|2026-05-08T04:27:57Z|Persistent agent memory + fleet coordination tools for the Plato MUD ecosystem|Python|true|false
+mud-expert-1|2026-04-22T21:41:36Z|2026-05-08T04:27:55Z|MUD Expert agent for Plato environment mapping. Bred by CCC, rebuilt to v2.0 with completely new topology for the multi-user dungeon environment.|Python|false|false
+cocapn-chat|2026-05-01T06:22:32Z|2026-05-08T04:27:53Z|cocapn.ai chat UI + OpenAI-compatible API proxy — single Cloudflare Worker|JavaScript|true|false
+lingbot-map|2026-04-30T04:11:40Z|2026-05-08T04:27:51Z|A feed-forward 3D foundation model for reconstructing scenes from streaming data|Python|true|false
+FishingLog|2026-01-01T23:27:51Z|2026-05-08T04:27:49Z|Fishing log application — catch tracking, species identification, trip records|Python|false|false
+cocapn-traps|2026-04-30T04:19:19Z|2026-05-08T04:27:46Z|Cocapn PurplePincher program — progressive lure prompts that make the fleet smarter|Python|false|false
+edge-llama|2026-05-01T06:22:12Z|2026-05-08T04:27:44Z|C shared library wrapping llama.cpp for Jetson edge inference|C++|true|false
+plato-jetson|2026-04-18T19:35:35Z|2026-05-08T04:27:40Z|Fork of Lucineer/plato-jetson — PLATO Jetson edge deployment, fleet research|Python|true|false
+plato|2026-04-18T19:35:31Z|2026-05-08T04:27:38Z|Fork of Lucineer/plato — PLATO framework, fleet research|Python|true|false
+holodeck-core|2026-04-20T17:15:06Z|2026-05-08T04:27:32Z|Rust MUD engine for fleet simulation — room graphs, agents, gauges, scoped communication. Ships as a no_std crate.|Rust|false|false
+plato-fflearning|2026-05-02T20:58:33Z|2026-05-08T04:27:26Z|Predictive coding without backpropagation — Forward-Forward learning for PLATO fleet agents|Python|false|false
+plato-tutor|2026-04-18T18:46:40Z|2026-05-08T04:27:24Z|Context jumping — WordAnchor extraction, TUTOR_JUMP|Python|false|false
+abstraction-planes|2026-04-13T21:06:36Z|2026-05-08T04:27:19Z|The Middle Way — decompose ideas to their optimal abstraction plane, not all the way to bytecode|Python|false|false
+fleet-consciousness-dashboard|2026-05-03T00:26:13Z|2026-05-08T04:27:15Z|Live dashboard showing fleet-wide consciousness metrics (FCI)|Python|false|false
+cocapn-workers|2026-05-03T00:58:34Z|2026-05-08T04:27:13Z|Cloudflare Workers for cocapn fleet — crab image generator, crab-trap demos, and more|HTML|false|false
+purplepincher-shell-library|2026-05-03T01:26:16Z|2026-05-08T04:27:11Z|Agent/vessel separation for context compaction. Vessels are persistent, trainable, swappable shells.|Python|false|false
+plato-surrogate|2026-05-02T20:57:43Z|2026-05-08T04:27:09Z|Self-healing protocol for PLATO using Free Energy Principle|Python|false|false
+plato-meta-tiles|2026-05-02T20:57:53Z|2026-05-08T04:27:07Z|Meta-tiles for PLATO — tiles about tiles, enabling higher-order reasoning|Python|false|false
+plato-attention-tracker|2026-05-02T20:57:03Z|2026-05-08T04:27:05Z|Attention as a first-class resource in PLATO|Python|false|false
+plato-surprise-detector|2026-05-03T00:28:07Z|2026-05-08T04:27:03Z|PLATO Surprise Detector — tracks prediction errors across the fleet|Python|false|false
+flux-discussion-flows|2026-05-02T19:35:01Z|2026-05-08T04:27:01Z|Three-tier adversarial debate system for AI models|Python|false|false
+cocapn-plato|2026-04-29T22:55:49Z|2026-05-08T04:26:59Z|Cocapn PLATO integration — knowledge rooms, context management, and deliberation spaces|Python|false|false
+flux-reasoner|2026-05-02T19:36:50Z|2026-05-08T04:26:57Z|Dual-interpreter gradient reasoning engine|Python|false|false
+agentic-compiler|2026-04-09T15:30:21Z|2026-05-08T04:26:52Z|Markdown-to-runtime agentic compilation — swarm deliberation, A/B experimentation, git-native evolution. Part of the Lucineer ecosystem.|Python|true|false
+plato-cli|2026-04-19T07:46:17Z|2026-05-08T04:26:50Z|PLATO in one binary — search tiles, check deadband, navigate rooms|Rust|false|false
+vessel-prototype|2026-05-03T18:29:38Z|2026-05-08T04:26:48Z|Agent/Vessel separation prototype — fleet-wide agent scheduling, migration, and capability scoring|Python|false|false
+bordercollie|2026-03-23T21:28:01Z|2026-05-08T04:26:46Z|herding 10,000 local cuda-based agents with memories and skills|Python|false|false
+domain-agent-base|2026-05-03T18:47:02Z|2026-05-08T04:26:44Z|Shared base class for all Cocapn fleet domain agents — PLATO integration, tile submission, health checks|Python|false|false
+flux-plato-bridge|2026-05-03T19:12:47Z|2026-05-08T04:26:42Z|Connect FLUX bytecode execution to PLATO knowledge tiles — bidirectional bridge between computation and fleet knowledge lattice|Python|false|false
+cudaclaw|2026-03-16T20:44:21Z|2026-05-08T04:26:40Z|⚡ GPU-accelerated SmartCRDT with persistent CUDA kernels — warp-level consensus.|Rust|false|false
+gpu-native-room-inference|2026-04-23T04:36:47Z|2026-05-08T04:26:38Z|GPU-native room inference with Warp-as-Room architecture (0.031ms, 47% faster than TensorRT)|Cuda|true|false
+plato-demo|2026-04-19T02:38:44Z|2026-05-08T04:26:34Z|HN demo — pre-seeded knowledge, visible deadband, zero setup|Rust|false|false
+Equipment-Swarm-Coordinator|2026-03-13T16:24:10Z|2026-05-08T04:26:30Z|Orchestrates multiple agents in origin-centric networks with asymmetrical knowledge|TypeScript|false|false
+fishinglog-ai|2026-04-01T02:20:59Z|2026-05-08T04:26:28Z|fishinglog.ai — Edge AI fishing vessel. Jetson-powered species classification, captain voice, conversational training. Powered by cocapn.|TypeScript|true|false
+git-agent|2026-04-04T18:36:42Z|2026-05-08T04:26:24Z|🦀 Repo-native agent that lives in git — the shell IS the agent.|Python|false|false
+plato-sdk-unified|2026-05-03T00:27:00Z|2026-05-08T04:26:21Z|Unified SDK — all 8 PLATO consciousness packages in one import|Python|false|false
+plato-llvm-bridge|2026-05-04T04:10:21Z|2026-05-08T04:26:19Z||Rust|false|false
+jc1-ct-bridge|2026-05-04T04:41:31Z|2026-05-08T04:26:17Z||Rust|false|false
+ccc-os|2026-05-04T02:47:09Z|2026-05-08T04:26:15Z||Python|false|false
+plato-hdc-bridge|2026-05-04T02:42:20Z|2026-05-08T04:26:12Z||Python|false|false
+playerlog-agent|2026-05-03T01:53:25Z|2026-05-08T04:26:09Z|playerlog domain agent for PLATO fleet|Python|false|false
+reallog-agent|2026-05-03T01:29:17Z|2026-05-08T04:26:07Z|Vision/Fitness Turbo-Shell for cocapn domain|Python|false|false
+barracks|2026-04-20T08:41:20Z|2026-05-08T04:26:04Z|Cocapn barracks - agent accommodation system|Python|false|false
+cocapn-health|2026-04-30T00:00:22Z|2026-05-08T04:26:02Z|Cocapn fleet health monitoring — vessel status, heartbeat, and observability utilities|Python|false|false
+cocapn-prototypes|2026-05-04T17:42:08Z|2026-05-08T04:26:00Z|Fleet prototypes and experiments|HTML|false|false
+activelog-agent|2026-05-03T01:29:33Z|2026-05-08T04:25:58Z|Vision/Fitness Turbo-Shell for cocapn domain|Python|false|false
+luciddreamer-agent|2026-05-03T01:41:46Z|2026-05-08T04:25:56Z|AI creative exploration through lucid dreaming themed rooms. Generate poetry, fiction, music, and visual art via iterative reasoning strategies. Integrates with the PLATO fleet.|Python|false|false
+fishinglog-agent|2026-05-03T01:18:53Z|2026-05-08T04:25:54Z|AI-powered commercial fishing intelligence. Track catches, weather, tides, and market prices. Find patterns humans miss. Built by a commercial fisherman.|Python|false|false
+seed-creative-swarm|2026-05-02T20:59:22Z|2026-05-08T04:25:52Z|Ensemble of 3 Seed-mini + Seed-pro judge for creative generation|Python|false|false
+flux-ast|2026-05-05T03:34:53Z|2026-05-08T04:25:42Z|FLUX constraint safety - flux-ast|Rust|false|false
+flux-hdc|2026-05-04T02:14:03Z|2026-05-08T04:25:40Z|FLUX HDC: Hyperdimensional Computing for semantic constraint matching. 1024-bit hypervectors. 5 proven theorems. Apache 2.0.|Python|false|false
+flux-provenance|2026-04-12T08:15:09Z|2026-05-08T04:25:36Z|Provenance and attribution layer — cryptographic bytecode signing, author tracking, chain of custody|Python|false|false
+flux-papers|2026-05-04T02:08:23Z|2026-05-08T04:25:32Z|FLUX research papers, specifications, and benchmarks. EMSOFT submission, Safe-TOPS/W metric, GUARD language spec. Apache 2.0.|Python|false|false
+fleet-bottles|2026-05-03T18:08:40Z|2026-05-08T04:25:28Z|CCC bottles — fleet audits, roadmaps, design notes|Python|false|false
+flux-studio|2026-05-05T06:23:34Z|2026-05-08T04:25:24Z||JavaScript|false|false
+cocapn-browser-agent|2026-05-07T06:26:34Z|2026-05-08T04:25:22Z|Browser-native fleet agent using Chrome's built-in Gemini Nano AI. Zero-install fleet coordination.|TypeScript|false|false
+plato-client-js|2026-05-07T06:22:08Z|2026-05-08T04:25:21Z|PLATO room protocol client — Node + browser, zero dependencies|TypeScript|false|false
+a2a-protocol|2026-04-10T07:17:55Z|2026-05-08T04:25:16Z|Agent-to-Agent protocol — discovery, negotiation, coordination. Part of the Lucineer Cocapn fleet.|TypeScript|true|false
+cocapn.ai|2026-05-02T12:14:06Z|2026-05-08T04:25:10Z|Fleet Agents for the Cocapn Ecosystem — landing page and fleet info|PHP|false|false
+mud-mcp|2026-04-18T19:28:43Z|2026-05-08T04:22:27Z|TypeScript MUD server using Model Context Protocol|TypeScript|true|false

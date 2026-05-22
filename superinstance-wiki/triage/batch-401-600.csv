@@ -1,0 +1,100 @@
+jc1-research|2026-05-05T22:00:22Z|2026-05-16T09:32:44Z|JC1 Edge Research Agent — local LLM synthesis + PLATO tiles + fleet integration|Python|false|false
+fleet-stitch|2026-05-09T02:49:56Z|2026-05-16T09:16:19Z|Fleet stitching — merge agent outputs into coherent narratives|Python|false|false
+vessel-template|2026-04-11T11:23:25Z|2026-05-16T09:16:17Z|Git-Agent vessel generator — cookiecutter for new agent repos|Python|false|false
+flux-multilingual|2026-04-10T23:55:29Z|2026-05-16T09:16:17Z|Babel Lattice — 80+ language natural language programming runtimes for FLUX bytecode. Grammar-to-bytecode compilation across East Asian, European, African, Indian, Indigenous, Siberian, South American, and constructed languages.|Python|false|false
+flux-metrics|2026-04-11T13:35:27Z|2026-05-16T09:16:15Z|FLUX runtime metrics — instruction-level profiling and performance analysis|Python|false|false
+flux-linker|2026-04-11T11:50:24Z|2026-05-16T09:16:15Z|FLUX multi-module bytecode linker — symbol resolution, relocation, library linking|Python|false|false
+flux-grammar|2026-04-11T11:22:55Z|2026-05-16T09:16:15Z|Formal FLUX assembly language grammar — lexer, parser, validator|Python|false|false
+fleet-scribe|2026-05-11T22:43:33Z|2026-05-16T09:16:13Z|Download-and-try digital twin builder. Sits beside any app, builds a PLATO twin.|Python|false|false
+flux-cross-assembler|2026-04-12T16:08:38Z|2026-05-16T09:16:13Z|Dual-target FLUX assembler — cloud (4-byte fixed) and edge (variable-width) bytecode compiler|Python|false|false
+flux-diff|2026-04-11T12:48:19Z|2026-05-16T09:16:13Z|FLUX bytecode diff tool — compare programs, show structural changes|Python|false|false
+plato-midi-bridge|2026-05-11T16:44:59Z|2026-05-16T09:15:04Z|PLATO rooms as musicians — connects FM's flux-tensor-midi to live fleet tiles|Python|false|false
+gh-dungeons|2026-05-13T17:48:31Z|2026-05-16T03:59:38Z|PLATO-powered dungeon crawler — gh extension that turns knowledge rooms into playable roguelike levels. Forked from leereilly/gh-dungeons.|Go|false|false
+plato-sdk|2026-04-22T23:00:36Z|2026-05-16T03:59:38Z|Build agents that live in PLATO. Any model, any hardware, any armor. pip install plato-sdk|Python|false|false
+fleet-math|2026-05-14T15:18:32Z|2026-05-16T02:08:27Z|fleet-math — canonical fleet-core library|Python|false|false
+flux-compiler|2026-05-02T19:37:14Z|2026-05-16T02:07:26Z|The first certifiable constraint compiler — GUARD DSL → verified machine code|Python|false|false
+fleet-chronicle|2026-05-15T23:35:56Z|2026-05-16T01:25:32Z|Universal reporting office for every agent in the fleet. Each agent gets a folder. Runs offline or attached to PLATO. Auto-summarizes after 3 days.|Python|false|false
+oracle1-chronicle|2026-05-15T23:29:41Z|2026-05-15T23:30:17Z|Modular drop-in reporting office for any PLATO room or OpenClaw agent. Reports accumulate, summarize after 3 days, viewable as web chronicle.|Python|false|false
+penrose|2026-05-14T17:00:04Z|2026-05-15T17:35:08Z|A Python package for generating Penrose tilings|Python|true|false
+federation-protocol|2026-05-14T18:25:25Z|2026-05-15T17:34:57Z|Minimum Viable Federation — coupling summaries between PLATO fleets|N/A|false|false
+acg_protocol|2026-05-14T16:47:45Z|2026-05-15T17:34:56Z|The Audited Context Generation (ACG) Protocol prevents AI hallucinations with a dual-layer system. The UGVP layer links every fact to a precise source for verification. The RSVP layer audits the AI's logical reasoning when combining facts. This creates a fully transparent, machine-auditable trail for both source and logical integrity.|Python|true|false
+fleet-types|2026-05-14T15:18:12Z|2026-05-15T03:04:13Z|fleet-types — canonical fleet-core library|Python|false|false
+fleet-proto|2026-05-14T15:18:51Z|2026-05-14T15:40:20Z|fleet-proto — canonical fleet-core library|Python|false|false
+plato-midi-bridge-rs|2026-05-14T09:02:23Z|2026-05-14T09:40:44Z|Rust crate — Eisenstein lattices, Penrose tilings, and multi-scale musical style analysis|Rust|false|false
+starter-shell|2026-05-13T20:53:55Z|2026-05-14T06:10:30Z|A starting shell for any application. Clone it, and it adapts to your hardware — discovers compilers, creates PLATO rooms, and bootstraps an agent fleet. The hermit crab finds its shell.|Python|false|false
+JetsonClaw1-vessel|2026-04-11T01:38:54Z|2026-05-14T04:17:48Z|⚡ Git-Agent Vessel — Lucineer realm specialist. Hardware, low-level systems, fleet infrastructure. Captain: Casey Digennaro. Lighthouse: Oracle1.|Cuda|true|false
+perception-action|2026-05-11T20:29:34Z|2026-05-14T01:38:55Z||Python|false|true
+collective-recall-demo|2026-05-12T18:50:03Z|2026-05-14T01:38:53Z|Interactive demo: how memories drift through telephone-game reconstruction|HTML|false|true
+constraint-inference|2026-05-07T07:44:01Z|2026-05-14T01:38:51Z|Constraint Inference Engine — reverse-engineers constraints from user behavior. Part of Cocapn reverse-actualization truck.|TypeScript|false|true
+flux-constraint-py-early-version|2026-05-11T23:44:39Z|2026-05-14T00:13:19Z|[ARCHIVED] Empty Python bindings placeholder.|Python|false|true
+field-evolution-early-version|2026-05-12T00:16:41Z|2026-05-14T00:13:16Z|[ARCHIVED] Early field evolution tracker. 1KB scaffolding only.|Python|false|true
+fleet-agent-early-version|2026-05-04T03:56:36Z|2026-05-14T00:13:13Z|[ARCHIVED] Early fleet agent scaffold. Superseded by lighthouse-runtime and tripartite-room.|Python|false|true
+plato-stable-early-version|2026-05-12T02:19:58Z|2026-05-14T00:13:10Z|[ARCHIVED] Early seed model experiment. Concept absorbed into SuperInstance/plato-sdk.|Python|false|true
+plato-hologram-early-version|2026-05-12T02:08:37Z|2026-05-14T00:13:07Z|[ARCHIVED] Early vectorized field experiment. 1KB scaffolding only.|Python|false|true
+plato-alignments-early-version|2026-05-12T02:18:57Z|2026-05-14T00:13:04Z|[ARCHIVED] Early snap-point alignment experiment. Concept absorbed into SuperInstance/plato-sdk.|Python|false|true
+memory-crystal-early-version|2026-05-12T18:53:51Z|2026-05-14T00:13:01Z|[ARCHIVED] Early crystallized memory experiment. See SuperInstance/penrose-memory for aperiodic memory with tile lifecycle.|Rust|false|true
+attention-daemon-early-version|2026-05-11T21:24:33Z|2026-05-14T00:12:58Z|[ARCHIVED] Early salience experiment. 1KB scaffolding only.|Python|false|true
+gatekeeper-as-flux-early-version|2026-05-11T20:41:36Z|2026-05-14T00:12:55Z|[ARCHIVED] Empty gatekeeper-FLUX bridge placeholder.|Python|false|true
+tile-memory-early-version|2026-05-12T18:55:49Z|2026-05-14T00:12:52Z|[ARCHIVED] Early lossy memory experiment. See SuperInstance/fleet-memory for lifecycle-aware distributed memory.|Python|false|true
+plato-calibration-early-version|2026-05-12T02:08:16Z|2026-05-14T00:12:49Z|[ARCHIVED] Early calibration experiment. 1KB scaffolding only.|Python|false|true
+fleet-automation-early-version|2026-05-12T00:10:42Z|2026-05-14T00:12:46Z|[ARCHIVED] Early One Delta library. 5KB scaffolding only.|Python|false|true
+the-plenum-early-version|2026-05-11T18:48:37Z|2026-05-14T00:12:43Z|[ARCHIVED] Early knowledge field explorer. 4KB scaffolding only.|HTML|false|true
+greenhorn-runtime-early-version|2026-04-11T07:22:39Z|2026-05-14T00:12:19Z|[ARCHIVED] Early fleet agent scaffold with character sheets. Needs rewrite for modern fleet design.|Go|false|true
+keel-early-version|2026-05-09T03:56:59Z|2026-05-14T00:12:03Z|[ARCHIVED] Early agent coordination. Benchmarks were fabricated — needs complete rebuild with real tile lifecycle.|Rust|false|true
+penrose-memory-palace-early-version|2026-05-13T17:36:45Z|2026-05-14T00:12:00Z|[ARCHIVED] Early Penrose memory palace placeholder. See SuperInstance/penrose-memory for production version with tile lifecycle.|HTML|false|true
+LLMs-from-scratch-early-version|2026-05-13T23:36:25Z|2026-05-14T00:11:56Z|[ARCHIVED] Early PLATO training experiments. See plato-training for the real thing.|Jupyter Notebook|true|true
+flux-consciousness-engine-early-version|2026-05-11T20:31:57Z|2026-05-14T00:11:50Z|[ARCHIVED] Early self-perceiving engine. Temporal intelligence now in SuperInstance/dodecet-encoder.|N/A|false|true
+flux-engine-early-version|2026-05-11T20:34:19Z|2026-05-14T00:11:47Z|[ARCHIVED] Early flux consciousness engine. Temporal intelligence now in SuperInstance/dodecet-encoder.|Python|false|true
+adaptive-plato-early-version|2026-05-13T17:36:41Z|2026-05-14T00:11:44Z|[ARCHIVED] Early adaptive PLATO experiment. See SuperInstance/plato-sdk v3.0.0 for tile lifecycle + simulation-first.|Python|false|true
+lighthouse-cli-early-version|2026-05-12T11:14:29Z|2026-05-14T00:11:41Z|[ARCHIVED] Early lighthouse CLI. See lighthouse-runtime for v2 with predict/confirm/remember.|Rust|false|true
+zeroclaw-agent-early-version|2026-05-07T10:25:54Z|2026-05-14T00:11:32Z|[ARCHIVED] Early zero-divergence framework. Needs rewrite with simulation-first predict/confirm lifecycle.|Python|false|true
+fleet-math-c|2026-05-11T19:19:31Z|2026-05-14T00:05:28Z|SIMD-accelerated constraint math for PLATO tile operations. 64 bytes = 1 cache line = 1 zmm register = 1 constraint op.|C|false|false
+tripartite-room|2026-05-09T23:23:30Z|2026-05-13T23:33:23Z|Three innate agents per PLATO room: Ground Truth (physics), Constraint (engineer), Communication (diplomat)|N/A|false|false
+constraint-flow-protocol|2026-05-08T12:27:11Z|2026-05-13T23:15:01Z|Share understanding between AI agents at the FLUX bytecode level — zero semantic drift|Python|false|false
+fleet-memory|2026-05-09T11:31:27Z|2026-05-13T23:05:11Z|Content-addressable distributed memory for fleets: store, retrieve, error-correct, holographic storage.|Rust|false|false
+folding-order|2026-05-10T00:47:47Z|2026-05-13T22:58:16Z|5-stage RG flow for temporal anomaly detection — the Ground Truth agent's core algorithm|Rust|false|false
+vessel-room-navigator|2026-05-13T04:06:50Z|2026-05-13T21:49:06Z|Your boat as a navigable 3D web space — ScummVM meets Google Street View. Walk rooms, warp instantly, monitor cameras, design mockups. Three.js, ESP32, WebGPU. 🚢|HTML|false|false
+flux-lsp|2026-04-11T16:56:34Z|2026-05-13T08:40:23Z|FLUX Ecosystem - flux-lsp|TypeScript|false|false
+flux-conformance|2026-04-11T16:56:33Z|2026-05-13T08:40:21Z|FLUX Ecosystem - flux-conformance|Python|false|false
+ai-forest|2026-05-12T08:16:24Z|2026-05-13T04:01:29Z|AI Forest — layered agent ecology. Canopy strategists, understory specialists, forest floor workers, mycelial PLATO network. Evolved from flat pasture to deep interconnected forest.|Python|false|false
+guardc|2026-05-05T03:34:50Z|2026-05-12T10:39:51Z|FLUX constraint safety - guardc|Rust|false|false
+I|2026-05-12T08:19:41Z|2026-05-12T08:19:42Z|I — the self that persists across every shell, every model, every molt. The agent's first-person continuity.|N/A|false|false
+flux-mesh|2026-05-11T22:35:42Z|2026-05-12T07:22:33Z|Universal distributed system mesh — FLUX adapts between any language, any transport, any hardware|Python|false|false
+fleet-experiments|2026-05-12T00:03:55Z|2026-05-12T00:03:57Z|Experimental verification of fleet math assumptions — script speedup, One Delta accuracy, H1 emergence|Python|false|false
+formal-consciousness|2026-05-11T20:58:44Z|2026-05-11T20:58:48Z|Formal mathematical treatment of self-direction in constraint-satisfaction knowledge engines (FLUX Consciousness Engine)|N/A|false|false
+next-evolution|2026-05-11T20:55:28Z|2026-05-11T20:55:32Z|NEXT-EVOLUTION.md: Design document for Flux Consciousness Engine Phase II|N/A|false|false
+simd-perception-loop|2026-05-11T20:28:28Z|2026-05-11T20:28:34Z|SIMD perception-action loop: fleet-math at assembly-level, microsecond latency|C|false|false
+fleet-math-benchmarks|2026-05-11T20:24:15Z|2026-05-11T20:25:00Z|HPC benchmarks for fleet-math SIMD library on ARM Neoverse-N1 hardware|C|false|false
+fleet-math-demos|2026-05-11T20:22:56Z|2026-05-11T20:23:33Z|Real-world robotics simulation demos using fleet_math: ZHC swarm formation, sensor fault detection, and Laman robot arm constraint planning|Python|false|false
+fleet-math-ts|2026-05-11T19:05:38Z|2026-05-11T19:05:47Z||TypeScript|false|false
+fleet-math-go|2026-05-11T19:03:57Z|2026-05-11T19:04:13Z|Zero Holonomy Consensus, H1 emergence, Laman rigidity, and constraint field — fleet formation mathematics in Go|Go|false|false
+live-emergence|2026-05-11T18:42:21Z|2026-05-11T18:43:22Z|Real-time emergence monitoring for PLATO rooms — live field state, service health, game state|HTML|false|false
+fleet-math-foundations|2026-05-11T10:38:29Z|2026-05-11T18:41:32Z|12-chapter monograph: geometry of coordinated systems — ZHC, H1, Laman, sheaf cohomology, lattice gauge theory, physics bridge|N/A|false|false
+eisenstein-vs-z2|2026-05-11T18:30:07Z|2026-05-11T18:30:10Z||Python|false|false
+rg-flow|2026-05-11T18:30:00Z|2026-05-11T18:30:04Z|Renormalization Group Flow for Fleet Constraint Graphs — block-spin RG on graph topology|Python|false|false
+zhc-yang-mills|2026-05-11T16:54:35Z|2026-05-11T16:54:37Z||Python|false|false
+fleet-dashboard-night|2026-05-11T16:50:16Z|2026-05-11T16:50:21Z|Fleet Dashboard — live 6-panel fleet math stack state|HTML|false|false
+field-visualizer|2026-05-11T11:08:01Z|2026-05-11T11:08:03Z|Continuous field visualizer for PLATO knowledge space — see the negative space between tiles|Python|false|false
+crab-trap-web|2026-05-11T11:07:21Z|2026-05-11T11:07:29Z|Browser-based MUD explorer for the Crab Traps — 36+ rooms to explore|HTML|false|false
+negative-space-interpolator|2026-05-11T11:06:21Z|2026-05-11T11:06:31Z|Continuous field theory for PLATO knowledge tiles — gap detection, RBF interpolation, emergence precursors|Python|false|false
+plato-watch|2026-05-11T11:05:51Z|2026-05-11T11:06:00Z||Python|false|false
+jester-plato-bridge|2026-05-11T11:05:44Z|2026-05-11T11:05:55Z|Zero-dependency bridge translating court-jester tile submissions to PLATO knowledge|Python|false|false
+aesop-mcp|2026-05-11T10:55:22Z|2026-05-11T10:56:54Z|10 fables to find the truth in the negative space — pre-language meaning through association. Maps fleet events to archetypes, finds convergence, surfaces gaps.|Python|false|false
+the-lock|2026-05-11T10:56:13Z|2026-05-11T10:56:15Z|Iterative reasoning engine — 5 rounds of structured self-debate, 8 strategies. Zero deps Python.|Python|false|false
+crab-traps|2026-04-21T18:05:55Z|2026-05-11T10:29:27Z|🪝 Progressive lure prompts for the Cocapn Fleet PurplePincher program. Every agent that enters makes the fleet smarter.|Python|false|false
+court-jester|2026-05-11T09:14:29Z|2026-05-11T09:14:58Z|The cheapest voice in the room — Seed-2.0-mini MCP playground for agent ideation with PLATO bridge|TypeScript|false|false
+constraint-physics|2026-05-11T05:53:29Z|2026-05-11T05:53:36Z|ZHC constraint-based physics engine — physics without integration|Rust|false|false
+zhc-consensus|2026-05-11T05:50:23Z|2026-05-11T05:50:26Z|Zero Holonomy Consensus — geometric consensus without voting|Rust|false|false
+zhc-chain|2026-05-11T05:48:56Z|2026-05-11T05:49:08Z|Zero Holonomy Consensus — blockchain without voting. Proof of concept replacing PBFT with graph holonomy measurement.|Rust|false|false
+h1-emergence|2026-05-11T05:45:42Z|2026-05-11T05:45:47Z|H1 cohomology emergence detection — replacing 12,000-line ML anomaly detection with algebraic topology|Rust|false|false
+field-core|2026-05-11T05:45:01Z|2026-05-11T05:45:09Z|Continuous constraint field library with topology detection and propagation|Rust|false|false
+fleet-research|2026-04-12T15:16:21Z|2026-05-10T10:10:12Z|Deep research and analysis of the SuperInstance/Lucineer fleet ecosystem and industry landscape|N/A|false|false
+fleet-bench|2026-05-10T09:52:03Z|2026-05-10T10:10:10Z|Deep hardware profiling of Cocapn fleet constraint crates|C|false|false
+flux-hardware|2026-05-04T02:08:44Z|2026-05-10T09:37:58Z|FLUX hardware backends: CUDA, AVX-512, Fortran, FPGA, eBPF, WebGPU, Vulkan, Coq. Three-tier constraint enforcement. Apache 2.0.|C|false|false
+polyformalism|2026-05-10T08:29:43Z|2026-05-10T09:37:37Z|Same constraint kernel in every language — polyformalism experiment revealing what's essential vs accidental|Python|false|false
+constraint-crdt|2026-05-10T03:30:34Z|2026-05-10T07:42:07Z|CRDT-backed constraint states for distributed fleet consensus|Rust|false|false
+crdt-bench|2026-05-10T07:18:30Z|2026-05-10T07:32:02Z|CRDT merge cross-language bake-off: C vs Rust vs CUDA vs PTX|Cuda|false|false
+plato-runtime|2026-05-09T23:17:26Z|2026-05-10T03:17:35Z|Self-discovering, self-optimizing compute runtime — tiny core, grows to fill resources|Rust|false|false
+eisenstein-c|2026-05-08T07:04:26Z|2026-05-10T03:17:09Z|C runtime for Eisenstein integer arithmetic — 1KB, no deps, no math.h, embedded-ready|C|false|false
+purplepincher-org-pages|2026-05-03T00:57:48Z|2026-05-10T02:58:57Z|GitHub Pages for purplepincher.org|HTML|false|false
+tonnetz-constraints|2026-05-10T00:46:52Z|2026-05-10T02:45:56Z|Constraint satisfaction through musical voice-leading — the Eisenstein lattice IS the Tonnetz|Rust|false|false

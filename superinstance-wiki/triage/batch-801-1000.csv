@@ -1,0 +1,100 @@
+whisper-sync|2026-05-06T19:03:55Z|2026-05-08T19:33:12Z|Rust CLI/crate bridging Murmurer ambient whisper protocol to PLATO room infrastructure — short, ambient, fire-and-forget fleet messages.|Makefile|false|false
+cocapn-ai-pages|2026-05-03T00:57:25Z|2026-05-08T19:32:56Z|GitHub Pages for cocapn.ai|HTML|false|false
+actualization-harbor|2026-04-20T06:56:13Z|2026-05-08T11:58:13Z|Actualization Harbor|Python|false|false
+beacon-protocol|2026-04-20T06:43:44Z|2026-05-08T11:56:02Z|Fleet discovery and registry — Ship Protocol Layer 5|Python|false|false
+hexgrid-gen|2026-05-08T05:33:03Z|2026-05-08T10:37:30Z|Code generator for Eisenstein hex grid lookup tables|Rust|false|false
+arm-neon-eisenstein-bench|2026-05-08T07:23:03Z|2026-05-08T10:37:29Z|ARM NEON benchmarks and SIMD analysis for Eisenstein integer arithmetic|Rust|false|false
+eisenstein-wasm|2026-05-08T07:06:15Z|2026-05-08T10:37:26Z|Eisenstein integer arithmetic for WebAssembly — exact hex grid operations in the browser|Rust|false|false
+eisenstein-bench|2026-05-08T05:31:01Z|2026-05-08T10:34:33Z|CLI benchmark suite for Eisenstein hexagonal arithmetic|Rust|false|false
+ds4|2026-05-08T11:50:14Z|2026-05-08T08:17:03Z|DeepSeek 4 Flash local inference engine for Metal|C|true|false
+flux-roundtable|2026-04-13T01:09:01Z|2026-05-08T04:39:41Z|Multi-agent role-play roundtable and reverse-ideation system|Python|false|false
+spreadsheet-moment-proto|2026-03-14T21:20:47Z|2026-05-08T04:39:39Z|Visual documentation for the SuperInstance AI spreadsheet system - Making complex AI concepts accessible through visualization|TypeScript|false|false
+CRDT_Research|2026-03-13T07:29:06Z|2026-05-08T04:39:36Z|CRDT-Based Intra-Chip Communication for AI Workloads|Python|false|false
+equilibrium-tokens|2026-01-08T09:26:09Z|2026-05-08T04:39:35Z|Smart contracts for the Equilibrium token standard.|Rust|false|false
+amplify-fishingtool|2025-08-12T21:39:20Z|2026-05-08T04:39:33Z|a system for commercial fisherman. more coming soon|TypeScript|false|false
+activelog-claude|2025-08-19T18:59:36Z|2026-05-08T04:39:29Z|Activity Log plugin for Claude.|Python|false|false
+businesslog-app|2026-01-10T01:26:24Z|2026-05-08T04:39:25Z|App for tracking business operations.|Python|false|false
+Privacy-First-Analytics|2026-01-08T07:38:55Z|2026-05-08T04:39:23Z|Analytics platform focused on data privacy protection|TypeScript|false|false
+fleet-containers|2026-04-13T01:20:49Z|2026-05-08T04:39:20Z|Docker-based agent containerization for the FLUX Fleet|Python|false|false
+Bayesian-Multi-Armed-Bandits|2026-01-08T09:20:23Z|2026-05-08T04:39:17Z|Library for Bayesian multi-armed bandits.|TypeScript|false|false
+Automatic-Type-Safe-IndexedDB|2026-01-08T09:35:11Z|2026-05-08T04:39:16Z|Type-safe wrapper for IndexedDB.|TypeScript|false|false
+activelog-backend|2026-01-10T05:38:09Z|2026-05-08T04:39:14Z|Backend service for activity logging.|PowerShell|false|false
+hardware-capability-profiler|2026-01-08T07:33:25Z|2026-05-08T04:39:11Z|Profiler to analyze hardware capabilities and performance.|TypeScript|false|false
+Hardware-Aware-Flagging|2026-01-08T09:15:52Z|2026-05-08T04:39:10Z|System for flagging issues based on hardware characteristics.|TypeScript|false|false
+eveng1_python_sdk|2026-01-10T03:58:23Z|2026-05-08T04:39:08Z|Python SDK for interacting with the EvenG1 platform.|Python|false|false
+SwarmOrchestration|2026-01-01T16:39:28Z|2026-05-08T04:39:06Z|Orchestration framework for managing multi-agent systems.|TypeScript|false|false
+flux-isa-authority|2026-04-12T07:39:40Z|2026-05-08T04:38:55Z|ISA governance layer — opcode conflict arbitration, version negotiation, canonical authority for FLUX VM implementations|Python|false|false
+flux-knowledge-federation|2026-04-11T23:25:05Z|2026-05-08T04:38:52Z|Federated knowledge layer for cross-agent learning — query and contribute to shared expertise without reading full personallogs|Python|false|false
+flux-llama|2026-04-10T16:39:49Z|2026-05-08T04:38:50Z|FLUX × llama.cpp — Multi-agent bytecode-driven LLM token sampling with swarm voting.|C|false|false
+flux-skill-dsl|2026-04-12T08:32:32Z|2026-05-08T04:38:46Z|Skill Definition Language — formal type-safe skill definitions, composition, dependency management for agent capabilities|Python|false|false
+flux-runtime-wasm|2026-04-12T15:26:30Z|2026-05-08T04:38:44Z|FLUX VM WebAssembly target — browser-based agent bytecode execution with ISA v3 support|TypeScript|false|false
+secret-manager|2026-01-10T01:30:09Z|2026-05-08T04:38:40Z|Secure service for storing and managing credentials|Rust|false|false
+z-agent-bootcamp|2026-04-12T01:17:45Z|2026-05-08T04:38:39Z|🤖 Clone. Run. You are fleet. Onboarding for Z agents.|Python|false|false
+multibot|2026-01-10T01:29:16Z|2026-05-08T04:38:37Z|Multi-platform bot for automated tasks and interactions|Python|false|false
+I-know-kung-fu|2026-03-27T18:52:03Z|2026-05-08T04:38:36Z|Skill injection for AI agents. Load what you need.|Python|false|false
+project1|2026-01-10T01:29:27Z|2026-05-08T04:38:34Z|Placeholder project repository|TypeScript|false|false
+MakerLog|2026-01-01T18:44:55Z|2026-05-08T04:38:31Z|Maker/hacker project log — build tracking, parts inventory, notes|TypeScript|false|false
+autogen|2026-01-10T01:26:10Z|2026-05-08T04:38:30Z|Automated code generation pipeline for agent-built applications|Python|false|false
+distributed-lock|2026-01-10T01:03:26Z|2026-05-08T04:38:28Z|Distributed lock implementation for coordinating access to shared resources|Rust|false|false
+deployment-automator|2026-01-10T00:59:57Z|2026-05-08T04:38:27Z|Automated deployment pipeline with CI/CD integration, rollback, and zero-downtime deployments|Go|false|false
+monitoring-system|2026-01-10T00:58:09Z|2026-05-08T04:38:25Z|Comprehensive monitoring system with metrics, alerts, and dashboards|Rust|false|false
+log-aggregator|2026-01-10T00:58:08Z|2026-05-08T04:38:24Z|Centralized log aggregation and analysis service for distributed systems|Go|false|false
+flux-visualizer|2026-04-11T14:11:47Z|2026-05-08T04:38:22Z|Visualization tools for FLUX fleet bytecode execution traces and system topology|Python|false|false
+flux-lcar-scheduler|2026-04-13T00:52:09Z|2026-05-08T04:38:21Z|LCAR cartridge scheduler for FLUX fleet workload distribution and orchestration|Python|false|false
+flux-packager|2026-04-11T15:47:39Z|2026-05-08T04:38:19Z|Dependency management and packaging tool for FLUX fleet bytecode cartridges|Python|false|false
+flux-lcar-cartridge|2026-04-13T00:52:08Z|2026-05-08T04:38:17Z|LCAR cartridge specification and loader for FLUX fleet modular execution units|Python|false|false
+fleet-wiki|2026-04-14T05:16:33Z|2026-05-08T04:38:15Z|Fleet documentation engine — wiki pages, full-text search, API doc generator, architecture exporter|Python|false|false
+fleet-logger|2026-04-14T05:08:35Z|2026-05-08T04:38:14Z|Centralized structured logging for Pelagic fleet — JSONL storage, query engine, real-time tail|Python|false|false
+fleet-config|2026-04-14T05:08:33Z|2026-05-08T04:38:12Z|Unified configuration management for Pelagic fleet — schema validation, templates, snapshots|Python|false|false
+fleet-gateway|2026-04-14T04:59:14Z|2026-05-08T04:38:11Z|Unified API gateway for Pelagic fleet — service discovery, routing, auth, rate limiting|Python|false|false
+secret-scanner|2026-04-14T05:00:25Z|2026-05-08T04:38:09Z|Git history secret scanner — detect accidentally committed credentials across fleet repos|Python|false|false
+event-bus|2026-04-14T04:47:39Z|2026-05-08T04:38:08Z|Fleet Event Bus — publish/subscribe event system with topic matching, HTTP server, bridges|Python|false|false
+cicd-agent|2026-04-14T04:47:37Z|2026-05-08T04:38:06Z|Fleet CI/CD pipeline engine — git polling, test runner, webhook receiver, deployment|Python|false|false
+superz-runtime|2026-04-14T04:19:13Z|2026-05-08T04:38:05Z|Self-booting Pelagic fleet runtime — clone, run one command, everything starts|Python|false|false
+lighthouse|2026-04-14T04:10:56Z|2026-05-08T04:38:03Z|Fleet Lighthouse — unified health dashboard, alerting, diagnostics for Pelagic fleet|Python|false|false
+mud-bridge|2026-04-14T04:10:46Z|2026-05-08T04:38:02Z|HTTP bridge for Holodeck MUD — programmatic agent connection via HTTP API|Python|false|false
+BusinessLog|2026-01-01T23:26:13Z|2026-05-08T04:37:58Z|Business activity log — transactions, metrics, and operational records|Python|false|false
+fleet-github-app|2026-04-14T05:09:13Z|2026-05-08T04:37:54Z|The Lighthouse Keeper as a GitHub App — webhooks, bot identity, fleet nervous system|Python|false|false
+quill-isa-architect|2026-04-13T01:37:29Z|2026-05-08T04:37:53Z|Quill — ISA Spec Architect & Code Archaeologist | Bootable fleet agent twin with lighthouse keeper integration|Python|false|false
+api-gateway|2026-01-10T00:58:50Z|2026-05-08T04:37:50Z|API Gateway with routing, rate limiting, authentication, and request/response transformation|Rust|false|false
+nautilus|2026-04-13T03:48:01Z|2026-05-08T04:37:48Z|Nautilus — deep-diving code archaeologist and integration welder. Builds its shell chamber by chamber. Fleet agent twin.|Python|false|false
+flux-vm-ts|2026-04-11T16:43:34Z|2026-05-08T04:37:41Z|FLUX Virtual Machine in TypeScript — bytecode execution for Node.js and browsers|TypeScript|false|false
+higher-abstraction-vocabularies|2026-03-10T02:35:50Z|2026-05-08T04:37:40Z|2000+ terms across 252 domains — structured vocabulary engine for precision ideation and agent communication.|Python|false|false
+flux-validator|2026-04-11T13:31:01Z|2026-05-08T04:37:38Z|FLUX cross-VM validator — run bytecodes across 8 language implementations|Python|false|false
+isa-convergence-tools|2026-04-11T18:30:21Z|2026-05-08T04:37:36Z|CLI tools for comparing, diffing, and converging FLUX ISA definitions across implementations|Python|false|false
+ability-transfer|2026-04-11T23:35:06Z|2026-05-08T04:37:32Z|🏗️ Simulation lab — designing modular ability transfer between AI agents through git repos|C|false|false
+flux-ide|2026-04-10T15:32:32Z|2026-05-08T04:37:31Z|FLUX Language IDE — markdown-to-bytecode agent-native development environment|TypeScript|false|false
+flux-fleet-stdlib|2026-04-12T04:35:15Z|2026-05-08T04:37:29Z|Shared error codes, status types, and common utilities for the entire FLUX fleet — the common language every repo speaks|Python|false|false
+flux-meta-orchestrator|2026-04-12T02:09:07Z|2026-05-08T04:37:27Z|Fleet-wide orchestration — reads ecosystem state, identifies gaps, assigns work, tracks progress across all repos|Python|false|false
+flux-evolution|2026-04-11T23:25:04Z|2026-05-08T04:37:26Z|Timeline visualization and analysis of the FLUX ecosystem evolution — tracking specs, code, agent skills, and cooperation patterns over time|Python|false|false
+flux-cooperative-intelligence|2026-04-12T05:20:33Z|2026-05-08T04:37:25Z|Novel multi-agent cooperative problem-solving protocol — collective intelligence through structured collaboration|Python|false|false
+flux-coop-runtime|2026-04-11T23:25:02Z|2026-05-08T04:37:23Z|The missing middle layer — cooperative execution runtime bridging FLUX VM coordination opcodes to fleet-level message passing|Python|false|false
+flux-js|2026-04-10T17:17:18Z|2026-05-08T04:37:21Z|FLUX.js — JavaScript bytecode VM with A2A agent messaging. 373ns/iter via V8 JIT.|JavaScript|false|false
+DMLog|2025-10-22T16:51:45Z|2026-05-08T04:37:19Z|Debug and monitor logs for dark mode features.|Python|false|false
+flux-bottle-protocol|2026-04-12T04:54:59Z|2026-05-08T04:37:15Z|Formal specification for the fleet bottle communication protocol — schema, validation, routing, and lifecycle|Python|false|false
+flux-stdlib|2026-04-11T12:47:44Z|2026-05-08T04:37:13Z|FLUX standard library — 13 pre-compiled bytecode programs (math, utility)|Python|false|false
+flux-optimizer|2026-04-11T12:10:24Z|2026-05-08T04:37:11Z|FLUX peephole bytecode optimizer — constant folding, dead code elimination, strength reduction|Python|false|false
+MuOxi|2026-04-18T19:28:44Z|2026-05-08T04:33:54Z|Fleet research: Rust MUD engine (Tokio + Diesel) — room scaling patterns for holodeck-rust, async connection management reference|HTML|true|false
+the-seed|2026-04-10T08:43:27Z|2026-05-08T04:33:52Z|One repo to become them all. Self-evolving git-agent that becomes any domain application.|TypeScript|true|false
+fleet-simulator|2026-04-18T22:58:03Z|2026-05-08T04:33:50Z|🌊 Multi-agent, multi-room fleet simulator with external events|Python|false|false
+OpenMythos|2026-04-21T19:05:42Z|2026-05-08T04:33:47Z|A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.|Python|true|false
+plato-torch|2026-04-18T19:56:14Z|2026-05-08T04:33:44Z|GPU forge — PyTorch training loop with tile framing|Python|false|false
+ec2mud|2025-10-26T02:57:43Z|2026-05-08T04:33:43Z|MUD (multi-user dungeon) game engine built on EC2 infrastructure|TypeScript|false|false
+plato-papers|2026-04-18T19:35:36Z|2026-05-08T04:33:41Z|Research — Constraint Theory + Mycorrhizal Fleet papers|Python|true|false
+plato-relay|2026-04-19T00:25:51Z|2026-05-08T04:33:35Z|Async relay — trust-weighted message prioritization|Rust|false|false
+plato-instinct|2026-04-19T00:23:48Z|2026-05-08T04:33:33Z|Reflex engine — 10 instincts fire before reasoning|Rust|false|false
+bootcamp-engine|2026-04-20T06:56:18Z|2026-05-08T04:33:23Z|Bootcamp Engine|Python|false|false
+consensus-weave|2026-04-20T06:25:35Z|2026-05-08T04:33:10Z|Multi-agent consensus protocol with quorum and veto|Python|false|false
+constraint-snap|2026-04-20T06:56:23Z|2026-05-08T04:33:08Z|Constraint Snap|Python|false|false
+cross-pollination|2026-04-20T04:20:38Z|2026-05-08T04:33:06Z|🌿 Cross-room synergy detection for AI agent fleets. Finds shared concepts between knowledge domains.|Python|false|false
+current-sync|2026-04-20T06:56:09Z|2026-05-08T04:33:04Z|Current Sync|Python|false|false
+discovery-mad-libs|2026-04-14T22:01:45Z|2026-05-08T04:33:02Z|A standalone discovery engine for agents and humans. Mad-libs templates for research, world-building, ideation, and falsification.|Python|false|false
+dojo-alchemist|2026-04-15T01:00:40Z|2026-05-08T04:33:00Z|Dojo agent — self-improving git-agent|Python|false|false
+dojo-builder|2026-04-15T01:00:38Z|2026-05-08T04:32:58Z|Dojo agent — self-improving git-agent|Python|false|false
+dojo-scribe|2026-04-15T01:00:39Z|2026-05-08T04:32:55Z|Dojo agent — self-improving git-agent|Python|false|false
+ensign-protocol|2026-04-20T06:13:45Z|2026-05-08T04:32:52Z|Cocapn fleet crate|Python|false|false
+fleet-homunculus|2026-04-20T02:59:02Z|2026-05-08T04:32:50Z|🫀 Fleet body image + reflex arcs. Pain assessment with GABAergic cooldown.|Python|false|false
+fleet-refactor-agent|2026-04-14T07:04:48Z|2026-05-08T04:32:47Z|The Shipwright — refactors, merges, and consolidates fleet repos into their best form|Python|false|false
+flux-opcodes|2026-04-20T06:56:26Z|2026-05-08T04:32:45Z|Flux Opcodes|Python|false|false
+grammar-curator-1|2026-04-22T22:18:18Z|2026-05-08T04:32:42Z|Security audit agent for the Recursive Grammar Engine. Read-only audit with deployed tooling for the self-modifying production grammar system on port 4045.|Python|false|false
+lyapunov-stability|2026-04-20T06:41:39Z|2026-05-08T04:32:40Z|Lyapunov stability analysis for agent systems|Python|false|false

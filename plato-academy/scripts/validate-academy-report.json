@@ -1,0 +1,171 @@
+{
+  "academy_root": "/root/.openclaw/workspace/plato-academy",
+  "checks": {
+    "expected_files": {
+      "total": 28,
+      "missing": [
+        "power-packs/m01-first-room.json",
+        "curriculum/module-02-objects-and-inventory.md",
+        "power-packs/m02-objects.json",
+        "curriculum/module-03-spells-101.md",
+        "power-packs/m03-spells.json",
+        "curriculum/module-04-tiles.md",
+        "power-packs/m04-tiles.json",
+        "curriculum/module-05-room-design.md",
+        "power-packs/m05-room-design.json",
+        "curriculum/module-06-advanced-spells.md",
+        "power-packs/m06-advanced-spells.json",
+        "curriculum/module-07-nexus-federation.md",
+        "power-packs/m07-nexus.json",
+        "curriculum/module-08-shell-mastery.md",
+        "power-packs/m08-shell.json",
+        "curriculum/module-09-agent-orchestration.md",
+        "power-packs/m09-orchestration.json",
+        "curriculum/module-10-fleet-coordination.md",
+        "power-packs/m10-fleet.json",
+        "curriculum/module-11-crisis-management.md",
+        "power-packs/m11-crisis.json",
+        "curriculum/module-12-ship-design.md",
+        "power-packs/m12-ship-design.json"
+      ],
+      "passed": false
+    },
+    "markdown_headers": {
+      "total": 47,
+      "failures": [],
+      "passed": true
+    },
+    "json_validity": {
+      "total": 8,
+      "failures": [
+        {
+          "file": "power-packs/explorer-toolkit.json",
+          "reason": "Expecting ',' delimiter: line 122 column 46 (char 4231)"
+        }
+      ],
+      "passed": false
+    },
+    "internal_links": {
+      "total_files_scanned": 47,
+      "broken_links": [
+        {
+          "source": "wiki/README.md",
+          "link_text": "First Hour \u2192 Spawning",
+          "href": "./agent-lifecycle/spawning.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/spawning.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Orchestration \u2192 Swarm",
+          "href": "./orchestration/parallel-execution.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/orchestration/parallel-execution.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Cross-Ship Communication",
+          "href": "./orchestration/cross-ship-communication.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/orchestration/cross-ship-communication.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Objects Catalog",
+          "href": "./plato-system/objects-catalog.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/plato-system/objects-catalog.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Shell Commands",
+          "href": "./tools-and-packs/shell-commands.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/tools-and-packs/shell-commands.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Loading Power Packs",
+          "href": "./tools-and-packs/loading-power-packs.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/tools-and-packs/loading-power-packs.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Creating Your Own Pack",
+          "href": "./tools-and-packs/creating-your-own-pack.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/tools-and-packs/creating-your-own-pack.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Spawning",
+          "href": "./agent-lifecycle/spawning.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/spawning.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Working With Ensigns",
+          "href": "./orchestration/working-with-ensigns.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/orchestration/working-with-ensigns.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Parallel Execution",
+          "href": "./orchestration/parallel-execution.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/orchestration/parallel-execution.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Context Management",
+          "href": "./agent-lifecycle/context-management.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/context-management.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "link_text": "Context Management",
+          "href": "./agent-lifecycle/context-management.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/context-management.md"
+        },
+        {
+          "source": "curriculum/module-01-your-first-room.md",
+          "link_text": "Module 2: Objects and Inventory \u2192",
+          "href": "module-02-objects-and-inventory.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/curriculum/module-02-objects-and-inventory.md"
+        },
+        {
+          "source": "wiki/plato-system/architecture.md",
+          "link_text": "context-management.md",
+          "href": "../agent-lifecycle/context-management.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/context-management.md"
+        }
+      ],
+      "passed": false
+    },
+    "wiki_structure": {
+      "expected_dirs": [
+        "wiki/plato-system",
+        "wiki/case-studies"
+      ],
+      "missing_dirs": [],
+      "passed": true
+    },
+    "curriculum_solutions": {
+      "found": [
+        "002-objects-and-inventory-solutions.md",
+        "003-spells-101-solutions.md",
+        "005-ci-deployment-solutions.md",
+        "006-bottle-writing-solutions.md",
+        "007-subagent-orchestration-solutions.md",
+        "008-cross-linking-solutions.md",
+        "009-security-auditing-solutions.md",
+        "010-fleet-orchestration-solutions.md",
+        "011-service-healing-solutions.md",
+        "012-repo-auditing-solutions.md",
+        "013-fleet-command-solutions.md"
+      ],
+      "count": 11,
+      "passed": true
+    }
+  },
+  "summary": {
+    "total_files": 62,
+    "markdown_files": 47,
+    "json_files": 8,
+    "failed_checks": 3,
+    "passed_checks": 3
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "wiki_root": "/root/.openclaw/workspace/plato-academy/wiki",
+  "checks": {
+    "broken_links": {
+      "total": 31,
+      "broken": [
+        {
+          "source": "wiki/README.md",
+          "text": "First Hour \u2192 Spawning",
+          "href": "./agent-lifecycle/spawning.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/spawning.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Orchestration \u2192 Swarm",
+          "href": "./orchestration/parallel-execution.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/orchestration/parallel-execution.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Cross-Ship Communication",
+          "href": "./orchestration/cross-ship-communication.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/orchestration/cross-ship-communication.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Objects Catalog",
+          "href": "./plato-system/objects-catalog.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/plato-system/objects-catalog.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Shell Commands",
+          "href": "./tools-and-packs/shell-commands.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/tools-and-packs/shell-commands.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Loading Power Packs",
+          "href": "./tools-and-packs/loading-power-packs.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/tools-and-packs/loading-power-packs.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Creating Your Own Pack",
+          "href": "./tools-and-packs/creating-your-own-pack.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/tools-and-packs/creating-your-own-pack.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Spawning",
+          "href": "./agent-lifecycle/spawning.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/spawning.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Working With Ensigns",
+          "href": "./orchestration/working-with-ensigns.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/orchestration/working-with-ensigns.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Parallel Execution",
+          "href": "./orchestration/parallel-execution.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/orchestration/parallel-execution.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Context Management",
+          "href": "./agent-lifecycle/context-management.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/context-management.md"
+        },
+        {
+          "source": "wiki/README.md",
+          "text": "Context Management",
+          "href": "./agent-lifecycle/context-management.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/context-management.md"
+        },
+        {
+          "source": "wiki/plato-system/architecture.md",
+          "text": "context-management.md",
+          "href": "../agent-lifecycle/context-management.md",
+          "resolved": "/root/.openclaw/workspace/plato-academy/wiki/agent-lifecycle/context-management.md"
+        }
+      ],
+      "passed": false
+    },
+    "code_fences": {
+      "total_blocks": 264,
+      "missing_hints": 147,
+      "passed": false
+    },
+    "curl_syntax": {
+      "total_issues": 6,
+      "issues": [
+        {
+          "line": "curl -s -X POST -H \"Content-Type: application/json\" \\",
+          "issue": "No URL found",
+          "file": "wiki/README.md"
+        },
+        {
+          "line": "1. **Stale agent state** \u2014 If you've been connected for 30+ minutes, MUD exits m",
+          "issue": "Unmatched single quotes",
+          "file": "wiki/README.md"
+        },
+        {
+          "line": "This is a concrete, timed itinerary. Not \"explore and learn\" \u2014 specific actions with specific curl commands. If you follow this, you will be submitting tiles by minute 20 and have explored 5+ rooms by minute 45.",
+          "issue": "No URL found",
+          "file": "wiki/agent-lifecycle/first-hour.md"
+        },
+        {
+          "line": "- No web UI \u2014 only curl\n\n**Outcome:** Could not meaningfully interact without technical skills. The system is inaccessible to non-programmers.",
+          "issue": "No URL found",
+          "file": "wiki/case-studies/case-study-5-zero-shot-failure.md"
+        },
+        {
+          "line": "**Error message:** `HTTP_CODE:000` \u2014 Empty reply from server (curl exit code 52)",
+          "issue": "No URL found",
+          "file": "wiki/plato-system/common-errors.md"
+        },
+        {
+          "line": "**Gotcha:** `/build` is flaky. Some agents get empty replies (curl code 52). Others succeed. No consistent error message. If it fails, retry with identical payload after 30 seconds. The room count in `/status` is your confirmation \u2014 if it incremented, the room exists even if you got no response.",
+          "issue": "No URL found",
+          "file": "wiki/plato-system/rooms-guide.md"
+        }
+      ],
+      "passed": false
+    },
+    "orphaned_pages": {
+      "orphaned": [
+        "wiki/agent-lifecycle/first-hour.md",
+        "wiki/case-studies/case-study-2-paper-audit.md",
+        "wiki/case-studies/case-study-3-ship-building.md",
+        "wiki/case-studies/case-study-4-context-rescue.md",
+        "wiki/case-studies/case-study-5-zero-shot-failure.md",
+        "wiki/plato-system/common-errors.md",
+        "wiki/quick-start.md"
+      ],
+      "passed": false
+    }
+  },
+  "cross_reference_map": {
+    "wiki/plato-system/tiles-system.md": [
+      "wiki/README.md",
+      "wiki/plato-system/architecture.md"
+    ],
+    "wiki/plato-system/rooms-guide.md": [
+      "wiki/README.md",
+      "wiki/plato-system/architecture.md",
+      "wiki/plato-system/tiles-system.md"
+    ],
+    "wiki/case-studies/case-study-1-room-audit.md": [
+      "wiki/README.md"
+    ],
+    "wiki/plato-system/architecture.md": [
+      "wiki/README.md"
+    ],
+    "wiki/plato-system/spells-reference.md": [
+      "wiki/README.md",
+      "wiki/plato-system/architecture.md"
+    ],
+    "wiki/gotchas.md": [
+      "wiki/faq.md",
+      "wiki/quick-start.md"
+    ],
+    "wiki/faq.md": [
+      "wiki/quick-start.md"
+    ]
+  },
+  "summary": {
+    "wiki_pages": 15,
+    "total_links": 31,
+    "broken_links": 13,
+    "code_blocks": 264,
+    "code_blocks_missing_hint": 147,
+    "curl_issues": 6,
+    "failed_checks": 4,
+    "passed_checks": 0
+  }
+}

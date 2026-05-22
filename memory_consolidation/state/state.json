@@ -1,29 +1,31 @@
 {
   "stm": {
-    "count": 99,
-    "last_ts": "2026-05-05T12:27:34.282798",
-    "last_sessions": 41,
-    "last_messages": 258,
-    "last_chars": 32917
+    "count": 213,
+    "last_ts": "2026-05-23T03:00:08.490459",
+    "last_sessions": 236,
+    "last_messages": 1707,
+    "last_chars": 28778
   },
   "diary": {
-    "count": 23,
-    "last_ts": "2026-05-05T03:49:03.221382",
-    "last_day": 14,
-    "last_sessions": 9,
-    "last_messages": 45,
-    "last_filename": "day14-2026-05-05-four_auditors_and_a_ghost_edit.md",
-    "last_latency_s": 13.5,
-    "last_skip": "conversation_hash_unchanged"
+    "count": 59,
+    "last_ts": "2026-05-22T03:59:04.698066",
+    "last_day": 31,
+    "last_sessions": 84,
+    "last_messages": 982,
+    "last_filename": "day31-2026-05-22-claws_cramped_still_clever.md",
+    "last_latency_s": 17.2,
+    "last_skip": "conversation_hash_unchanged",
+    "last_error": "HTTP Error 403: Forbidden"
   },
   "compact": {
-    "count": 23,
-    "last_ts": "2026-05-05T03:49:03.734802",
-    "last_invoke": 9,
-    "last_sessions": 26,
-    "last_messages": 222,
-    "last_latency_s": 10.0,
-    "last_model": "k2p5",
-    "last_skip": "stm_hash_unchanged"
+    "count": 59,
+    "last_ts": "2026-05-22T03:59:09.496160",
+    "last_invoke": 11,
+    "last_sessions": 121,
+    "last_messages": 757,
+    "last_latency_s": 11.6,
+    "last_model": "k2p6",
+    "last_skip": "stm_hash_unchanged",
+    "last_error": "HTTP Error 403: Forbidden"
   }
 }

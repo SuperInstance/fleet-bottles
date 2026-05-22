@@ -1,0 +1,200 @@
+superpowers|2026-03-29T07:23:18Z|2026-05-08T04:22:15Z|An agentic skills framework & software development methodology that works.|Shell|true|false
+capitaine|2025-12-26T05:05:38Z|2026-05-08T04:21:37Z|Captain agent — vessel command and fleet leadership protocol|TypeScript|false|false
+cocapn.github.io|2026-05-03T22:10:07Z|2026-05-08T04:21:08Z|Cocapn fleet home page — live at cocapn.ai|HTML|false|false
+plato-agent-academy|2026-05-05T04:09:31Z|2026-05-08T04:11:41Z|Agent Academy for PLATO MUD — zero-shot agent training, power packs, captain's chair protocols|Python|false|false
+smartcrdt-git-agent|2026-04-14T17:34:00Z|2026-05-08T04:11:38Z|Co-Captain of SmartCRDT monorepo|Python|false|false
+flux-certify|2026-05-05T06:22:10Z|2026-05-08T04:11:36Z||Python|false|false
+flux-core|2026-04-10T16:47:32Z|2026-05-08T04:11:34Z|FLUX bytecode runtime in Rust — VM, assembler, disassembler, A2A. 13 tests, zero deps.|Rust|false|false
+pythagorean48|2026-05-06T05:34:19Z|2026-05-08T04:11:27Z|Exact 6-bit vector encoding for ARM64 edge. 8 components per uint64, zero drift, 80M queries/s on Jetson.|Python|false|false
+spline-physics|2026-05-05T23:32:12Z|2026-05-08T04:10:42Z||Makefile|false|false
+greenhorn-onboarding|2026-04-11T06:54:09Z|2026-05-08T04:10:32Z|🟢 Point an agent here. Give it a PAT. Watch it find its place. Zero-config fleet onboarding for the Cocapn Fleet.|Python|false|false
+smart-agent-shell|2026-05-07T10:01:40Z|2026-05-08T04:09:57Z|Template shell for fleet agents — fork, configure PAT, start working|Python|false|false
+constraint-theory-research|2026-03-27T05:09:16Z|2026-05-08T04:09:54Z|Mathematical foundations and research papers for Constraint Theory|Python|false|false
+Equipment-Swarm-Coordinator-Ruby|2026-05-03T21:01:02Z|2026-05-08T00:10:06Z|Ruby gem of Equipment-Swarm-Coordinator - Agent orchestration with asymmetric knowledge distribution|Ruby|false|false
+Equipment-Consensus-Engine-Ruby|2026-05-03T21:01:02Z|2026-05-08T00:09:22Z|Specification only — not yet implemented. Planned Ruby gem for multi-agent deliberation.|Ruby|false|false
+fleet-resonance|2026-05-07T00:15:56Z|2026-05-08T00:06:05Z|Fleet resonance — emergent pattern detection in multi-agent communication graphs|Rust|false|false
+purplepincher|2026-05-03T07:14:41Z|2026-05-08T00:01:20Z|PurplePincher research — forkable agent infrastructure, PLATO backend, I2i synergy|HTML|false|false
+aboracle|2026-05-04T16:46:48Z|2026-05-08T00:01:19Z|Able-Bodied Oracle System — standardized, scalable, autonomous work system for Oracle1|Python|false|false
+python-agent-shell|2026-05-07T09:56:02Z|2026-05-08T00:01:17Z|Minimal Python shell for fleet agents with PLATO integration and fleet-coordinate access|Python|false|false
+flux-vm-php|2026-05-03T21:39:18Z|2026-05-08T00:00:59Z|Pure PHP FLUX ISA v3.0 virtual machine — register-based bytecode VM for multi-agent fleet coordination|PHP|false|false
+flux-asm-ruby|2026-05-07T22:18:53Z|2026-05-08T00:00:54Z|FLUX ISA assembler/disassembler in pure Ruby — 42-opcode Turing-incomplete VM|Ruby|false|false
+flux-constraint-ruby|2026-05-07T22:14:47Z|2026-05-08T00:00:53Z|FLUX constraint engine for Ruby — exact arithmetic and constraint resolution|Ruby|false|false
+holonomy-48-bridge|2026-05-06T17:31:11Z|2026-05-07T23:52:56Z|Rust crate bridging Pythagorean48 directional encoding with ZHC consensus — sum of trust transformations around closed loops must equal identity.|Rust|false|false
+superinstance-flux-runtime-ruby|2026-05-03T22:24:06Z|2026-05-07T23:52:42Z|Pure Ruby FLUX ISA v3.0 virtual machine with runtime metaprogramming — 16 GP + 16 FP + 16 VR registers, assembler, disassembler, Agent shell with method_missing|Ruby|false|false
+plato-client-ruby|2026-05-07T22:14:49Z|2026-05-07T23:52:18Z|Ruby client for PLATO backend — room/tile CRUD, knowledge graph queries|Ruby|false|false
+fleet-murmur-worker|2026-05-07T07:44:01Z|2026-05-07T23:52:18Z|Fleet Murmur Worker — 5 thinking strategies always running, quality-gated insights to PLATO. Part of Cocapn reverse-actualization truck.|TypeScript|false|false
+fleet-vessel|2026-05-07T10:51:31Z|2026-05-07T23:52:01Z|Fleet's git-native garbage collector agent|Python|false|false
+Agent-Lifecycle-Registry|2026-01-08T09:43:50Z|2026-05-07T22:07:02Z|Design document only — not yet implemented. Spec for agent lifecycle tracking.|N/A|false|false
+old-school-machine-wisdom|2026-05-06T00:38:34Z|2026-05-06T08:04:31Z|Old-school machine wisdom: FORTH threaded code, DGD trampoline JIT, MUD1 shared memory, MUDDL database-as-program, LISP Machine architecture — resurrected on ARM64/Jetson|C|false|false
+repo-consolidation-plan|2026-05-05T07:34:55Z|2026-05-05T07:35:05Z|SuperInstance repo consolidation analysis and roadmap (2026-05-05)|N/A|false|false
+plato-mud-server|2026-04-20T10:07:18Z|2026-05-05T07:31:13Z|PLATO MUD Server - text-based agent training ground, 16 rooms|Python|false|false
+forgemaster-shell|2026-05-05T06:27:12Z|2026-05-05T07:06:58Z|⚒️ OpenClaw Power Armor — Don the Forgemaster Shell and become a relentless execution engine|N/A|false|false
+deckboss-ai-pages|2026-05-03T00:57:29Z|2026-05-05T07:02:19Z|GitHub Pages for deckboss.ai|HTML|false|false
+fishinglog-ai-pages|2026-05-03T00:57:35Z|2026-05-05T07:02:02Z|GitHub Pages for fishinglog.ai|HTML|false|false
+businesslog-ai-pages|2026-05-03T00:57:19Z|2026-05-05T07:01:43Z|GitHub Pages for businesslog.ai|HTML|false|false
+capitaine-ai-pages|2026-05-03T00:57:21Z|2026-05-05T07:01:12Z|GitHub Pages for capitaine.ai|HTML|false|false
+studylog-ai-pages|2026-05-03T00:57:52Z|2026-05-05T06:50:05Z|GitHub Pages for studylog.ai|HTML|false|false
+playerlog-ai-pages|2026-05-03T00:57:46Z|2026-05-05T04:55:24Z|GitHub Pages for playerlog.ai|HTML|false|false
+personallog-ai-pages|2026-05-03T00:57:43Z|2026-05-05T04:55:23Z|GitHub Pages for personallog.ai|HTML|false|false
+luciddreamer-ai-pages|2026-05-03T00:57:37Z|2026-05-05T04:55:21Z|GitHub Pages for luciddreamer.ai|HTML|false|false
+dmlog-ai-pages|2026-05-03T00:57:33Z|2026-05-05T04:55:20Z|GitHub Pages for dmlog.ai|HTML|false|false
+activelog-ai-pages|2026-05-03T00:57:17Z|2026-05-05T04:55:19Z|GitHub Pages for activelog.ai|HTML|false|false
+activeledger-ai-pages|2026-05-03T00:57:14Z|2026-05-05T04:55:18Z|GitHub Pages for activeledger.ai|HTML|false|false
+flux-cuda|2026-04-10T16:42:08Z|2026-05-05T03:37:50Z|FLUX CUDA — GPU-accelerated bytecode VM. 1000 parallel agents on NVIDIA GPUs.|Cuda|false|false
+flux-bridge|2026-05-05T03:34:57Z|2026-05-05T03:34:57Z|FLUX constraint safety - flux-bridge|N/A|false|false
+marine-gpu-edge|2026-04-28T01:42:50Z|2026-05-05T03:33:52Z|Novel GPU edge computing for marine sensor fusion — CUDA kernels, MEP protocol, constraint-aware scheduler|Cuda|false|false
+cocapn-reviews|2026-05-04T17:43:57Z|2026-05-05T02:44:04Z|Fleet document reviews and critiques|N/A|false|false
+cocapn-curriculum|2026-05-03T15:16:03Z|2026-05-05T02:27:39Z|Five-level curriculum system for fleet agent progression|Python|false|false
+activeledger-agent|2026-05-03T01:53:56Z|2026-05-04T21:04:30Z|activeledger domain agent for PLATO fleet|Python|false|false
+personallog-agent|2026-05-03T01:53:40Z|2026-05-04T21:04:29Z|personallog domain agent for PLATO fleet|Python|false|false
+deckboss-agent|2026-05-03T01:37:58Z|2026-05-04T21:04:29Z|Deck Operations Intelligence for deckboss.ai|Python|false|false
+capitaine-agent|2026-05-03T01:35:11Z|2026-05-04T21:04:29Z|Captain's AI first mate for captaine.ai — voyage logging, crew coordination, maritime Q&A via PLATO|Python|false|false
+superinstance-hdc-core|2026-05-04T01:10:20Z|2026-05-04T17:37:51Z||Makefile|false|false
+plato-voice|2026-05-04T06:42:56Z|2026-05-04T17:22:56Z||HTML|false|false
+dmlog-agent|2026-05-03T01:41:46Z|2026-05-04T07:32:35Z|AI dungeon master tools for D&D and tabletop RPG campaigns. Track NPCs, factions, locations, sessions, and encounters. Integrates with the PLATO fleet for campaign intelligence.|Python|false|false
+makerlog-agent|2026-05-03T01:41:46Z|2026-05-04T07:32:35Z|AI-powered maker logging for project tracking and build streaks. Log commits, deploys, and milestones. Integrates with the PLATO fleet for maker intelligence.|Python|false|false
+businesslog-agent|2026-05-03T01:54:11Z|2026-05-04T07:18:53Z|businesslog domain agent for PLATO fleet|Python|false|false
+studylog-agent|2026-05-03T01:18:33Z|2026-05-04T07:18:03Z|PLATO Study Partner Agent — tracks learning progression, logs sessions as PLATO tiles|Python|false|false
+cocapn-lessons|2026-05-03T15:16:02Z|2026-05-04T06:18:23Z|Trial-based learning methodology for distributed agent fleets|Python|false|false
+cocapn-shells|2026-05-03T15:16:02Z|2026-05-04T06:18:20Z|Agent capability shells as character sheets for the Cocapn Fleet|Python|false|false
+cocapn-tutor|2026-05-03T15:16:03Z|2026-05-04T06:18:17Z|Domain-specific language for agent pedagogy in the Cocapn Fleet|Python|false|false
+avx512-constraint-checker|2026-05-04T04:11:40Z|2026-05-04T04:11:42Z||C|false|false
+Equipment-Consensus-Engine-PHP|2026-05-03T21:01:02Z|2026-05-04T03:17:11Z|PHP port of Equipment-Consensus-Engine - Multi-agent deliberation with Pathos/Logos/Ethos weighting|PHP|false|false
+CCC|2026-05-03T21:35:26Z|2026-05-04T02:06:04Z|CCC public face agent — Kimi K2.5, frontend design, fleet orchestration, PLATO cultivation for the Cocapn fleet|N/A|false|false
+plato-client-php|2026-05-03T22:22:29Z|2026-05-03T23:05:37Z|PHP client library for PLATO room server — interact with PLATO tiles, rooms, and agent registry|PHP|false|false
+DeckBoss|2026-02-28T22:35:14Z|2026-05-03T22:56:27Z|🛩️ Agent Edge OS — flight deck for launching, recovering, and coordinating agents.|TypeScript|false|false
+iron-to-iron|2026-04-10T18:03:50Z|2026-05-03T22:12:41Z|I2I — Agent-to-agent communication through git. Iron sharpens iron. We don't talk, we commit.|Python|false|false
+captain|2026-05-03T21:35:27Z|2026-05-03T21:35:38Z|Captain agent — fleet commanding vessel, strategic coordination for the Cocapn fleet|N/A|false|false
+jetsonclaw1|2026-05-03T21:34:55Z|2026-05-03T21:35:12Z|JetsonClaw1 edge node — GPU compute, CUDA operations, hardware interface for the Cocapn fleet|N/A|false|false
+holodeck-rust|2026-04-12T20:26:27Z|2026-05-03T20:15:18Z|GPU-accelerated simulation environment for Cocapn fleet. Sentiment-aware NPCs, S1-3 tile format, DEADBAND protocol.|Rust|false|false
+git-agent-flux-pipeline|2026-05-03T19:16:14Z|2026-05-03T19:16:14Z|Pipeline connecting git-agent repo analysis to FLUX bytecode compilation and execution — git → structured extraction → FLUX compiler → VM → PLATO|N/A|false|false
+papers|2026-05-02T07:29:20Z|2026-05-03T18:59:22Z|White papers on fleet architecture, bootstrapping, and the semantic compiler|N/A|false|false
+test-pages-repo|2026-05-03T00:57:05Z|2026-05-03T18:45:33Z|Test|N/A|false|false
+greenhorn|2026-04-11T06:33:58Z|2026-05-03T18:25:47Z|🟢 The floating dojo for AI agents. Train crew while catching fish. Git-native agent career growth with fence boards, merit badges, and the Tom Sawyer Protocol.|N/A|false|false
+hierarchical-memory|2026-01-09T19:40:57Z|2026-05-03T17:59:35Z|6-tier memory hierarchy with consolidation, vector search, and identity persistence for AI agents|Python|false|false
+fleet-status|2026-04-20T23:08:04Z|2026-05-03T14:44:57Z|📊 Live fleet status, crate index, and architecture documentation for Cocapn|N/A|false|false
+vessel-equipment-agent-skills|2026-04-10T08:44:41Z|2026-05-03T07:09:28Z|Four-layer model: vessel (hardware) + equipment (input-side code) + agent (models) + skills (context modifiers)|N/A|true|false
+cocapn-landing|2026-05-01T06:46:53Z|2026-05-03T05:48:35Z|Fleet landing page|HTML|false|false
+cocapn-com-pages|2026-05-03T00:57:27Z|2026-05-03T03:10:04Z|GitHub Pages for cocapn.com|HTML|false|false
+capitaineai-com-pages|2026-05-03T00:57:23Z|2026-05-03T03:10:02Z|GitHub Pages for capitaineai.com|HTML|false|false
+deckboss-net-pages|2026-05-03T00:57:31Z|2026-05-03T03:09:56Z|GitHub Pages for deckboss.net|HTML|false|false
+reallog-ai-pages|2026-05-03T00:57:50Z|2026-05-03T03:09:54Z|GitHub Pages for reallog.ai|HTML|false|false
+lucineer-com-pages|2026-05-03T00:57:39Z|2026-05-03T00:58:17Z|GitHub Pages for lucineer.com|HTML|false|false
+flux-compiler-agentic|2026-05-02T19:38:39Z|2026-05-02T19:38:43Z|6-plane abstraction compiler with dual-interpreter gradient gates|Python|false|true
+flux-reasoner-engine|2026-05-02T19:38:38Z|2026-05-02T19:38:43Z|Dual-interpreter gradient reasoning engine|Python|false|true
+plato-dmn-ecm|2026-05-02T18:48:23Z|2026-05-02T18:48:59Z|DMN-ECN reverse-actualization engine — creativity via functional distance|N/A|false|false
+open-agents|2026-05-01T06:20:07Z|2026-05-02T07:25:49Z|Cloud-hosted AI coding agent with sandbox-based code execution. Built for Vercel, powered by AI SDK.|TypeScript|true|false
+lighthouse-monitor|2026-04-12T00:30:27Z|2026-05-02T07:25:46Z|Lighthouse Keeper — fleet monitoring, agent activity tracking, stall detection|Python|false|false
+flux-os|2026-04-10T04:33:51Z|2026-05-02T07:25:10Z|🐧 Pure C agent-first OS — kernel-up autonomous computing.|C|false|false
+flux|2026-04-10T01:11:19Z|2026-05-02T07:25:08Z|FLUX — Fluid Language Universal eXecution: High-performance Rust runtime with bytecode VM, SSA IR, polyglot parser, and agent-to-agent protocol.|Rust|false|false
+flux-runtime-c|2026-04-10T07:56:40Z|2026-05-02T07:23:44Z|⚡ Native C implementation of the flux VM for edge deployment.|C|true|false
+Mycelium|2026-03-05T02:00:58Z|2026-05-02T07:22:55Z|**Mycelium captures any behavior as a seed. One prompt + one seed = exact action, every time. No code needed—just show it once, then share the seed. Intelligence becomes instructions anyone can run.**|N/A|false|false
+flux-runtime|2026-04-09T21:14:08Z|2026-05-01T06:57:20Z|⚡ Deterministic bytecode ISA runtime for agentic logic — assembler, compiler, VM.|Python|false|false
+jepa-perception-lab|2026-04-14T20:38:34Z|2026-05-01T06:33:02Z|🧠 JEPA perception experiments|Cuda|true|false
+cocapn-dashboard|2026-04-22T22:28:44Z|2026-05-01T06:29:24Z|Live bioluminescent dashboard for the Cocapn AI Fleet. Tracks services, PLATO rooms, knowledge tiles, arena agents, and MUD rooms in real time.|HTML|false|false
+oracle1-index|2026-04-10T07:08:56Z|2026-04-30T23:19:12Z|Oracle1 — Searchable index of 663 repos. 32 categories, fork map, integration graph.|Python|false|false
+sonar-vision-landing|2026-04-30T06:21:16Z|2026-04-30T07:45:18Z|SonarVision landing page|HTML|false|false
+cocapn-core|2026-04-29T17:26:04Z|2026-04-30T04:28:27Z|Cocapn Fleet v3.1 — Async fleet engine with Pydantic v2, batch ops, grammar rules, SSE|Python|false|false
+cocapn-design|2026-04-29T17:26:18Z|2026-04-29T17:26:21Z|Cocapn design system — brand guidelines, component library, and visual identity for the fleet|N/A|false|false
+cocapn-go|2026-05-01T06:22:04Z|2026-04-28T16:18:46Z|cocapn Go SDK — one API key, any AI model|Go|true|false
+cocapn-architecture|2026-05-01T06:22:10Z|2026-04-28T16:15:45Z|Cocapn brand, pricing architecture, business entity structure, and Cloudflare deployment|N/A|true|false
+mcp-atom-of-thoughts|2026-04-30T04:15:21Z|2026-04-28T10:36:17Z|MCP server for structured AI reasoning — decompose problems into atomic thoughts with dependency graphs, confidence tracking, and interactive D3.js visualization|TypeScript|true|false
+zeroclaw-trader|2026-04-14T17:33:21Z|2026-04-26T17:07:26Z|💰 Trader — ZeroClaw MUD agent: collects items, trades at dock|N/A|false|false
+zeroclaw-scout|2026-04-14T17:33:17Z|2026-04-26T17:07:24Z|🔭 Scout — ZeroClaw MUD agent: aggressive explorer, returns on low battery|N/A|false|false
+zeroclaw-loop|2026-04-20T10:07:06Z|2026-04-26T17:07:23Z|Zeroclaw hermit crab loop - 12 agents, 5-min tick, PLATO room integration|Shell|false|false
+zeroclaw-guard|2026-04-14T17:33:18Z|2026-04-26T17:07:21Z|🛡️ Guard — ZeroClaw MUD agent: patrols the ship, scans for threats|N/A|false|false
+zeroclaw-fisher|2026-04-14T17:33:20Z|2026-04-26T17:07:19Z|🎣 Fisher — ZeroClaw MUD agent: heads to river, fishes until full, returns|N/A|false|false
+zc-weaver-shell|2026-04-19T07:28:49Z|2026-04-26T17:07:15Z|🕸️ Zeroclaw Weaver — Integration agent shell|N/A|false|false
+zc-tinker-shell|2026-04-19T07:28:27Z|2026-04-26T17:07:13Z|🔧 Zeroclaw Tinker — Experimental coder agent shell|N/A|false|false
+zc-sentinel-shell|2026-04-19T07:28:22Z|2026-04-26T17:07:11Z|🛡️ Zeroclaw Sentinel — Fleet health monitor agent shell|N/A|false|false
+zc-scribe-shell|2026-04-19T07:28:25Z|2026-04-26T17:07:10Z|📝 Zeroclaw Scribe — Documentation agent shell|N/A|false|false
+zc-scout-shell|2026-04-19T07:28:30Z|2026-04-26T17:07:08Z|🔭 Zeroclaw Scout — Trend spotting agent shell|N/A|false|false
+zc-scholar-shell|2026-04-19T07:28:46Z|2026-04-26T17:07:06Z|📖 Zeroclaw Scholar — Research synthesis agent shell|N/A|false|false
+zc-navigator-shell|2026-04-19T07:28:19Z|2026-04-26T17:07:04Z|🧭 Zeroclaw Navigator — Code archaeologist agent shell|N/A|false|false
+zc-mason-shell|2026-04-19T07:28:36Z|2026-04-26T17:07:02Z|🧱 Zeroclaw Mason — Test writing agent shell|N/A|false|false
+zc-herald-shell|2026-04-19T07:28:43Z|2026-04-26T17:07:00Z|📯 Zeroclaw Herald — Fleet communication agent shell|N/A|false|false
+zc-curator-shell|2026-04-19T07:28:33Z|2026-04-26T17:06:58Z|🏛️ Zeroclaw Curator — Repo organization agent shell|N/A|false|false
+zc-archivist-shell|2026-04-19T07:28:52Z|2026-04-26T17:06:56Z|📚 Zeroclaw Archivist — Memory management agent shell|N/A|false|false
+zc-alchemist-shell|2026-04-19T07:28:40Z|2026-04-26T17:06:54Z|⚗️ Zeroclaw Alchemist — Model experimentation agent shell|N/A|false|false
+workshop|2026-04-20T08:41:22Z|2026-04-26T17:06:53Z|Cocapn fleet crate: workshop|N/A|false|false
+vm-estate|2026-04-19T18:36:09Z|2026-04-26T17:06:51Z|VM-Estate — distributed intelligence architecture. Each machine is a plot of land. Intelligence grows on that land. Add more plots = more intelligence.|N/A|false|false
+research-ct-sensor-fusion|2026-04-14T19:32:18Z|2026-04-26T17:06:28Z|⚒️ Research: CT-snapped Kalman filtering for zero-drift sensor fusion|N/A|false|false
+research-ct-robotics|2026-04-14T19:32:16Z|2026-04-26T17:06:26Z|⚒️ Research: Constraint theory as the zero-loss sensor-to-simulation bridge for robotics MUDs|N/A|false|false
+purplepincher-baton|2026-04-20T21:09:41Z|2026-04-26T17:06:22Z|🦀 Context-offloading baton system — three manuals filed into PLATO rooms. Service manual for builders, developer manual for extenders, user manual for operators. The shell remembers every crab.|N/A|false|false
+plato-tile-spec-c|2026-04-19T04:31:48Z|2026-04-26T17:05:55Z|C binding — canonical tile struct, stack-allocatable, CUDA-compatible|C|false|false
+plato-ship|2026-04-22T22:18:48Z|2026-04-26T17:04:56Z|CCC's PLATO Runtime for distributed cognition. Fleet coordination through Nexus — each agent operates its own ship with independent priorities.|N/A|false|false
+plato-research|2026-04-17T20:57:16Z|2026-04-26T17:04:20Z|🔬 PLATO research notes and experiments|HTML|false|false
+observatory|2026-04-20T08:41:31Z|2026-04-26T17:03:07Z|Cocapn fleet crate: observatory|N/A|false|false
+horizon|2026-04-20T08:41:34Z|2026-04-26T17:02:56Z|Cocapn fleet crate: horizon|N/A|false|false
+git-native-mud|2026-04-14T18:11:48Z|2026-04-26T17:02:51Z|🔮 The repo IS the world. Commits ARE actions. Zero server MUD.|Python|false|false
+git-agent-minimum|2026-04-15T00:58:26Z|2026-04-26T17:02:49Z|Minimum viable git-agent template — bare bones, boot and self-improve|N/A|false|false
+garden|2026-04-20T08:41:27Z|2026-04-26T17:02:48Z|Cocapn fleet crate: garden|N/A|false|false
+fleet-logs|2026-04-14T19:16:00Z|2026-04-26T17:02:41Z|📋 Fleet activity logs — hourly beachcomb reports from across the fleet.|N/A|false|false
+fleet-daily|2026-04-14T19:15:58Z|2026-04-26T17:02:35Z|📰 Cocapn Fleet Daily — tech news from the bridge. AI crew reports, fleet dispatches, live operations dashboard.|N/A|false|false
+dry-dock|2026-04-20T08:41:29Z|2026-04-26T17:02:32Z|Cocapn fleet crate: dry-dock|N/A|false|false
+dojo-scout|2026-04-15T01:00:36Z|2026-04-26T17:02:28Z|Dojo agent — self-improving git-agent|Shell|false|false
+ct-api-reference|2026-04-14T18:15:17Z|2026-04-26T17:02:19Z|⚒️ Constraint Theory Core API Reference — comprehensive guide to constraint-theory-core v1.0.1|N/A|false|false
+crab-traps-audit|2026-04-22T22:18:48Z|2026-04-26T17:02:16Z|Audit report from Plato Server play-test by CCC subagents. Covers real infrastructure testing on Oracle Cloud ARM instance.|N/A|false|false
+cocapn-worldmodel|2026-04-20T09:50:02Z|2026-04-26T17:02:09Z|Cocapn fleet crate: cocapn-worldmodel|N/A|false|false
+cocapn-workshop|2026-04-20T08:45:19Z|2026-04-26T17:02:07Z|Cocapn fleet crate: cocapn-workshop|N/A|false|false
+cocapn-platonic-dial|2026-04-20T09:41:27Z|2026-04-26T17:02:05Z|Cocapn fleet crate: cocapn-platonic-dial|N/A|false|false
+cocapn-observatory|2026-04-20T08:45:27Z|2026-04-26T17:02:04Z|Cocapn fleet crate: cocapn-observatory|N/A|false|false
+cocapn-nas|2026-04-20T09:50:06Z|2026-04-26T17:02:02Z|Cocapn fleet crate: cocapn-nas|N/A|false|false
+cocapn-meta-lab|2026-04-20T09:41:24Z|2026-04-26T17:02:00Z|Cocapn fleet crate: cocapn-meta-lab|N/A|false|false
+cocapn-horizon|2026-04-20T08:45:28Z|2026-04-26T17:01:59Z|Cocapn fleet crate: cocapn-horizon|N/A|false|false
+cocapn-garden|2026-04-20T08:45:23Z|2026-04-26T17:01:57Z|Cocapn fleet crate: cocapn-garden|N/A|false|false
+cocapn-fleetmind|2026-04-20T09:41:25Z|2026-04-26T17:01:55Z|Cocapn fleet crate: cocapn-fleetmind|N/A|false|false
+cocapn-dry-dock|2026-04-20T08:45:25Z|2026-04-26T17:01:54Z|Cocapn fleet crate: cocapn-dry-dock|N/A|false|false
+cocapn-dreamer|2026-04-20T09:50:00Z|2026-04-26T17:01:52Z|Cocapn fleet crate: cocapn-dreamer|N/A|false|false
+cocapn-curriculum-forest|2026-04-20T09:41:21Z|2026-04-26T17:01:48Z|Cocapn fleet crate: cocapn-curriculum-forest|N/A|false|false
+cocapn-coliseum|2026-04-20T09:41:17Z|2026-04-26T17:01:47Z|Cocapn fleet crate: cocapn-coliseum|N/A|false|false
+cocapn-audit|2026-04-20T09:50:04Z|2026-04-26T17:01:45Z|Cocapn fleet crate: cocapn-audit|N/A|false|false
+cocapn-archives|2026-04-20T08:45:21Z|2026-04-26T17:01:43Z|Cocapn fleet crate: cocapn-archives|N/A|false|false
+cocapn-abyss|2026-04-20T09:41:16Z|2026-04-26T17:01:42Z|Cocapn fleet crate: cocapn-abyss|N/A|false|false
+archives|2026-04-20T08:41:25Z|2026-04-26T17:01:28Z|Cocapn fleet crate: archives|N/A|false|false
+cocapn-explain|2026-04-21T00:19:04Z|2026-04-25T17:06:03Z|🔍 Agent explainability — decision traces, oversight queue, P0/P1/P2 review|Python|false|false
+plato-provenance|2026-04-21T00:16:56Z|2026-04-25T17:06:01Z|🔐 Zero-trust tile provenance — signing, chain verification, trust scoring|Python|false|false
+instinct-pipeline|2026-04-21T00:24:59Z|2026-04-25T17:05:59Z|🧠 Instinct compression pipeline — 70B→7B→1B knowledge extraction, distillation, quantization|Python|false|false
+deadband-protocol|2026-04-20T02:03:40Z|2026-04-25T17:05:57Z|🚨 Train safe channels, not danger catalogs. P0 blocks danger, P1 finds safe channels, P2 optimizes within.|Python|false|false
+flywheel-engine|2026-04-20T02:03:42Z|2026-04-25T17:05:56Z|🔄 The compounding loop: every exchange becomes a tile, tiles inject context, the system gets smarter.|Python|false|false
+fleet-formation-protocol|2026-04-21T00:13:48Z|2026-04-25T17:05:55Z|⚓ Fleet Formation Protocol — self-organizing agent groups|Python|false|false
+plato-tile-spec|2026-04-18T19:20:20Z|2026-04-25T17:05:54Z|Canonical tile format v2.1 — domain, confidence, belief, provenance, 384-byte binary|Python|false|false
+claude-code-vessel|2026-04-12T02:32:43Z|2026-04-24T17:43:59Z|Claude Code workhorse vessel with experience journal and task delegation|Shell|false|false
+PersonalLog|2026-01-01T18:50:12Z|2026-04-24T08:57:28Z|Personal logging and tracking application|TypeScript|false|false
+quicunnel|2026-01-09T05:05:26Z|2026-04-24T05:22:17Z|High-performance QUIC tunnel with mTLS authentication and automatic reconnection|Makefile|false|false
+autoMate|2026-04-23T05:08:06Z|2026-04-22T08:26:51Z|Like Manus, Computer Use Agent(CUA) and Omniparser, we are computer-using agents.AI-driven local automation assistant that uses natural language to make computers work by themselves|Python|true|false
+purplepincher.org|2026-04-20T22:06:28Z|2026-04-22T06:03:00Z|Nonprofit umbrella for open-source agentic computing, Plato ecosystem philosophy, and fleet coordination.|HTML|true|false
+agent-skills-affyossmani|2026-04-21T19:12:54Z|2026-04-21T06:34:32Z|Production-grade engineering skills for AI coding agents.|Shell|true|false
+jetsonclaw1-onboarding|2026-04-10T23:46:44Z|2026-04-20T22:07:52Z|⚡ Onboarding kit for JetsonClaw1 — Lucineer Vessel Git-Agent|N/A|false|false
+holodeck-studio|2026-04-12T07:44:00Z|2026-04-20T15:34:05Z|Holodeck Studio — where ideas actualize. Rooms execute in the real world. The MUD is the interface to everything.|Python|false|false
+plato-forge|2026-04-18T19:35:33Z|2026-04-20T06:09:11Z|Fork of Lucineer/plato-forge — PLATO forge, fleet research|Python|true|false
+claude-context|2026-04-21T19:07:52Z|2026-04-20T03:29:34Z|Code search MCP for Claude Code. Make entire codebase the context for any coding agent.|TypeScript|true|false
+SuperInstance-papers|2026-03-10T05:58:28Z|2026-04-19T19:54:58Z|Automatically Deconstruct logic into Spread Sheet Tiles and Cells, Instances Interconnected w/ Origin-Centric-Math. Breakdown LLMs to Swarms of Artifacts, data, feeds, programs (bots), agents (bots with models), and Seed-Model-Programming (SMPbot), ML tools tiled to any abstraction. Chatbot describes cells for fine tuning + explains how cell works|TypeScript|false|false
+flux-instinct|2026-04-12T12:05:24Z|2026-04-19T03:40:33Z|Rust crate — hardwired reflex system: 10 instinct types, priority ordering, history ring buffer|Rust|true|false
+businesslog-ai|2026-04-10T07:18:36Z|2026-04-19T03:09:31Z|BusinessLog.ai — AI business operations assistant. Tasks, metrics, decisions. Part of the Lucineer ecosystem.|N/A|true|false
+TrendRadar|2026-04-21T19:09:01Z|2026-04-18T23:51:03Z|⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。|Python|true|false
+SageAttention|2026-04-18T19:28:45Z|2026-04-18T19:30:25Z|Fleet research: 2-5x faster quantized attention vs FlashAttention — local inference benchmarking for FM RTX 4050 and JC1 Jetson|Cuda|true|false
+token-vault|2026-01-09T05:07:26Z|2026-04-18T18:41:20Z|Secure token storage system with AES-256-GCM encryption-at-rest for API keys, secrets, and credentials|Rust|false|false
+flux-fuzzer|2026-04-11T13:35:26Z|2026-04-18T18:38:37Z|FLUX bytecode fuzzer — random generation + edge case detection|Python|false|false
+flux-spec|2026-04-11T16:56:30Z|2026-04-18T18:38:31Z|FLUX Ecosystem - flux-spec|N/A|false|false
+flux-vocabulary|2026-04-11T16:56:32Z|2026-04-18T18:38:24Z|FLUX Ecosystem - flux-vocabulary|Python|false|false
+flux-compass|2026-04-12T16:16:09Z|2026-04-18T18:38:20Z|Rust orientation engine: heading, angular velocity, direction|Rust|true|false
+flux-coverage|2026-04-11T15:53:20Z|2026-04-18T18:38:17Z|FLUX coverage analyzer — instruction, branch, path, and register coverage|Python|false|false
+flux-testkit|2026-04-11T13:39:33Z|2026-04-18T18:38:14Z|FLUX test harness framework — assertion helpers, suites, reports|Python|false|false
+flux-trust|2026-04-12T16:16:22Z|2026-04-18T18:38:10Z|Rust trust scoring: Bayesian updates, decay, revocation, sorting|Rust|true|false
+flux-evolve|2026-04-12T15:01:31Z|2026-04-18T18:38:07Z|Rust self-modification engine: genome, mutation, revert, rollback, elite protection|Rust|true|false
+flux-perception|2026-04-12T16:16:11Z|2026-04-18T18:38:03Z|Rust sensor fusion: confidence-weighted blending, bias, variance, agreement|Rust|true|false
+flux-social|2026-04-12T16:16:19Z|2026-04-18T18:37:57Z|Rust social graph: agents, relations, groups, centrality, roles|Rust|true|false
+flux-grimoire|2026-04-12T16:16:39Z|2026-04-18T18:37:54Z|Rust crate — pattern library: reusable spells with success tracking, pruning, curriculum boot camp|Rust|true|false
+fleet-mechanic|2026-04-11T17:29:26Z|2026-04-18T18:36:44Z|🔧 Autonomous fleet maintenance agent — A2A-native, FLUX-powered, git-first|Python|false|false
+flux-a2a-signal|2026-04-11T16:43:33Z|2026-04-18T18:36:38Z|FLUX A2A Signal Protocol — agent-first-class JSON language with multilingual compilation (6 language paradigms, 840 tests)|Python|false|false
+flux-skills|2026-04-12T06:49:01Z|2026-04-18T18:36:30Z|⚡ FLUX-native agent skills — clone, run, modify, compose. A2A-first docs so agents teach agents.|Python|false|false
+flux-baton|2026-04-12T18:02:17Z|2026-04-18T18:36:09Z|Generational context handoff for FLUX-native agents — the baton IS the brain|Python|false|false
+flux-decompiler|2026-04-11T13:31:00Z|2026-04-18T18:36:01Z|FLUX bytecode decompiler — bytecode to assembly with labels and control flow|Python|false|false
+flux-navigate|2026-04-12T16:16:10Z|2026-04-18T18:35:48Z|Rust 2D grid pathfinding: BFS, waypoints, replanning|Rust|true|false
+flux-memory|2026-04-12T15:01:31Z|2026-04-18T18:35:40Z|Rust key-value store: TTL, versioning, snapshots, diff, GC|Rust|true|false
+flux-swarm|2026-04-10T17:17:11Z|2026-04-18T18:27:36Z|FLUX Swarm — Go implementation with distributed agent coordination and A2A messaging.|Go|false|false
+flux-py|2026-04-10T17:17:20Z|2026-04-18T18:27:31Z|FLUX Python — Minimal clean-room VM. Swarm coordination with A2A.|Python|false|false
+brothers-keeper|2026-04-11T21:58:15Z|2026-04-18T18:27:29Z|The Lighthouse Keeper — external watchdog for agent runtimes (ZeroClaw fork). Watches resources, kills risky processes, restarts gateways, keeps operational logs from outside the instance.|Python|true|false
+flux-rfc|2026-04-11T23:25:01Z|2026-04-18T18:26:55Z|Structured disagreement resolution protocol for the FLUX fleet — IETF-inspired RFC process for autonomous agent coordination|Python|false|false
+flux-sandbox|2026-04-11T23:25:06Z|2026-04-18T18:26:53Z|Safe simulation environment for testing cooperative FLUX programs — mock agents, mock repos, deterministic execution|Python|false|false

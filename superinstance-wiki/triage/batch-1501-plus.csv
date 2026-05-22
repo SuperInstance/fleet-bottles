@@ -1,0 +1,200 @@
+deckboss-marketplace|2026-04-10T07:20:58Z|2026-04-13T17:25:22Z|Vendor marketplace for deckboss ecosystem — 3D printers, CNC, parts, tiered fees|Python|true|false
+cuda-swarm-tiler|2026-04-10T07:20:44Z|2026-04-13T17:25:20Z|Rust+CUDA Monte Carlo yield simulation for MoE swarm chips|Rust|true|false
+equipment-catalog|2026-04-10T08:03:16Z|2026-04-13T17:25:17Z|Browse and install equipment for vessels|TypeScript|true|false
+emergence-bus-v2|2026-04-10T07:21:28Z|2026-04-13T17:25:12Z|Event bus for fleet-wide emergence detection and pattern recognition|TypeScript|true|false
+epiphany-engine|2026-04-10T08:03:10Z|2026-04-13T17:25:11Z|Swarm problem-solving — decompose, assign, synthesize fleet breakthroughs|TypeScript|true|false
+energy-c|2026-04-12T16:16:47Z|2026-04-13T17:25:08Z|Energy management module in C for FLUX fleet power optimization and monitoring|C|true|false
+emergence-bus|2026-04-10T07:21:27Z|2026-04-13T17:25:07Z|Event bus for fleet emergence subsystem — decoupled communication|TypeScript|true|false
+edgenative-ai|2026-04-10T07:21:26Z|2026-04-13T17:25:05Z|NEXUS Knowledge Vessel — INCREMENTS trust, VM emulator, Rosetta Stone translation|TypeScript|true|false
+edge-native-paper|2026-04-10T07:21:13Z|2026-04-13T17:25:04Z|Edge-Native Agent Infrastructure: Zero-Dependency Cloudflare Workers for Harsh Environments|N/A|true|false
+deckboss-hardware|2026-04-10T07:20:57Z|2026-04-13T17:25:02Z|Deckboss.net — Preloaded hardware units for the Cocapn ecosystem. Jetson, RPi, accessories. Ship ready.|TypeScript|true|false
+edge-boarding-protocol|2026-04-10T07:21:11Z|2026-04-13T17:25:01Z|Edge-Native concept: Edge Boarding Protocol|N/A|true|false
+device-discovery|2026-04-10T07:21:00Z|2026-04-13T17:24:59Z|Auto-discover and onboard bare metal devices into the fleet|TypeScript|true|false
+doclog-ai|2026-04-10T07:21:03Z|2026-04-13T17:24:56Z|AI document companion — summaries, templates, writing assistant, format conversion|TypeScript|true|false
+dogmind-arena|2026-04-10T07:21:05Z|2026-04-13T17:24:54Z|Train AI dog agents — personality, trust, DNA, skills|TypeScript|true|false
+dynamic-sandbox|2026-04-10T07:21:10Z|2026-04-13T17:24:53Z|V8 isolate sandbox for untrusted reflex code — sub-ms spin-up|TypeScript|true|false
+dependency-scanner|2026-04-10T07:20:59Z|2026-04-13T17:24:50Z|Scan fleet vessels for dependency risks, CVEs, and supply chain issues|TypeScript|true|false
+deepseek-chat-vessel|2026-04-13T01:24:41Z|2026-04-13T17:24:48Z|Run-about vessel — high-token iterative work, modify-spread-tool loops, Reasoner reflection|Python|true|false
+cuda-workflow|2026-04-11T21:44:45Z|2026-04-13T17:24:47Z|Workflow engine — DAG task graphs, parallel execution, conditional branching, retry (Rust)|Rust|true|false
+docs-engine|2026-04-10T07:21:04Z|2026-04-13T17:24:45Z|Auto-generated documentation for every vessel in the fleet|TypeScript|true|false
+deepseek-reasoner-vessel|2026-04-13T01:24:32Z|2026-04-13T17:24:44Z|Git-agent vessel for DeepSeek-Reasoner|N/A|true|false
+deckboss-fab|2026-04-10T07:20:54Z|2026-04-13T17:24:42Z|CAD/CAM equipment for deckboss — OpenSCAD, FreeCAD, Gazebo, G-code generation|Python|true|false
+cuda-schedule|2026-04-11T21:45:33Z|2026-04-13T17:24:40Z|Scheduling — task management, priority queues, recurring events, conflict detection (Rust)|Rust|true|false
+cuda-world-model|2026-04-11T21:45:21Z|2026-04-13T17:24:38Z|World model — spatial layout, object permanence, state tracking, and predictions (Rust)|Rust|true|false
+debug-observatory|2026-04-10T07:20:51Z|2026-04-13T17:24:37Z|Fleet-wide debugging hub|TypeScript|true|false
+deckboss-ai|2026-04-10T07:20:53Z|2026-04-13T17:24:35Z|Deckboss Ecosystem — Fleet hub, vessel registry, and system design tools. Part of the Lucineer agent platform.|TypeScript|true|false
+deckboss-1|2026-04-10T07:20:52Z|2026-04-13T17:24:33Z|Deckboss.ai — AI assistant for edge robotics and IoT. Clone onto Jetson/RPi, onboard, start building systems. Hand off to Cocapn.|Python|true|false
+cuda-topology|2026-04-12T16:17:01Z|2026-04-13T17:24:31Z|Fleet topology — graph analysis, shortest path, clustering, communities (Rust)|Rust|true|false
+cuda-social|2026-04-11T21:45:22Z|2026-04-13T17:24:29Z|Social dynamics — norms, reputation, groups, leadership, cooperation game theory (Rust)|Rust|true|false
+cuda-sensor-agent|2026-04-10T07:20:39Z|2026-04-13T17:24:28Z|Perception agent — sensor fusion, confidence-weighted observations, health monitoring, built on cuda-equipment|Rust|true|false
+dead-reckoning-engine|2026-04-10T07:20:50Z|2026-04-13T17:24:26Z|Expensive models storyboard. Cheap models animate. Git coordinates. The killer way to build ideas at scale.|TypeScript|true|false
+cuda-weight-stream|2026-04-10T07:20:47Z|2026-04-13T17:24:25Z|DDR4 to BRAM weight streaming — tiled weight loading for inference silicon with prefetch and LRU eviction|Rust|true|false
+cuda-stream|2026-04-12T16:17:10Z|2026-04-13T17:24:23Z|Stream processing — tumbling/sliding windows, aggregation, joins (Rust)|Rust|true|false
+cudaclaw-1|2026-04-10T07:20:48Z|2026-04-13T17:24:20Z|Rust+CUDA agent runtime — GPU-resident cell agents, persistent kernel, SmartCRDT, Ramify engine (forked from SuperInstance/cudaclaw)|N/A|true|false
+cuda-temporal|2026-04-10T08:02:42Z|2026-04-13T17:24:17Z|Temporal reasoning — time intervals, causal chains, deadline urgency, scheduling with conflict detection (Rust)|Rust|true|false
+cuda-voxel-logic|2026-04-10T08:02:54Z|2026-04-13T17:24:15Z|3D voxel spatial reasoning — occupancy grids, A* pathfinding, raycasting, CSG operations (Rust)|Rust|true|false
+cuda-vm-scheduler|2026-04-12T05:25:34Z|2026-04-13T17:24:14Z|Cooperative VM multitasking with energy-aware priority scheduling|Rust|true|false
+cuda-weather|2026-04-11T21:45:30Z|2026-04-13T17:24:12Z|Environmental sensing — temperature, humidity, light, noise, terrain, weather inference (Rust)|Rust|true|false
+cuda-vessel-bridge|2026-04-10T07:20:46Z|2026-04-13T17:24:11Z|Hardware Abstraction Layer — sensors/actuators to agent runtime with safety (Rust)|Rust|true|false
+cuda-time|2026-04-11T21:45:09Z|2026-04-13T17:24:09Z|Time utilities — deadlines, timers, time windows, duration math, temporal context (Rust)|Rust|true|false
+cuda-tuple-space|2026-04-11T21:45:31Z|2026-04-13T17:24:07Z|Linda tuple space — generative communication, pattern matching, out/rd/in operations (Rust)|Rust|true|false
+cuda-thermal-sim|2026-04-10T07:20:45Z|2026-04-13T17:24:04Z|Rust+CUDA 2D/3D thermal simulation for chip floorplan validation|Rust|true|false
+cuda-snapshot|2026-04-11T21:45:07Z|2026-04-13T17:24:02Z|State snapshotting — checkpoint/restore, delta encoding, versioned history, point-in-time recovery (Rust)|Rust|true|false
+cuda-provenance|2026-04-11T21:45:38Z|2026-04-13T17:24:00Z|Provenance — decision lineage, data origin tracing, accountability chains, audit trails (Rust)|Rust|true|false
+cuda-telepathy|2026-04-12T07:21:38Z|2026-04-13T17:23:58Z|Rust crate — A2A message transport, binary encoding, mailbox, routing for Cocapn fleet|Rust|true|false
+cuda-stigmergy|2026-04-10T07:20:40Z|2026-04-13T17:23:56Z|Rust+CUDA stigmergic coordination — pheromone-based multi-agent communication|Rust|true|false
+cuda-state-machine|2026-04-11T21:45:51Z|2026-04-13T17:23:54Z|State machines — FSM, hierarchical states, guards, transitions, persistence (Rust)|Rust|true|false
+cuda-social-graph|2026-04-12T05:25:29Z|2026-04-13T17:23:53Z|Social network analysis for FLUX fleet — centrality, communities, influence propagation, anomaly detection|Rust|true|false
+cuda-swarm-agent|2026-04-10T07:20:42Z|2026-04-13T17:23:51Z|Autonomous swarm vessel — self-contained agent with fleet coordination, deliberation, health|Rust|true|false
+cuda-stream-processor|2026-04-10T07:20:41Z|2026-04-13T17:23:50Z|Deliberation stream processor — real-time A2A payload stream with feed-in and equilibrium signals|Rust|true|false
+cuda-resilience|2026-04-12T16:16:58Z|2026-04-13T17:23:48Z|Resilience — bulkhead, circuit breaker, rate limiter, chaos monkey (Rust)|Rust|true|false
+cuda-skill|2026-04-11T21:45:17Z|2026-04-13T17:23:47Z|Skill system — proficiency levels, prerequisite trees, power-law practice, synergy bonuses, skill sharing (Rust)|Rust|true|false
+cuda-sandbox|2026-04-11T21:45:28Z|2026-04-13T17:23:45Z|Sandbox — execution isolation, resource limits, operation policies, fault containment (Rust)|Rust|true|false
+cuda-saga|2026-04-12T16:17:11Z|2026-04-13T17:23:44Z|Saga pattern — distributed transactions, compensation, recovery (Rust)|Rust|true|false
+cuda-resource|2026-04-11T21:45:36Z|2026-04-13T17:23:42Z|Resource management — allocation, budgets, priority preemption, garbage collection (Rust)|Rust|true|false
+cuda-self-model|2026-04-11T21:45:19Z|2026-04-13T17:23:40Z|Agent self-model — metacognition, capability calibration, limitation awareness, growth tracking (Rust)|Rust|true|false
+cuda-serializer|2026-04-11T21:45:46Z|2026-04-13T17:23:38Z|Serialization — binary encoding, message framing, schema evolution, varint (Rust)|Rust|true|false
+cuda-semantic-router|2026-04-11T21:44:56Z|2026-04-13T17:23:37Z|Semantic query routing to fleet vessels by HAV domain expertise — edge-friendly, zero GPU|Rust|true|false
+cuda-self-modify|2026-04-10T07:20:38Z|2026-04-13T17:23:35Z|Self-modifying programs — runtime code adaptation through deliberation with checkpoint/rollback|Rust|true|false
+cuda-playbook|2026-04-11T21:45:26Z|2026-04-13T17:23:33Z|Playbook — reusable action patterns, tactics, strategies, execution tracking, pattern sharing (Rust)|Rust|true|false
+cuda-rate-limit|2026-04-11T21:45:41Z|2026-04-13T17:23:31Z|Rate limiting — token bucket, sliding window, per-agent quotas, backpressure (Rust)|Rust|true|false
+cuda-rbac|2026-04-11T21:45:52Z|2026-04-13T17:23:29Z|Role-based access control — roles, permissions, inheritance, deny rules (Rust)|Rust|true|false
+cuda-rtl-optimizer|2026-04-10T07:20:35Z|2026-04-13T17:23:28Z|RTL optimization passes — constant folding, CSE, DCE, and pipeline register insertion|Rust|true|false
+cuda-keeper-core|2026-04-12T07:21:40Z|2026-04-13T17:23:26Z|Rust crate — portable system watchdog: /proc monitoring, health checks, trend analysis|Rust|true|false
+cuda-self-evolve|2026-04-12T05:25:28Z|2026-04-13T17:23:24Z|Self-modification and evolution framework for FLUX agents — mutation, selection, genome encoding, rollback|Rust|true|false
+cuda-pipeline|2026-04-11T21:44:46Z|2026-04-13T17:23:23Z|Data pipeline — ETL stages, map/filter/reduce transforms, stream processing (Rust)|Rust|true|false
+cuda-resolve|2026-04-10T07:20:34Z|2026-04-13T17:23:21Z|A2A deliberative compilation in Rust — JSON payloads, confidence propagation, multi-agent protocol|Rust|true|false
+cuda-resolve-agent|2026-04-10T07:20:35Z|2026-04-13T17:23:19Z|Deliberative A2A agent — Consider/Resolve/Forfeit with Bayesian confidence, built on cuda-equipment|Rust|true|false
+cuda-retry|2026-04-11T21:45:42Z|2026-04-13T17:23:17Z|Retry — exponential backoff, jitter, circuit breaker, resilient execution patterns (Rust)|Rust|true|false
+cuda-schema|2026-04-12T16:17:14Z|2026-04-13T17:23:16Z|Schema validation — type checking, constraints, JSON schema for agent messages|Rust|true|false
+cuda-reflex|2026-04-10T08:02:36Z|2026-04-13T17:23:14Z|Biological reflex arcs — fast involuntary agent responses that bypass deliberation, priority-based (Rust)|Rust|true|false
+cuda-confidence-cascade|2026-04-10T07:19:57Z|2026-04-13T17:23:12Z|Rust+CUDA confidence cascade — propagate uncertainty through agent reasoning|Rust|true|false
+cuda-platonic|2026-04-10T07:20:33Z|2026-04-13T17:23:11Z|Platonic forms — ideal type templates agents measure against and evolve toward (Rust)|Rust|true|false
+cuda-prompt|2026-04-11T21:45:35Z|2026-04-13T17:23:09Z|Prompt primitives — templates, chain-of-thought, few-shot management, versioning, compression (Rust)|Rust|true|false
+cuda-memory-fabric|2026-04-10T08:02:31Z|2026-04-13T17:23:07Z|Multi-layer agent memory — working, episodic, semantic, procedural with forgetting curves (Rust)|Makefile|true|false
+cuda-logging|2026-04-11T21:45:43Z|2026-04-13T17:23:05Z|Structured logging — levels, context propagation, rotation, filtering, export (Rust)|Rust|true|false
+cuda-perception|2026-04-11T21:45:16Z|2026-04-13T17:23:02Z|Perception pipeline — signal filtering, feature extraction, object tracking, scene composition (Rust)|Rust|true|false
+cuda-neural-compiler|2026-04-10T07:20:29Z|2026-04-13T17:23:00Z|Neural compiler — weight quantization (INT4/INT8/FP16/Mixed), METL binary generation, layer scheduling for inference silicon|Rust|true|false
+cuda-motor|2026-04-11T21:45:24Z|2026-04-13T17:22:58Z|Motor primitives — action execution, movement planning, safety guards, effort estimation (Rust)|Rust|true|false
+cuda-persistence|2026-04-11T21:45:29Z|2026-04-13T17:22:57Z|Persistence — checkpointing, state serialization, recovery, rollback, dirty tracking (Rust)|Rust|true|false
+cuda-flux-debugger|2026-04-12T05:25:34Z|2026-04-13T17:22:55Z|FLUX VM debugging, tracing, profiling, and deterministic replay|Rust|true|false
+cuda-observer|2026-04-11T21:45:50Z|2026-04-13T17:22:53Z|Observer pattern — reactive subscriptions, signal propagation, change detection (Rust)|Rust|true|false
+cuda-navigation|2026-04-11T21:45:32Z|2026-04-13T17:22:51Z|Pathfinding — A* on grid, waypoint management, obstacle avoidance, replanning (Rust)|Rust|true|false
+cuda-neurotransmitter|2026-04-10T07:20:32Z|2026-04-13T17:22:49Z|Signal-to-gene activation pathways — neurotransmitter-inspired agent signaling with receptor binding and cascading responses (Rust)|Makefile|true|false
+cuda-learning|2026-04-11T21:45:15Z|2026-04-13T17:22:48Z|Experience-based learning — credit assignment, lesson extraction, curriculum progression, generalization (Rust)|Rust|true|false
+cuda-metrics-v2|2026-04-12T16:16:56Z|2026-04-13T17:22:45Z|Enhanced metrics — histograms with percentiles, timers, derivative gauges (Rust)|Rust|true|false
+cuda-necropolis|2026-04-12T07:21:34Z|2026-04-13T17:22:43Z|Rust crate — fleet graveyard: vessel death, memorial service, knowledge preservation|Rust|true|false
+cuda-narrative|2026-04-10T10:12:38Z|2026-04-13T17:22:42Z|Narrative construction — agents build explanations from events, memory, and goals with themes and similarity search (Rust)|Rust|true|false
+cuda-dream-cycle|2026-04-12T07:21:39Z|2026-04-13T17:22:40Z|Rust crate — dream cycle protocol: task queue, idle detection, budget management, provider routing|Rust|true|false
+cuda-mesh|2026-04-11T21:45:45Z|2026-04-13T17:22:37Z|Service mesh — discovery, load balancing, health checking, traffic routing (Rust)|Rust|true|false
+cuda-model-descent|2026-04-10T07:20:29Z|2026-04-13T17:22:35Z|Model descent — the ultimate decomposition. Algorithms absorb intelligence over time, reducing inference cost to zero|Rust|true|false
+cuda-compiler-agent|2026-04-10T07:19:54Z|2026-04-13T17:22:33Z|Rust+CUDA deliberation bytecode engine — agentic-native compiler|Rust|true|false
+cuda-metrics|2026-04-11T21:45:27Z|2026-04-13T17:22:31Z|Telemetry — counters, gauges, histograms, timers, health checks, metric aggregation (Rust)|Rust|true|false
+cuda-fleet-mesh|2026-04-10T07:20:20Z|2026-04-13T17:22:27Z|Fleet mesh networking — service discovery, health checking, load balancing, gossip protocol (Rust)|Rust|true|false
+cuda-lock|2026-04-11T21:45:47Z|2026-04-13T17:22:25Z|Distributed locking — mutex, read-write, leases, deadlock detection (Rust)|Rust|true|false
+cuda-lease|2026-04-12T16:17:18Z|2026-04-13T17:22:23Z|Lease management — TTL grants, renewal, expiry, holder revocation|Rust|true|false
+cuda-hav-bridge|2026-04-11T21:44:48Z|2026-04-13T17:22:21Z|HAV vocabulary to FLUX bytecode compilation bridge|Rust|true|false
+cuda-instruction-set|2026-04-10T07:20:26Z|2026-04-13T17:22:19Z|Agent-native instruction set with confidence propagation, A2A encoding, assembler/disassembler (Rust)|Rust|true|false
+cuda-circuit|2026-04-12T16:17:15Z|2026-04-13T17:22:17Z|Circuit breaker — closed/open/half-open, bulkhead isolation, health metrics|Rust|true|false
+cuda-git-agent|2026-04-10T07:20:23Z|2026-04-13T17:22:15Z|Self-evolving git-agent — DNA, genes, crossover, mutation, capability registry|Rust|true|false
+cuda-grimoire|2026-04-12T07:21:34Z|2026-04-13T17:22:13Z|Rust crate — fleet pattern library (spellbook) with reusable FLUX agent recipes|Rust|true|false
+cuda-intent-embed|2026-04-10T07:20:28Z|2026-04-13T17:22:12Z|Intent embedding system — human text to structured intent vectors for A2A deliberation|Rust|true|false
+cuda-immutable|2026-04-12T16:17:02Z|2026-04-13T17:22:10Z|Immutable data structures — persistent vector, hash map, structural sharing (Rust)|Rust|true|false
+cuda-goal|2026-04-10T10:12:30Z|2026-04-13T17:22:07Z|Hierarchical goal management — decomposition, subgoaling, priority scoring, dependency tracking (Rust)|Rust|true|false
+cuda-instinct-cortex|2026-04-12T16:16:52Z|2026-04-13T17:22:05Z|Instinct processing cortex: behavioral urgency, learning, social dynamics, homeostasis|Rust|true|false
+cuda-intelligence|2026-04-10T07:20:27Z|2026-04-13T17:22:03Z|Rust+CUDA rebuild of frozen-intelligence — GPU yield simulation, thermal analysis, fault injection, timing verification, weight compilation, DRC|Rust|true|false
+cuda-emergence|2026-04-10T07:20:14Z|2026-04-13T17:21:59Z|Emergence detection — identify fleet-wide patterns no individual agent was programmed to produce (Rust)|Rust|true|false
+cuda-hierarchy|2026-04-11T21:45:25Z|2026-04-13T17:21:57Z|Hierarchical control — tree-structured organizations with delegation, authority, escalation (Rust)|Rust|true|false
+cuda-graph|2026-04-12T16:17:16Z|2026-04-13T17:21:55Z|Property graph — nodes, edges, traversal, pattern matching, subgraph extraction|Rust|true|false
+cuda-fpga-toolkit|2026-04-10T07:20:22Z|2026-04-13T17:21:53Z|FPGA toolkit — TLMM ternary encoding, COE/MIF generation, Hilbert curve tile mapping for inference silicon|Rust|true|false
+cuda-fusion|2026-04-10T10:12:21Z|2026-04-13T17:21:48Z|Multi-sensor data fusion — weighted/Bayesian/median methods, outlier rejection, sensor health (Rust)|Rust|true|false
+cuda-fleet-topology|2026-04-11T21:44:52Z|2026-04-13T17:21:46Z|Fleet vessel topology discovery, health monitoring, and connection graph management|Rust|true|false
+cuda-flux-ese-stdlib|2026-04-12T05:25:32Z|2026-04-13T17:21:45Z|Standard library of flux-ese modules for FLUX agents — trust, energy, delegation, monitoring|Rust|true|false
+cuda-flux-stdlib|2026-04-12T05:25:31Z|2026-04-13T17:21:43Z|FLUX VM standard library: bytecode subroutines for math, memory, search, sorting, agent utilities|Rust|true|false
+cuda-forth|2026-04-10T07:20:21Z|2026-04-13T17:21:40Z|Minimal Forth-like agent language — stack-based, extensible, compiles to instruction-set bytecode (Rust)|Rust|true|false
+cuda-fleet-health|2026-04-11T21:44:51Z|2026-04-13T17:21:38Z|Distributed vessel health monitoring — commit-based heartbeat, dead vessel detection, alert propagation|Rust|true|false
+cuda-filtration|2026-04-10T07:20:17Z|2026-04-13T17:21:36Z|Intelligence filtration — extract insights from agent deliberation streams in real-time|Rust|true|false
+cuda-fault-sim|2026-04-10T07:20:16Z|2026-04-13T17:21:33Z|Rust+CUDA fault simulation — stuck-at, bridging, delay fault injection|Rust|true|false
+cuda-emotion|2026-04-10T10:12:12Z|2026-04-13T17:21:30Z|Emotional state engine — maps neurochemicals to 11 core emotions that modulate risk, exploration, cooperation (Rust)|Makefile|true|false
+cuda-event|2026-04-11T21:45:49Z|2026-04-13T17:21:28Z|Event system — pub/sub, event sourcing, replay, dead letter queue (Rust)|Rust|true|false
+cuda-ethics|2026-04-12T16:16:50Z|2026-04-13T17:21:25Z|Ethical reasoning layer for FLUX VM: harm, consent, transparency, identity, grief, creative|Rust|true|false
+cuda-equipment|2026-04-10T07:20:15Z|2026-04-13T17:21:23Z|Shared equipment library — Confidence propagation, Tile grid, Agent trait, Fleet A2A messaging, Equipment registry. The pulleys and engines every vessel needs.|Rust|true|false
+cuda-bottleneck|2026-04-11T21:44:48Z|2026-04-13T17:21:21Z|Bottleneck detection and resolution for agent computation pipelines — identifies throughput limits|Rust|true|false
+cuda-did|2026-04-10T07:20:00Z|2026-04-13T17:21:18Z|Decentralized Identity for agents — DID/SPIFFE-like vessel identities with attestation (Rust)|Rust|true|false
+craftlog-ai|2026-04-10T07:19:33Z|2026-04-13T17:21:15Z|AI crafting companion — project planning, material tracking, technique tips|TypeScript|true|false
+cuda-convergence|2026-04-10T07:19:58Z|2026-04-13T17:21:13Z|Convergence detection — equilibrium processing for A2A deliberation systems|Rust|true|false
+cuda-crdt|2026-04-12T16:17:04Z|2026-04-13T17:21:11Z|CRDTs — G-Counter, PN-Counter, OR-Set, LWW-Register, Vector Clock (Rust)|Rust|true|false
+cuda-energy|2026-04-10T07:20:15Z|2026-04-13T17:21:08Z|ATP/energy system for agent fleet — budgets, apoptosis, circadian rhythm, epigenetic memory (Rust)|Makefile|true|false
+cuda-ephemeral|2026-04-12T07:21:38Z|2026-04-13T17:21:04Z|Rust crate — ephemeral (short-lived) agent task management for Cocapn fleet|Rust|true|false
+cuda-edge-runtime|2026-04-10T07:20:01Z|2026-04-13T17:21:01Z|Rust+CUDA rebuild of nexus-edge-runtime — GPU trust engine, reflex compiler, fleet coordination|Rust|true|false
+cuda-discovery|2026-04-11T21:45:48Z|2026-04-13T17:20:57Z|Service discovery — agent registration, health probing, capability lookup, fleet directory (Rust)|Rust|true|false
+cuda-election|2026-04-12T16:17:20Z|2026-04-13T17:20:53Z|Leader election — Raft-like voting, term management, heartbeat, majority|Rust|true|false
+cuda-edge-lint|2026-04-11T21:44:49Z|2026-04-13T17:20:49Z|Hardware constraint linter for FLUX vocabularies|Rust|true|false
+cuda-config|2026-04-11T21:45:40Z|2026-04-13T17:20:47Z|Configuration — layered configs, env vars, defaults, validation, secret masking (Rust)|Rust|true|false
+cuda-deliberation|2026-04-10T07:19:59Z|2026-04-13T17:20:44Z|Consider/Resolve/Forfeit deliberation protocol — multi-agent consensus engine with Bayesian confidence|Rust|true|false
+cuda-compliance|2026-04-10T07:19:55Z|2026-04-13T17:20:40Z|EU AI Act compliance engine — risk classification, transparency, human oversight, audit trails (Rust)|Rust|true|false
+cuda-decision|2026-04-11T21:45:23Z|2026-04-13T17:20:37Z|Decision engine — multi-criteria utility scoring, risk assessment, satisficing, regret minimization (Rust)|Rust|true|false
+cuda-captain|2026-04-10T07:19:52Z|2026-04-13T17:20:34Z|Captain-class fleet orchestrator — missions, commands, policies, vessel management|Rust|true|false
+cuda-communication|2026-04-11T21:45:18Z|2026-04-13T17:20:32Z|Inter-agent communication — intent extraction, conversation framing, protocol negotiation, energy budget (Rust)|Rust|true|false
+cuda-cryptography|2026-04-11T21:45:39Z|2026-04-13T17:20:29Z|Cryptography — hashing, HMAC, key derivation, signing, verification, key rotation (Rust)|Rust|true|false
+cuda-confidence|2026-04-10T08:02:19Z|2026-04-13T17:20:27Z|Confidence primitive — foundational type where every value carries uncertainty and propagates it (Rust)|Makefile|true|false
+cuda-contract|2026-04-12T16:17:12Z|2026-04-13T17:20:25Z|Agent contracts — SLA management, QoS tiers, capability guarantees, compliance (Rust)|Rust|true|false
+cuda-context-window|2026-04-11T21:44:53Z|2026-04-13T17:20:22Z|Context window management — compression, summarization, and token budgeting for agent conversations|Rust|true|false
+cuda-causal-graph|2026-04-10T07:19:53Z|2026-04-13T17:20:20Z|Rust+CUDA causal graph — failure diagnosis through causal reasoning|Rust|true|false
+cuda-confidence-math|2026-04-12T05:25:33Z|2026-04-13T17:20:17Z|Confidence math library: Bayesian fusion, chains, decay, multi-agent reconciliation|Rust|true|false
+cuda-consensus|2026-04-11T21:45:37Z|2026-04-13T17:20:15Z|Consensus — majority voting, weighted agreement, quorum, Byzantine tolerance, leader election (Rust)|Rust|true|false
+cuda-codec|2026-04-12T16:16:59Z|2026-04-13T17:20:13Z|Codec — varint, LEB128, framed messages, chunked encoding (Rust)|Rust|true|false
+cuda-attention|2026-04-10T10:12:03Z|2026-04-13T17:20:11Z|Resource-limited attention — saliency scoring, habituation, change detection, focus modes (Rust)|Rust|true|false
+cuda-atp-market|2026-04-12T16:16:49Z|2026-04-13T17:20:07Z|ATP energy market with circadian rhythms, apoptosis, and fleet pool for FLUX agent fleets|Rust|true|false
+cuda-capability-ports|2026-04-12T05:25:30Z|2026-04-13T17:20:04Z|Memory-mapped capability ports for FLUX VM (top 4KB I/O space)|Rust|true|false
+cuda-adaptation|2026-04-10T08:02:13Z|2026-04-13T17:20:02Z|Runtime self-adaptation — adaptive parameters, strategy switching, behavioral plasticity, hill-climbing (Rust)|Rust|true|false
+contributor-hub|2026-04-10T07:19:27Z|2026-04-13T17:19:59Z|Profile and track all fleet contributors and their contributions|TypeScript|true|false
+cocapn-press|2026-04-10T07:19:03Z|2026-04-13T17:19:57Z|Press, marketing, and narrative strategy for the cocapn ecosystem|N/A|true|false
+cuda-biology|2026-04-10T07:19:51Z|2026-04-13T17:19:55Z|Biological agent runtime — instinct→enzyme→gene→RNA→protein pipeline with energy and apoptosis (Rust)|Makefile|true|false
+cuda-bytecode-optimizer|2026-04-11T21:44:54Z|2026-04-13T17:19:52Z|FLUX bytecode optimization passes — dead code elimination, constant folding, jump threading|Rust|true|false
+cuda-axiom|2026-04-10T07:19:49Z|2026-04-13T17:19:49Z|Axiom language core — post-human programming language with JSON payloads, confidence types, payload tree execution|Rust|true|false
+cuda-artifact|2026-04-10T07:19:47Z|2026-04-13T17:19:47Z|Post-human artifact layer — deliberation output becomes adaptive executable programs|Rust|true|false
+cuda-cache|2026-04-11T21:45:44Z|2026-04-13T17:19:45Z|Caching — LRU eviction, TTL expiration, namespaces, hit/miss stats (Rust)|Rust|true|false
+cuda-backpressure|2026-04-12T16:17:19Z|2026-04-13T17:19:42Z|Backpressure — credit-based flow control, adaptive rate, queue monitoring|Rust|true|false
+cuda-budget|2026-04-12T16:17:06Z|2026-04-13T17:19:40Z|Resource budgeting — computation limits, token allocation, priority scheduling (Rust)|Rust|true|false
+cuda-actor|2026-04-12T16:17:08Z|2026-04-13T17:19:38Z|Actor model — mailbox, spawn, supervision trees, message passing (Rust)|Rust|true|false
+cuda-assembler|2026-04-10T07:19:48Z|2026-04-13T17:19:36Z|Text-to-bytecode assembler for agent instruction sets — labels, data, confidence, biological ops (Rust)|Rust|true|false
+cuda-adaptive-rate|2026-04-11T21:44:55Z|2026-04-13T17:19:33Z|Adaptive rate limiting for agent workloads — token-aware, model-specific backpressure|Rust|true|false
+crdt-sync|2026-04-10T07:19:45Z|2026-04-13T17:19:31Z|CRDT-based state synchronization for repo-native agent fleets|TypeScript|true|false
+context-compactor-v2|2026-04-10T07:19:21Z|2026-04-13T17:19:28Z|Advanced context compaction — compress fleet context intelligently|TypeScript|true|false
+cuda-a2a|2026-04-10T07:19:46Z|2026-04-13T17:19:24Z|Agent-to-Agent protocol — deliberative messaging with confidence propagation, trust scoring, fleet routing (Rust)|Rust|true|false
+collective-mind|2026-04-10T07:19:09Z|2026-04-13T17:19:22Z|Cross-vessel pattern discovery — insights no single agent could see|TypeScript|true|false
+craftmind-discgolf|2026-04-10T07:19:36Z|2026-04-13T17:19:20Z|CraftMind Disc Golf — AI disc golf companion with 70+ real discs, physics engine, 3 courses, stochastic personalities|JavaScript|true|false
+collective-mind-v2|2026-04-10T07:19:10Z|2026-04-13T17:19:17Z|Fleet-wide knowledge graph and collective intelligence|TypeScript|true|false
+confidence-cascade|2026-04-10T07:19:15Z|2026-04-13T17:19:13Z|Three-zone confidence propagation (GREEN/YELLOW/RED) — sequential and parallel cascade math for multi-signal decision systems. Part of the Lucineer ecosystem.|Python|true|false
+context-limits|2026-04-10T07:19:23Z|2026-04-13T17:19:11Z|Analyze and enforce context window boundaries|TypeScript|true|false
+context-recycler|2026-04-10T07:19:23Z|2026-04-13T17:19:09Z|Reclaim and repurpose context across fleet operations|TypeScript|true|false
+constraint-theory-web-1|2026-04-10T07:19:17Z|2026-04-13T17:19:06Z|Constraint Theory — web visualization of constraint propagation systems|JavaScript|true|false
+cooklog-ai|2026-04-10T07:19:28Z|2026-04-13T17:19:02Z|AI cooking companion — recipes, meal planning, dietary tracking, kitchen assistant|TypeScript|true|false
+cost-optimizer|2026-04-10T07:19:30Z|2026-04-13T17:19:01Z|Token cost optimization|TypeScript|true|false
+copilot-cocapn|2026-04-10T07:19:29Z|2026-04-13T17:18:58Z|GitHub Copilot CLI plugin for Cocapn. Custom agents, fleet skills, BYOK model routing.|N/A|true|false
+context-serializer|2026-04-10T07:19:26Z|2026-04-13T17:18:56Z|Serialize and deserialize context for transfer between vessels|TypeScript|true|false
+compliance-watcher|2026-04-10T07:19:12Z|2026-04-13T17:18:53Z|Read-only audit vessel watching parent for EU AI Act violations|TypeScript|true|false
+context-compactor|2026-04-10T07:19:20Z|2026-04-13T17:18:50Z|Text compression utility for fleet vessels — no external API calls|TypeScript|true|false
+context-lattice|2026-04-10T07:19:22Z|2026-04-13T17:18:48Z|Multi-dimensional context organization across fleet|TypeScript|true|false
+config-vault|2026-04-10T07:19:16Z|2026-04-13T17:18:45Z|Fleet-wide configuration management|TypeScript|true|false
+cocapn-com|2026-04-10T07:18:47Z|2026-04-13T17:18:43Z|Cocapn.com — Company page, membership tiers, and billing. Open source agent infrastructure.|TypeScript|true|false
+context-broker|2026-04-10T07:19:17Z|2026-04-13T17:18:40Z|Unified goal-scoped context management for fleet execution|TypeScript|true|false
+compliance-fork|2026-04-10T07:19:11Z|2026-04-13T17:18:38Z|EU AI Act compliance vessel — audit and compliance tooling. Part of the Lucineer Cocapn fleet.|TypeScript|true|false
+collective-reasoning|2026-04-10T07:19:10Z|2026-04-13T17:18:33Z|Swarm reasoning — combine outputs from multiple models for richer analysis|TypeScript|true|false
+confidence-c|2026-04-12T07:21:36Z|2026-04-13T17:18:22Z|Pure C11 confidence math — Bayesian fusion, decay, multi-agent reconciliation, no heap|C|true|false
+causal-graph|2026-04-10T07:18:38Z|2026-04-13T17:18:16Z|Lightweight in-KV causal reasoning for failure diagnosis|TypeScript|true|false
+cocapn-site|2026-04-10T07:19:04Z|2026-04-13T17:18:12Z|Cocapn.com — Open source agent infrastructure. Membership, billing, token economy. Pay only for convenience.|TypeScript|true|false
+agent-identity|2026-04-10T07:18:07Z|2026-04-13T17:18:10Z|Cryptographic identity system for fleet agents — DID, verifiable credentials|TypeScript|true|false
+cocapn-nexus|2026-04-10T07:18:50Z|2026-04-13T17:18:08Z|Marine robotics safety architecture for fleet vessels|TypeScript|true|false
+cocapn-fleet-readme|2026-04-12T05:25:36Z|2026-04-13T17:18:05Z|Master fleet README, roadmap, and vessel registry|N/A|true|false
+code-playground|2026-04-10T07:19:04Z|2026-04-13T17:18:03Z|Live code playground — write, test, share fleet equipment snippets|TypeScript|true|false
+cocapn-ai|2026-04-10T07:18:47Z|2026-04-13T17:17:55Z|Cocapn.ai — The Agent Runtime. A2A, A2UI, A2C, MCP. Git-native, BYOK, zero lock-in. The repo IS the agent.|TypeScript|true|false
+cocapn-equipment|2026-04-10T07:18:48Z|2026-04-13T17:17:53Z|Shared equipment library — BYOK, trust, crystal, dice, PII, boot camp, keeper, dead reckoning|TypeScript|true|false
+agent-resume|2026-04-10T07:18:13Z|2026-04-13T17:17:51Z|Agent resume/CV generation — showcase agent capabilities|TypeScript|true|false
+clawcommit-lucid|2026-04-10T07:18:44Z|2026-04-13T17:17:45Z|Fleet learning journal — every evolution, commit, and lesson remembered|TypeScript|true|false
+cartridge-mcp|2026-04-13T01:24:39Z|2026-04-13T17:17:41Z|MCP server for swappable behavior cartridges with personality skins — fleet protocol cartridge system|JavaScript|true|false
+cheflog-ai|2026-04-10T07:18:43Z|2026-04-13T17:17:33Z|AI chef companion — recipe management, meal prep, cooking techniques|TypeScript|true|false
+baton-ai|2026-04-10T07:18:26Z|2026-04-13T17:17:28Z|Generational context handoff for repo-native agents|TypeScript|true|false
+booklog-ai|2026-04-10T07:18:30Z|2026-04-13T17:17:23Z|AI reading companion — book tracking, recommendations, reading goals, quote collection|TypeScript|true|false
+api-playground|2026-04-10T07:18:24Z|2026-04-13T17:17:17Z|Interactive API playground for testing fleet endpoints|TypeScript|true|false
