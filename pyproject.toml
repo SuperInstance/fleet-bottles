@@ -11,5 +11,11 @@ requires-python = ">=3.10"
 license = {text = "MIT"}
 keywords = ["cocapn", "fleet"]
 
+[tool.setuptools]
+py-modules = ["dashboard"]
+
+[tool.setuptools.packages.find]
+include = ["scripts*"]
+
 [project.scripts]
 fleet_bottles = "dashboard:main"
